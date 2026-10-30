@@ -6,7 +6,7 @@
 3. Añadir licencia, atribuciones, descarga ZIP de fuentes y accesos claros en laboratorio. Copiar fuentes sin cambiar bytes a carpeta Arduino RadarWiFiCYD; principal renombrado RadarWiFiCYD.ino.
 4. Preparar catálogo local con README, projects.json, contribución y referencias; fuente canónica mediante enlaces.
 5. Verificar ZIP, hashes, enlaces, historial e integridad. Compilar proyecto extraído con entorno ya instalado; sin cargar placa.
-6. Subir contenido revisado al laboratorio aún privado; cambiar a público desde ajustes web. Crear catálogo público, subirlo y contrastar visibilidad, commits y descarga sin sesión.
+6. Subir contenido revisado al laboratorio y confirmar público desde ajustes web. Crear catálogo público, subirlo y contrastar visibilidad, commits y descarga sin sesión.
 
 ## Puerta constitucional
 La autorización actual permite ambas publicaciones. Se conserva privacidad de redes y exclusión de backups/binarios. No hay agentes ni releases. Consistencia revisada: AC1–6 cubiertos por T001–T006; sin ambigüedad material pendiente.

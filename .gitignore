@@ -1,0 +1,7 @@
+.build/
+__pycache__/
+.env
+*.bin
+*.elf
+*.mp4
+backups/
