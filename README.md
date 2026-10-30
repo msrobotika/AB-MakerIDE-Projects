@@ -33,10 +33,22 @@ Un radar naval verde en una pantalla CYD: contactos por intensidad, lista tácti
 
 El radio representa señal relativa; el ángulo es decorativo. No mide distancia ni dirección. Las capturas proceden del vídeo original y ocultan los identificadores de redes. [Qué se ha probado](https://github.com/msrobotika/AB-Displays-Lab/blob/main/docs/EVIDENCIA.md).
 
+## 02 · Estación meteorológica WiFi CYD
+
+Temperatura, humedad, viento, presión y previsión de tres días en una pantalla táctil. Configuración desde el navegador y datos Open-Meteo por Internet, **sin sensores externos**.
+
+<div align="center"><img src="https://raw.githubusercontent.com/msrobotika/AB-Displays-Lab/main/docs/images/weather-station-cyd/00_madrid_foto.png" width="310" alt="Madrid con WIFI OK y meteorología en el LCD real"></div>
+
+**[⬇ Descargar estación meteorológica en ZIP](https://raw.githubusercontent.com/msrobotika/AB-Displays-Lab/main/downloads/Estacion-Meteo-CYD.zip)**
+
+[Código y guía](https://github.com/msrobotika/AB-Displays-Lab/tree/main/examples/weather-station-cyd) · [Galería y prueba con Madrid](https://github.com/msrobotika/AB-Displays-Lab/blob/main/docs/WEATHER_STATION.md) · [SHA-256](https://github.com/msrobotika/AB-Displays-Lab/blob/main/downloads/Estacion-Meteo-CYD.zip.sha256)
+
+Placa declarada: CYD ESP32-2432S028R, ILI9341 y XPT2046. **Evidencia:** fotografía y vídeo con datos recibidos, compilación completa y dos pruebas de contrato desde PC. Madrid es un ejemplo; consulta límites y condiciones de la API en la guía.
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
-2. **Abre** `RadarWiFiCYD/RadarWiFiCYD.ino` en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Mantén las cabeceras junto al sketch.
+2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino` o `WeatherStationCYD.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Mantén las cabeceras junto al sketch.
 3. **Prepara y compila** con el núcleo y bibliotecas de la guía incluida. Confirma el modelo y revisión de tu placa antes de cargar.
 4. **Explora y comparte** tus cambios. Oculta nombres de redes y BSSID al grabar tus propias capturas.
 
@@ -50,7 +62,7 @@ La descarga contiene código fuente; Arduino CLI, núcleos y bibliotecas se inst
 | Elegir un proyecto y descargarlo | **Este catálogo** |
 | Fuentes, pantallas, pines y evidencias CYD | [AB Displays Lab](https://github.com/msrobotika/AB-Displays-Lab) |
 
-El firmware vive en su laboratorio de origen; este catálogo lo reúne mediante enlaces para mantener una sola fuente. Por ahora hay **un proyecto disponible**. [Índice de proyectos](projects.json).
+El firmware vive en su laboratorio de origen; este catálogo lo reúne mediante enlaces para mantener una sola fuente. Por ahora hay **dos proyectos disponibles**. [Índice de proyectos](projects.json).
 
 ## Construyámoslo entre makers
 
