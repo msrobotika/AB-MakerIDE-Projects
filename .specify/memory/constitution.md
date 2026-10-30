@@ -12,3 +12,7 @@ Aplicar Spec Kit antes de cada mejora: especificación, aclaraciones, plan, tare
 Proceso manual: CLI `specify` no instalada ni disponible en PATH; se usan las cinco plantillas oficiales de la copia local GitHub-Spec-Kit 1.2.3. No se instalan extensiones. La base es el commit inicial vacío local; los seis originales se respaldan fuera del repositorio con hashes.
 
 **Versión**: 1.1.0 | **Ratificación**: 2026-10-30
+
+
+## Ampliación autorizada · 2026-10-31
+El autor pide publicar Mini NAS CYD en este repositorio como tercer proyecto, con vídeo editado y capturas revisadas, fuentes/ZIP y evidencia. La petición de eliminar el repositorio original del radar requiere identificarlo: AB-Displays-Lab contiene también la meteo. Se preparará preservación/migración de todo su contenido si se confirma; nunca se borrará antes de verificar el destino. Se mantienen privacidad, evidencia honesta y ausencia de releases. La incorporación puede alojar fuentes directamente en el catálogo en vez de depender de un laboratorio externo.
