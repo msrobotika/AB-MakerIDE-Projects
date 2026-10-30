@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "ide": "https://github.com/msrobotika/AB-MakerIDE-SUPER",
   "projects": [
     {
@@ -34,6 +34,23 @@
       "download_sha256": "4f4b3b40a7852a3a5c1e9e3a13b9f1280134cdca6a92fa6f5d557ac23e0be2c7",
       "evidence_url": "https://github.com/msrobotika/AB-Displays-Lab/blob/main/docs/WEATHER_STATION.md",
       "status": "Full compilation and two real PC HTTPS tests passed; author-supplied photo/video show Madrid values and WIFI OK; not exhaustive hardware validation."
+    },
+    {
+      "id": "mini-nas-cyd",
+      "name": "Mini NAS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 240x320",
+      "touch": "XPT2046",
+      "language": "Arduino C++",
+      "license": "MIT (own content and ricmoo QR encoder); dependency licenses apply",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/mini-nas-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/mini-nas-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Mini-NAS-CYD.zip",
+      "download_sha256": "c1384a148f2810808c5dd61545735ba61b7e925dd44bab42811e1dbf044bccfa",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/MINI_NAS.md",
+      "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/Mini-NAS-CYD-TikTok.mp4",
+      "status": "Full build/upload verified; SD write failure reproduced at 4 MHz and fixed at 1 MHz; six physical SD read-back probes passed; author confirmed QR access and mobile upload/listing. Historical PC HTTP and JS-double tests distinguished."
     }
   ]
 }

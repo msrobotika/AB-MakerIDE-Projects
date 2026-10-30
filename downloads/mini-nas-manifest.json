@@ -1,0 +1,169 @@
+{
+  "project": "mini-nas-cyd",
+  "archive": "Mini-NAS-CYD.zip",
+  "sha256": "c1384a148f2810808c5dd61545735ba61b7e925dd44bab42811e1dbf044bccfa",
+  "source_commit_before_publication": "c30e47c",
+  "verified_program_sha256": "670030ad7d5b5e259274d0696dad5702c5f762f7b04f3bfb0d086aad95ab3906",
+  "files": [
+    {
+      "path": "MiniNasCYD/.gitattributes",
+      "sha256": "850dd374e835524a36c7cc39077b8289bfef5185df86d2f2100a30836031ec7b"
+    },
+    {
+      "path": "MiniNasCYD/.gitignore",
+      "sha256": "b27951389ebfbef7f9d2d8a4fdb4d4375e0231c5b63d42910655fab3a4611b11"
+    },
+    {
+      "path": "MiniNasCYD/.specify/bugs/sd-upload/assessment.md",
+      "sha256": "f9b74a4481a92583bec1342e020de7218230358cfd561d0ae07832738d270a3a"
+    },
+    {
+      "path": "MiniNasCYD/.specify/bugs/sd-upload/diagnostic-results.json",
+      "sha256": "244259863c9732d82c71848b118c18d412367c715097b064b374005f6a051b6f"
+    },
+    {
+      "path": "MiniNasCYD/.specify/bugs/sd-upload/fix.md",
+      "sha256": "10aaa4b24c8b93efbb623e72ffb0552b7d3677eef10bbaf84ac0716c313c8810"
+    },
+    {
+      "path": "MiniNasCYD/.specify/bugs/sd-upload/results.json",
+      "sha256": "d55082c79a311c0bbfe9fa965d93156de28b8be8c01ac6ba05315ceda68ab2fa"
+    },
+    {
+      "path": "MiniNasCYD/.specify/bugs/sd-upload/test.md",
+      "sha256": "327a277468d9201bebe12203ef957433d7513f44562ae16e5b0bbfd293247e91"
+    },
+    {
+      "path": "MiniNasCYD/.specify/memory/constitution.md",
+      "sha256": "f32b28c881aebeebcfcab998d81b1eb427a44f5c3f73dea30fd05069a1766f8d"
+    },
+    {
+      "path": "MiniNasCYD/LICENSE",
+      "sha256": "cf42a3c2a48b750daf3a410c013a29477c738b8877b81be381707abae4f3d781"
+    },
+    {
+      "path": "MiniNasCYD/nas_qr.h",
+      "sha256": "8532e2e6d845664915d53cf52a0e3eed4df4f6a3ef2a0848d48f46a28de4a130"
+    },
+    {
+      "path": "MiniNasCYD/nas_rules.h",
+      "sha256": "f47a8104f7b12fb3d61a1eb2521135352b3c83764687e386a8adda4f4023b608"
+    },
+    {
+      "path": "MiniNasCYD/nas_selftest.h",
+      "sha256": "bce0111b1dc4d31a5395ee509eafe4b5d3da936fced66c0184aab7e0b15fec34"
+    },
+    {
+      "path": "MiniNasCYD/nas_touch.h",
+      "sha256": "9d3cf9d8713ceb11361bc72622782020b729d919f2b3919f0939db2be9d2042b"
+    },
+    {
+      "path": "MiniNasCYD/nas_web.h",
+      "sha256": "e1dfeab44e5768c1fb860f77a68d178e40ab97cb79fb99eb47d7b452f2a18b43"
+    },
+    {
+      "path": "MiniNasCYD/README.md",
+      "sha256": "7a8950cbbbc1316a7669de6fc57d1a48a72daf27831e61ea742d85fcd44906a3"
+    },
+    {
+      "path": "MiniNasCYD/MiniNasCYD.ino",
+      "sha256": "38ffe75799abb3ca28e84cbac4f22b1e5a2b0a21330f88524b58c09f03655a20"
+    },
+    {
+      "path": "MiniNasCYD/specs/001-mini-nas/bug-001-controls.md",
+      "sha256": "cb3208f3202f5760010014d20582eca5972295a38ec3f7f5ad7c43d99d313604"
+    },
+    {
+      "path": "MiniNasCYD/specs/001-mini-nas/checklist.md",
+      "sha256": "c8039ae82e32b6c8df6ce897d1692cf5533f0f3abd5df9e3673ba3ff1422dd09"
+    },
+    {
+      "path": "MiniNasCYD/specs/001-mini-nas/plan.md",
+      "sha256": "19e5d0fe0bde75a2163a071f8e7f1020e7a0f71c5032f65f306be653f3fa3356"
+    },
+    {
+      "path": "MiniNasCYD/specs/001-mini-nas/results.json",
+      "sha256": "a833d460c0a621905db09dc5fe9c91cf3566d8c18e21f1e1400eab2d4c1caf58"
+    },
+    {
+      "path": "MiniNasCYD/specs/001-mini-nas/spec.md",
+      "sha256": "2c14db186a7e1246c48f7e419d5ef7817b58ef75b21ac01eb482cf05d6f6f837"
+    },
+    {
+      "path": "MiniNasCYD/specs/001-mini-nas/tasks.md",
+      "sha256": "0c64393135c778e346f1d0b896e0a0d24c6e9a71d8535b1ed001e8167ee17a0c"
+    },
+    {
+      "path": "MiniNasCYD/specs/001-mini-nas/verification.md",
+      "sha256": "c21d2722c49d04c9ac904d36a8de146457ef970b87b4b0f1a53cd06c2268cafe"
+    },
+    {
+      "path": "MiniNasCYD/specs/002-qr-access/bug-001-touch.md",
+      "sha256": "e276ec579ea6573510e950f4b46ecdcbd487384b9dff934ac5267d8989ca551b"
+    },
+    {
+      "path": "MiniNasCYD/specs/002-qr-access/results.json",
+      "sha256": "ce2eb185a2f03f2dce7e82605cec272c91d94cc23fb8db0567d09bd708d11b2f"
+    },
+    {
+      "path": "MiniNasCYD/specs/002-qr-access/spec.md",
+      "sha256": "3249625b7cd368e2a508b8a93240e5b8ad3257765b771669b8818ec9ec2c4da3"
+    },
+    {
+      "path": "MiniNasCYD/specs/002-qr-access/verification.md",
+      "sha256": "dac58c8429aea1a1385bb142a867a6c095a9f4cf92b53de8595f0cec42afc0e7"
+    },
+    {
+      "path": "MiniNasCYD/src/ricmoo/LICENSE.txt",
+      "sha256": "688f46ca70f1bc811ecf711cbb22ea984cee10590c17584118b5e13cf38d049f"
+    },
+    {
+      "path": "MiniNasCYD/src/ricmoo/provenance.json",
+      "sha256": "0f6e6d1cf54da08d24d2cdc36711a6b416589ad99e6ff272828b9a703f4cbbe6"
+    },
+    {
+      "path": "MiniNasCYD/src/ricmoo/qrcode_encoder.c",
+      "sha256": "fef9ce3f52c0d576ca6fd56ad77dff47a84a3699e0f21d5117e49934acca93ca"
+    },
+    {
+      "path": "MiniNasCYD/src/ricmoo/qrcode_encoder.h",
+      "sha256": "9d47072cb8df320207226879ae08a88abd2587d4382e71c5ea0b294608838691"
+    },
+    {
+      "path": "MiniNasCYD/tests/device_contract.py",
+      "sha256": "b520626102be50ede2c9da39fad97e31f35e37cc245ef1e82b931ce560f743a3"
+    },
+    {
+      "path": "MiniNasCYD/tests/HARDWARE.md",
+      "sha256": "ed960a27370768eee8f8844b9544f32753d9c9140cf6fe9edf4c38618b78e35c"
+    },
+    {
+      "path": "MiniNasCYD/tests/qr_device_decode.py",
+      "sha256": "fa2e194e5680f8ce9c911f673417c17e81066b103d075578c3a709e02d3a9e01"
+    },
+    {
+      "path": "MiniNasCYD/tests/web.test.cjs",
+      "sha256": "5ce6f916fd148a139f949c7f5304e8836b68817f4da8f999f903eaec7df6d7df"
+    },
+    {
+      "path": "MiniNasCYD/THIRD_PARTY_NOTICES.md",
+      "sha256": "bf1cc34723ed08173d15b20337c754fd9f893dd226556ecd8fd98e3f73a12918"
+    },
+    {
+      "path": "MiniNasCYD/tools/build.py",
+      "sha256": "eda06d4b17e210671503a42b2594c8ed99d641707df84bcc651b33a174574599"
+    },
+    {
+      "path": "MiniNasCYD/tools/generate_ui.py",
+      "sha256": "723013750c0042cc8f93421327134dccfe35448f8fd0f0d0b030d3da4da8f2b5"
+    },
+    {
+      "path": "MiniNasCYD/web/app.js",
+      "sha256": "2f833d25bd75e7e9758ca061a9ed598e1ee57d7d10906f5387d0cb2ceda10b07"
+    },
+    {
+      "path": "MiniNasCYD/web/index.html",
+      "sha256": "184396d65cc03da3b6a75e55601e702153493008efad8015df02439ac7c725fa"
+    }
+  ]
+}

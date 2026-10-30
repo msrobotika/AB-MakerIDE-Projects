@@ -1,0 +1,67 @@
+{
+  "build": {
+    "exit_code": 0,
+    "program_bytes": 1071346,
+    "static_ram_bytes": 50372,
+    "cpp_rule_assertions": 47,
+    "qr_geometry_assertions": 1
+  },
+  "javascript_unit_tests": {
+    "passed": 11,
+    "uses_dom_network_doubles": true
+  },
+  "upload": {
+    "port": "COM4",
+    "fqbn": "esp32:esp32:jczn_2432s028r",
+    "upload_exit_code": 0,
+    "whole_flash_erase_requested": false,
+    "flash_dump_read": false,
+    "program_bin_sha256": "afeef0fb69eb050bab9f6a634da1b4199bf4a587c7f75d443398a50f674a6d7e",
+    "esptool_hash_verifications": 2,
+    "hard_reset_reported": true
+  },
+  "device_status": {
+    "port": "COM4",
+    "running_firmware": "MSR_MININAS v0.1",
+    "sd_ready": true,
+    "total": 7736393728,
+    "used": 2228224,
+    "password_logged": false,
+    "diagnostics": {
+      "ap_ready": true,
+      "mode": 2,
+      "ap_started": true,
+      "ap_ssid_matches": true,
+      "local_ip": "192.168.4.1",
+      "touch_calibrated": true,
+      "touch_irq": 1,
+      "boot_gpio": 1,
+      "free_heap": 174056
+    },
+    "qr": {
+      "wifi_encoded": true,
+      "web_encoded": true
+    },
+    "touch_input": {
+      "samples": 183,
+      "valid_samples": 3,
+      "button_actions": 3,
+      "last_x": 208,
+      "last_y": 314
+    }
+  },
+  "encoder_fixture_test": {
+    "public_fixture_qrs_decoded": 2,
+    "size_pixels": [
+      180,
+      180
+    ],
+    "quiet_zone_modules": 4,
+    "actual_esp32_encoder": true,
+    "live_credentials_read": false,
+    "physical_lcd_camera_scan": "not tested by this script"
+  },
+  "author_confirmed_wifi_and_web_qr": true,
+  "author_confirmed_qr_buttons": true,
+  "live_codes_saved_or_published": false
+}

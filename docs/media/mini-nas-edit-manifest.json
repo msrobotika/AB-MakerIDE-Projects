@@ -1,0 +1,120 @@
+{
+  "output": "Mini-NAS-CYD-TikTok.mp4",
+  "duration_seconds": 30,
+  "size": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "music": "Original instrumental synthesized for this edit, 120 BPM; no third-party recording used.",
+  "original_audio_included": false,
+  "private_access_qrs_or_phone_menus_included": false,
+  "names_in_selected_upload_and_list_regions": "Opaque replacements to hide timestamps/names; other UI pixels remain real.",
+  "public_end_card_qr": "https://github.com/msrobotika/AB-MakerIDE-SUPER",
+  "source_sha256": "251bd63b041ae7f129d345a51a5ce80fbdf9b583b7809f256ed83e2abf00710f",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "still": 135,
+      "crop": [
+        22,
+        68,
+        562,
+        870
+      ],
+      "title": "TU ESP32,\nTU MINI NAS.",
+      "sub": "CYD + microSD + navegador",
+      "kind": "hero"
+    },
+    {
+      "start": 4,
+      "end": 9,
+      "source": 214,
+      "speed": 5,
+      "crop": [
+        22,
+        360,
+        562,
+        1060
+      ],
+      "title": "DEL MÓVIL\nA TU MICROSD",
+      "sub": "Subida real · Secuencia acelerada ×5",
+      "kind": "upload"
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "source": 243,
+      "speed": 1,
+      "crop": [
+        22,
+        360,
+        562,
+        1060
+      ],
+      "title": "GUARDA TUS\nARCHIVOS AQUÍ",
+      "sub": "La placa verifica el archivo en la microSD",
+      "kind": "upload"
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "still": 295,
+      "crop": [
+        22,
+        480,
+        562,
+        1110
+      ],
+      "title": "YA ESTÁN\nEN LA TARJETA",
+      "sub": "Lista real de archivos · Nombres ocultos",
+      "kind": "list"
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "still": 280,
+      "crop": [
+        24,
+        200,
+        562,
+        760
+      ],
+      "title": "ABRE TUS FOTOS\nEN EL NAVEGADOR",
+      "sub": "Vista previa real de una imagen de prueba",
+      "kind": "preview"
+    },
+    {
+      "start": 20,
+      "end": 24,
+      "still": 135,
+      "crop": [
+        22,
+        68,
+        562,
+        870
+      ],
+      "title": "TU NUBE LOCAL.\nSIN INTERNET.",
+      "sub": "Conectado a la Wi-Fi del ESP32",
+      "kind": "hero"
+    }
+  ],
+  "output_sha256": "4af400b3d2e2b31cac852302579b62b452ba9ad296d419d35555663ef27b7fbf",
+  "verification": {
+    "decode_exit_code": 0,
+    "size": [
+      1080,
+      1920
+    ],
+    "fps": 30.0,
+    "duration_seconds": 30.0,
+    "audio": "AAC stereo, original instrumental",
+    "audio_levels_dbfs": {
+      "mean_volume": -19.2,
+      "max_volume": -3.0
+    },
+    "public_ide_qr_decoded": true,
+    "bytes": 1499101
+  }
+}

@@ -45,10 +45,22 @@ Temperatura, humedad, viento, presión y previsión de tres días en una pantall
 
 Placa declarada: CYD ESP32-2432S028R, ILI9341 y XPT2046. **Evidencia:** fotografía y vídeo con datos recibidos, compilación completa y dos pruebas de contrato desde PC. Madrid es un ejemplo; consulta límites y condiciones de la API en la guía.
 
+## 03 · Mini NAS CYD
+
+**Del móvil a tu microSD, sin Internet.** Convierte la CYD en un servidor local de archivos: subidas desde el navegador, lista, descarga y vista previa. Conecta mediante dos QR y conserva tus archivos en tu tarjeta.
+
+<div align="center"><img src="docs/images/mini-nas-cyd/00_panel.png" width="275" alt="Panel web real del NAS con microSD disponible"><img src="docs/images/mini-nas-cyd/02_archivos.png" width="275" alt="Dos archivos guardados en el NAS; nombres ocultos"></div>
+
+**[⬇ Descargar Mini NAS CYD en ZIP](downloads/Mini-NAS-CYD.zip)**
+
+[Código y guía](examples/mini-nas-cyd/) · [Vídeo editado · 30 s](docs/media/Mini-NAS-CYD-TikTok.mp4) · [Galería y pruebas](docs/MINI_NAS.md) · [SHA-256](downloads/Mini-NAS-CYD.zip.sha256)
+
+CYD ESP32-2432S028R y microSD FAT32. **Comprobado:** carga real, seis ensayos de escritura/lectura en SD y subida/listado desde móvil confirmados por el autor. Se corrigió una escritura intermitente usando SD a 1 MHz. Es un servidor HTTP local, sin SMB/RAID ni acceso remoto por Internet. [Límites y evidencia](docs/MINI_NAS.md).
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
-2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino` o `WeatherStationCYD.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Mantén las cabeceras junto al sketch.
+2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino` o `MiniNasCYD.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
 3. **Prepara y compila** con el núcleo y bibliotecas de la guía incluida. Confirma el modelo y revisión de tu placa antes de cargar.
 4. **Explora y comparte** tus cambios. Oculta nombres de redes y BSSID al grabar tus propias capturas.
 
@@ -62,7 +74,7 @@ La descarga contiene código fuente; Arduino CLI, núcleos y bibliotecas se inst
 | Elegir un proyecto y descargarlo | **Este catálogo** |
 | Fuentes, pantallas, pines y evidencias CYD | [AB Displays Lab](https://github.com/msrobotika/AB-Displays-Lab) |
 
-El firmware vive en su laboratorio de origen; este catálogo lo reúne mediante enlaces para mantener una sola fuente. Por ahora hay **dos proyectos disponibles**. [Índice de proyectos](projects.json).
+Cada entrada enlaza a sus fuentes y descarga: radar/meteo en el laboratorio original y NAS dentro de este repositorio. Por ahora hay **tres proyectos disponibles**. [Índice de proyectos](projects.json).
 
 ## Construyámoslo entre makers
 

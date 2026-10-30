@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-31",
+  "source": "video_2026-10-31_00-01-56.mp4",
+  "source_sha256": "251bd63b041ae7f129d345a51a5ce80fbdf9b583b7809f256ed83e2abf00710f",
+  "processing": "Original decoded video frames, rectangular crop and opaque filename redactions. No generated or reconstructed device UI. Phone bars, personal menus and private access QR codes excluded.",
+  "images": [
+    {
+      "file": "00_panel.png",
+      "title": "Panel web con microSD disponible",
+      "frame_index_zero_based": 1393,
+      "timestamp_seconds": 135.02634444444445,
+      "crop": [
+        22,
+        68,
+        562,
+        870
+      ],
+      "filename_masks_source_coordinates": [],
+      "sha256": "12d0e844c22e619d4e6314e29e925e16d54fcfaddd2569f4b48a1cda3b6ecf51"
+    },
+    {
+      "file": "01_subida.png",
+      "title": "Subida real desde el navegador",
+      "frame_index_zero_based": 2140,
+      "timestamp_seconds": 215.836,
+      "crop": [
+        22,
+        360,
+        562,
+        1060
+      ],
+      "filename_masks_source_coordinates": [
+        [
+          43,
+          845,
+          540,
+          903
+        ]
+      ],
+      "sha256": "e4bfb8da56287d4551279b18512cbf3e6ca59403e9228d120def6b0420afe6a8"
+    },
+    {
+      "file": "02_archivos.png",
+      "title": "Dos archivos guardados en la lista",
+      "frame_index_zero_based": 2363,
+      "timestamp_seconds": 295.1270333333334,
+      "crop": [
+        22,
+        480,
+        562,
+        1110
+      ],
+      "filename_masks_source_coordinates": [
+        [
+          102,
+          780,
+          358,
+          862
+        ],
+        [
+          102,
+          968,
+          358,
+          1037
+        ]
+      ],
+      "sha256": "ccc756f96c26b7ef367b9613159c24b9285893861c79166bd7bde9357ff8f87a"
+    },
+    {
+      "file": "03_vista_previa.png",
+      "title": "Vista previa de una imagen de prueba almacenada",
+      "frame_index_zero_based": 2329,
+      "timestamp_seconds": 280.38002222222224,
+      "crop": [
+        24,
+        200,
+        562,
+        760
+      ],
+      "filename_masks_source_coordinates": [],
+      "sha256": "1eed45845b5af7c1c018bbf0e93ef5ba8ed1e4d656882179be655596bdf2f123"
+    }
+  ]
+}

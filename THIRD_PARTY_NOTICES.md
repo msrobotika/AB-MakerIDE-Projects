@@ -11,3 +11,9 @@ El vídeo y proyecto originales fueron aportados por el autor. Las imágenes del
 ## Estación meteorológica CYD
 
 Usa también [ArduinoJson](https://github.com/bblanchon/ArduinoJson) y [WiFiManager](https://github.com/tzapu/WiFiManager), con sus licencias propias. Los datos son de [Open-Meteo](https://open-meteo.com/) bajo CC BY 4.0; [las condiciones de la API](https://open-meteo.com/en/terms), incluido su uso comercial/promocional, son independientes de la licencia MIT de este código. El certificado de confianza ISRG Root X1 procede de [Let’s Encrypt](https://letsencrypt.org/certificates/) y es público.
+
+
+## Mini NAS CYD
+Usa Arduino ESP32, WiFi/WebServer/SD/SPI/Preferences, Adafruit GFX/ILI9341/BusIO y el encoder C de ricmoo/QRCode 0.0.1 bajo MIT. Este último sí se distribuye con [licencia y procedencia](examples/mini-nas-cyd/src/ricmoo/). [Atribuciones del NAS](examples/mini-nas-cyd/THIRD_PARTY_NOTICES.md). Las cabeceras/símbolos del encoder se prefijan para evitar colisión con el SDK; no se cambió su algoritmo.
+
+El vídeo NAS es un montaje de la grabación aportada, con música original sintetizada para esta edición, sin grabaciones musicales de terceros. Se omiten audio original, QR privados, menús del teléfono y nombres personales. El QR final es un enlace público al IDE. [Edición y procedencia](docs/media/mini-nas-edit-manifest.json).

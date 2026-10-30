@@ -1,0 +1,18 @@
+*.md text eol=lf
+*.py text eol=lf
+*.ino text eol=lf
+*.h text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+# Keep the adapted upstream QR source bytes/hash stable across platforms.
+src/ricmoo/* -text whitespace=-trailing-space,-blank-at-eof
+
+# Preserve firmware bytes of the physically verified source copy.
+sketch.ino -text
+MiniNasCYD.ino -text
+nas_rules.h -text
+nas_selftest.h -text
+nas_touch.h -text
+nas_web.h -text
+nas_qr.h -text

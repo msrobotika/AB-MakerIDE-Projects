@@ -1,0 +1,95 @@
+/**
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2017 Richard Moore
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+/**
+ *  Special thanks to Nayuki (https://www.nayuki.io/) from which this library was
+ *  heavily inspired and compared against.
+ *
+ *  See: https://github.com/nayuki/QR-Code-generator/tree/master/cpp
+ */
+
+
+#ifndef MSR_RICMOO_QRCODE_H
+#define MSR_RICMOO_QRCODE_H
+
+#ifndef __cplusplus
+typedef unsigned char bool;
+static const bool false = 0;
+static const bool true = 1;
+#endif
+
+#include <stdint.h>
+
+
+// QR Code Format Encoding
+#define MSR_QR_MODE_NUMERIC        0
+#define MSR_QR_MODE_ALPHANUMERIC   1
+#define MSR_QR_MODE_BYTE           2
+
+
+// Error Correction Code Levels
+#define MSR_QR_ECC_LOW            0
+#define MSR_QR_ECC_MEDIUM         1
+#define MSR_QR_ECC_QUARTILE       2
+#define MSR_QR_ECC_HIGH           3
+
+
+// If set to non-zero, this library can ONLY produce QR codes at that version
+// This saves a lot of dynamic memory, as the codeword tables are skipped
+#ifndef MSR_QR_LOCK_VERSION
+#define MSR_QR_LOCK_VERSION       0
+#endif
+
+
+typedef struct MSRQRCode {
+    uint8_t version;
+    uint8_t size;
+    uint8_t ecc;
+    uint8_t mode;
+    uint8_t mask;
+    uint8_t *modules;
+} MSRQRCode;
+
+
+#ifdef __cplusplus
+extern "C"{
+#endif  /* __cplusplus */
+
+
+
+uint16_t msr_qrcode_getBufferSize(uint8_t version);
+
+int8_t msr_qrcode_initText(MSRQRCode *qrcode, uint8_t *modules, uint8_t version, uint8_t ecc, const char *data);
+int8_t msr_qrcode_initBytes(MSRQRCode *qrcode, uint8_t *modules, uint8_t version, uint8_t ecc, uint8_t *data, uint16_t length);
+
+bool msr_qrcode_getModule(MSRQRCode *qrcode, uint8_t x, uint8_t y);
+
+
+
+#ifdef __cplusplus
+}
+#endif  /* __cplusplus */
+
+
+#endif  /* MSR_RICMOO_QRCODE_H */

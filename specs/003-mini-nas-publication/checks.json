@@ -1,0 +1,15 @@
+{
+  "catalog_projects": 3,
+  "nas_zip_sha256": "c1384a148f2810808c5dd61545735ba61b7e925dd44bab42811e1dbf044bccfa",
+  "firmware_files_byte_identical_to_verified_source": 10,
+  "package_entries": 40,
+  "internal_links_valid": true,
+  "files_checked_for_secret_patterns": 82,
+  "pattern_hits": 0,
+  "captures_contain_decodable_access_qrs": false,
+  "edited_video_matches_reviewed_export": true,
+  "javascript_tests_passed": 11,
+  "javascript_tests_use_doubles": true,
+  "new_hardware_tests_run_for_publication": false,
+  "limitations": "Pattern and QR scanning are not an exhaustive privacy/security audit; media were also visually reviewed."
+}

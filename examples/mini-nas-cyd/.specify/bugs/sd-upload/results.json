@@ -1,0 +1,95 @@
+{
+  "build": {
+    "exit_code": 0,
+    "program_bytes": 1073298,
+    "static_ram_bytes": 50388
+  },
+  "upload": {
+    "port": "COM4",
+    "fqbn": "esp32:esp32:jczn_2432s028r",
+    "upload_exit_code": 0,
+    "whole_flash_erase_requested": false,
+    "flash_dump_read": false,
+    "program_bin_sha256": "670030ad7d5b5e259274d0696dad5702c5f762f7b04f3bfb0d086aad95ab3906",
+    "esptool_hash_verifications": 2,
+    "hard_reset_reported": true
+  },
+  "device": {
+    "port": "COM4",
+    "running_firmware": "MSR_MININAS v0.1",
+    "sd_ready": true,
+    "total": 7736393728,
+    "used": 2326528,
+    "password_logged": false,
+    "diagnostics": {
+      "ap_ready": true,
+      "mode": 2,
+      "ap_started": true,
+      "ap_ssid_matches": true,
+      "local_ip": "192.168.4.1",
+      "touch_calibrated": true,
+      "touch_irq": 1,
+      "boot_gpio": 1,
+      "free_heap": 173256
+    },
+    "qr": {
+      "wifi_encoded": true,
+      "web_encoded": true
+    },
+    "touch_input": {
+      "samples": 3,
+      "valid_samples": 1,
+      "button_actions": 1,
+      "last_x": 146,
+      "last_y": 295
+    },
+    "upload_io": {
+      "starts": 2,
+      "failures": 0,
+      "requested": 1176,
+      "actual": 1176,
+      "errno": 0,
+      "sd_clock_hz": 1000000
+    }
+  },
+  "sd_tests": {
+    "rounds": [
+      {
+        "lines": [
+          "NAS_SD_PROBE CLOCK=1000000 CHUNK=1436 LENGTH=262161 WRITTEN=262161 CHECKED=262161 WRITE_ERRNO=0 FLUSH_ERRNO=0 VERIFIED=1 CLEANED=1",
+          "NAS_SD_PROBE CLOCK=1000000 CHUNK=512 LENGTH=262161 WRITTEN=262161 CHECKED=262161 WRITE_ERRNO=0 FLUSH_ERRNO=0 VERIFIED=1 CLEANED=1",
+          "NAS_SD_TEST COMPLETE=1 CLOCK=1000000"
+        ],
+        "elapsed_seconds": 12.67,
+        "private_files_read": false,
+        "format_requested": false
+      },
+      {
+        "lines": [
+          "NAS_SD_PROBE CLOCK=1000000 CHUNK=1436 LENGTH=262161 WRITTEN=262161 CHECKED=262161 WRITE_ERRNO=0 FLUSH_ERRNO=0 VERIFIED=1 CLEANED=1",
+          "NAS_SD_PROBE CLOCK=1000000 CHUNK=512 LENGTH=262161 WRITTEN=262161 CHECKED=262161 WRITE_ERRNO=0 FLUSH_ERRNO=0 VERIFIED=1 CLEANED=1",
+          "NAS_SD_TEST COMPLETE=1 CLOCK=1000000"
+        ],
+        "elapsed_seconds": 13.08,
+        "private_files_read": false,
+        "format_requested": false
+      },
+      {
+        "lines": [
+          "NAS_SD_PROBE CLOCK=1000000 CHUNK=1436 LENGTH=262161 WRITTEN=262161 CHECKED=262161 WRITE_ERRNO=0 FLUSH_ERRNO=0 VERIFIED=1 CLEANED=1",
+          "NAS_SD_PROBE CLOCK=1000000 CHUNK=512 LENGTH=262161 WRITTEN=262161 CHECKED=262161 WRITE_ERRNO=0 FLUSH_ERRNO=0 VERIFIED=1 CLEANED=1",
+          "NAS_SD_TEST COMPLETE=1 CLOCK=1000000"
+        ],
+        "elapsed_seconds": 13.08,
+        "private_files_read": false,
+        "format_requested": false
+      }
+    ]
+  },
+  "bytes_written_and_read_back": 1572966,
+  "test_files_created_verified_and_removed": 6,
+  "author_confirmed_mobile_upload": true,
+  "mobile_download_hash_verified": false,
+  "formatted": false,
+  "private_files_read": false
+}

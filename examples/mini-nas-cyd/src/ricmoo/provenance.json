@@ -1,0 +1,20 @@
+{
+  "upstream": "https://github.com/ricmoo/QRCode",
+  "installed_library_version": "0.0.1",
+  "license": "MIT, Richard Moore 2017",
+  "adaptation": "Only header filename/guard and public identifiers are renamed to avoid SDK collisions; algorithm unchanged.",
+  "files": [
+    {
+      "original": "qrcode.c",
+      "file": "qrcode_encoder.c",
+      "upstream_sha256": "c2abf543af0043409323e88e880490c5c1250befe98f6e1147eec22315f43152",
+      "adapted_sha256": "fef9ce3f52c0d576ca6fd56ad77dff47a84a3699e0f21d5117e49934acca93ca"
+    },
+    {
+      "original": "qrcode.h",
+      "file": "qrcode_encoder.h",
+      "upstream_sha256": "3500589121857102799fe886e58826698f95a3498683f84c74c26e435da521e8",
+      "adapted_sha256": "9d47072cb8df320207226879ae08a88abd2587d4382e71c5ea0b294608838691"
+    }
+  ]
+}

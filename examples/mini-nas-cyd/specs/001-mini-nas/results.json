@@ -1,0 +1,54 @@
+{
+  "build": {
+    "exit_code": 0,
+    "program_bytes": 1060678,
+    "static_ram_bytes": 49772,
+    "cpp_compile_time_assertions": 35
+  },
+  "javascript_unit_tests": {
+    "passed": 8,
+    "network_and_dom_doubles": true
+  },
+  "authorized_upload": {
+    "port": "COM4",
+    "fqbn": "esp32:esp32:jczn_2432s028r",
+    "upload_exit_code": 0,
+    "whole_flash_erase_requested": false,
+    "flash_dump_read": false,
+    "program_bin_sha256": "eaaae08bbf1618857e69299ed3561e00a4805b6eccf5ec57838a448d1dd6b899",
+    "esptool_hash_verifications": 2,
+    "hard_reset_reported": true
+  },
+  "usb_device_status": {
+    "port": "COM4",
+    "running_firmware": "MSR_MININAS v0.1",
+    "sd_ready": true,
+    "total": 7736393728,
+    "used": 2228224,
+    "password_logged": false,
+    "diagnostics": {
+      "ap_ready": true,
+      "mode": 2,
+      "ap_started": true,
+      "ap_ssid_matches": true,
+      "local_ip": "192.168.4.1",
+      "touch_calibrated": true,
+      "touch_irq": 1,
+      "boot_gpio": 1,
+      "free_heap": 182360
+    }
+  },
+  "physical_wifi_tests": {
+    "ap_connected": true,
+    "hardware_write_tests": true,
+    "home_wifi_restored": true,
+    "temporary_profile_removed": true,
+    "session_key_saved": false,
+    "checks": [
+      "PASS: anonymous access rejected; authenticated status and list match contract.",
+      "PASS: authentication/token/name checks, binary round-trip, duplicate preservation and interrupted transfer.",
+      "PASS: completed test file removed; existing user files left untouched."
+    ]
+  },
+  "touchscreen_symptom": "author confirmed all three controls respond"
+}
