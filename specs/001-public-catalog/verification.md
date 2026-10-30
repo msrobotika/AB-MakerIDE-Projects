@@ -18,17 +18,24 @@ Enlaces relativos válidos, checksum del catálogo coincidente con el ZIP y mani
 
 ## Estado remoto
 
-GitHub confirma público AB-Displays-Lab y la creación de AB-MakerIDE-Projects público. El laboratorio ya figuraba público al comprobar sus ajustes, sin que fuera necesario ejecutar otro cambio de visibilidad. Queda contrastar el contenido de los commits subidos y la descarga sin autenticación al finalizar la entrega.
+GitHub confirma público AB-Displays-Lab y la creación de AB-MakerIDE-Projects público. El laboratorio ya figuraba público al comprobar sus ajustes, sin que fuera necesario ejecutar otro cambio de visibilidad. Se han contrastado sin autenticación ambos repositorios y el ZIP: HTTP 200, descarga de 11.708 bytes y SHA-256 coincidente con el manifiesto local y projects.json. El laboratorio contiene 50 archivos y el catálogo 20 en los commits de contenido indicados abajo; todos los SHA de blob coinciden con las copias locales. GitHub identifica MIT en ambos repositorios y cero releases.
 
 ## Aceptación
 
 | AC | Evidencia | Estado |
 |---|---|---|
 | AC1 | Laboratorio existente público; historial y contenido revisados, imágenes anonimizadas. | Cumplido en la revisión realizada. |
-| AC2 | ZIP extraído, seis entradas, hashes, tres fuentes intactos y compilación real con salida 0. | Cumplido localmente. |
-| AC3 | Catálogo público creado; README con proyecto, imagen, descarga, IDE y placa preparado. | Verificación remota de contenido pendiente. |
-| AC4 | projects.json enlaza origen canónico y checksum; sin firmware duplicado en catálogo. | Cumplido localmente. |
+| AC2 | ZIP extraído, seis entradas, hashes, tres fuentes intactos y compilación real con salida 0. | Cumplido y contrastado públicamente. |
+| AC3 | Catálogo público creado; README con proyecto, imagen, descarga, IDE y placa preparado. | Cumplido y contrastado públicamente. |
+| AC4 | projects.json enlaza origen canónico y checksum; sin firmware duplicado en catálogo. | Cumplido y contrastado públicamente. |
 | AC5 | MIT, atribuciones y guía de contribución. | Cumplido. |
-| AC6 | Contraste público de commits y descarga al finalizar. | Pendiente. |
+| AC6 | HTTP sin sesión, SHA de descarga y todos los blobs de ambos commits coincidentes; ambos públicos y cero releases. | Cumplido. |
 
 Spec Kit manual con plantillas oficiales locales, constitución revisada y checklist/coherencia antes de implementar. Sin agentes adicionales, releases, cambios al IDE ni publicación en TikTok.
+
+## Commits de contenido contrastados
+
+- Laboratorio: [2c4a487](https://github.com/msrobotika/AB-Displays-Lab/commit/2c4a487d2c5870a06d3155bbf031ce675b7d129f).
+- Catálogo: [8cd7382](https://github.com/msrobotika/AB-MakerIDE-Projects/commit/8cd73829afc6b27f9eb50763517d171fb5852734).
+
+[Resultados del acceso público sin sesión](remote-checks.json). Este informe se añade después de verificar esos commits. Resultado: **Convergente para catálogo, publicación y descarga de fuentes**; las pruebas físicas no repetidas siguen expresamente fuera de esa declaración.

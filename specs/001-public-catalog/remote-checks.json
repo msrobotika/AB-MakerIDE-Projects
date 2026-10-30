@@ -1,0 +1,26 @@
+{
+  "anonymous_http": true,
+  "repositories": {
+    "AB-Displays-Lab": {
+      "public": true,
+      "head": "2c4a487d2c5870a06d3155bbf031ce675b7d129f",
+      "matching_files_and_blob_shas": 50,
+      "releases": 0,
+      "license": "MIT"
+    },
+    "AB-MakerIDE-Projects": {
+      "public": true,
+      "head": "8cd73829afc6b27f9eb50763517d171fb5852734",
+      "matching_files_and_blob_shas": 20,
+      "releases": 0,
+      "license": "MIT"
+    }
+  },
+  "download": {
+    "http_status": 200,
+    "bytes": 11708,
+    "sha256": "a08c462c2c7edfdba06971e55c44640a043cc70e3cc7e47b4cbccffea9922c86",
+    "matches_local_and_catalog": true,
+    "no_authentication_used": true
+  }
+}
