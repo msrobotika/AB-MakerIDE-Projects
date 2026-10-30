@@ -4,4 +4,4 @@
 - [x] T003 Incorporar proyecto, guía, prueba API y ZIP de fuentes; mantener el radar.
 - [x] T004 Compilar y ejecutar pruebas pertinentes, documentando alcance real.
 - [x] T005 Extraer capturas anonimizadas y editar MP4 con voz/rotulación/QR; verificar visualmente.
-- [ ] T006 Subir y verificar commits, rutas y descarga; entregar textos y archivos finales.
+- [x] T006 Subir y verificar commits, rutas y descarga; entregar textos y archivos finales.
