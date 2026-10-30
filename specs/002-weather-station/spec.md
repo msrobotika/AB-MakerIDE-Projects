@@ -15,3 +15,7 @@ Incorporar el proyecto aportado al repositorio público de placas y al catálogo
 ## Aclaraciones resueltas
 Repositorio de placas: AB-Displays-Lab existente público. Catálogo: AB-MakerIDE-Projects. Voz por defecto español de España, sintética, sin imitar a ninguna persona. Duración editorial aproximada 30–35 s. El vídeo completo editado se entrega localmente; los brutos no se suben al repositorio.
 La API proporciona datos de modelo Open-Meteo, no medidas de sensores locales. Se conserva atribución y enlace a condiciones; la licencia MIT del código no sustituye las condiciones de la API.
+
+## Ampliación autorizada durante el trabajo
+
+El usuario aporta su red mediante una foto privada y pide probar la placa conectada con Madrid como ejemplo. Se autoriza configurar WiFi/ciudad mediante el portal de la placa y realizar comprobaciones no destructivas. La foto, su QR, SSID, claves, MAC/serie y perfiles del PC no se publican. Se permite una conexión temporal al AP de configuración con restauración de la conexión del PC; no implica autorización de nueva grabación de firmware. Si no es accesible el portal o no hay evidencia de datos recibidos en el ESP32, se informa el límite y no se sustituye por un test desde PC.
