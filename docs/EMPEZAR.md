@@ -8,9 +8,12 @@
 4. Compila para el perfil indicado. Una compilación correcta no comprueba físicamente pantalla, táctil ni radio.
 5. Si decides grabarlo, comprueba tu placa/revisión y puerto; conserva tu trabajo previo. Esta descarga no graba nada automáticamente.
 
-[Guía completa del radar](https://github.com/msrobotika/AB-Displays-Lab/tree/main/examples/radar-wifi-cyd) · [Descargar ZIP](https://raw.githubusercontent.com/msrobotika/AB-Displays-Lab/main/downloads/Radar-WiFi-CYD.zip) · [Pines CYD](https://github.com/msrobotika/AB-Displays-Lab/tree/main/examples/radar-wifi-cyd#hardware-y-pines).
+[Guía completa del radar](../examples/radar-wifi-cyd/) · [Descargar ZIP](../downloads/Radar-WiFi-CYD.zip) · [Pines CYD](../examples/radar-wifi-cyd/README.md#hardware-y-pines).
 
-Las capturas del laboratorio se han anonimizado. El firmware puede mostrar los nombres y BSSID reales de redes cercanas; revisa tus propios vídeos antes de publicarlos.
+## Estación meteorológica WiFi CYD
+[Guía](../examples/weather-station-cyd/) · [ZIP](../downloads/Estacion-Meteo-CYD.zip) · [Galería y pruebas](WEATHER_STATION.md).
+
+Las capturas publicadas se han anonimizado. El firmware puede mostrar los nombres y BSSID reales de redes cercanas; revisa tus propios vídeos antes de publicarlos.
 
 
 ## Mini NAS CYD

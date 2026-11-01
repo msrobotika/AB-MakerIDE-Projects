@@ -1,33 +1,290 @@
 {
-  "date": "2026-10-30",
-  "source": "video_2026-10-30_10-16-16.mp4",
-  "source_sha256": "33732e56a134fb995c9555c2883501facdb603ed453474ea2910dc39c846745a",
-  "source_size": [720, 1280],
-  "processing": "Original decoded video frames, rectangular crop scaled to 540x880, JPEG quality 90. Network names (SSID) and BSSID covered with opaque boxes. No generated or reconstructed device UI.",
+  "source_video_name": "video_2026-10-30_10-16-16.mp4",
+  "source_video_sha256": "33732e56a134fb995c9555c2883501facdb603ed453474ea2910dc39c846745a",
+  "source_dimensions": [
+    720,
+    1280
+  ],
+  "fps_reported": 27.114400701097598,
+  "frame_index_base": 0,
+  "provenance": "New extraction from user-supplied original video; not byte-identical to unavailable prior PNG pack.",
+  "processing": "Exact decoded frame pixels inside LCD crop, except opaque SSID/BSSID rectangles. Added footer outside crop. No AI, blur, sharpening, perspective correction or synthetic screen content.",
+  "coordinate_convention": "Original frame pixels, [left,top,right,bottom), right/bottom exclusive. Timestamp estimate = frame index / reported fps.",
   "images": [
     {
-      "file": "00_radar.jpg",
-      "title": "Vista RADAR: 25 redes por intensidad, barrido y anillos en dBm",
-      "timestamp_seconds": 3.7,
-      "crop": [55, 95, 685, 1122],
-      "masks_source_coordinates": [],
-      "sha256": "c28b3a70609421b4e14adbdee5ee210d0fde520e6d8280c2244a679c1cbbfe5d"
+      "file": "0_radar_home.png",
+      "title": "Radar principal",
+      "frame_index": 67,
+      "timestamp_seconds_estimate": 2.471012,
+      "crop": [
+        78,
+        180,
+        676,
+        1020
+      ],
+      "opaque_masks": [],
+      "dimensions": [
+        598,
+        894
+      ],
+      "sha256": "fc35776133d614de546cbc3130fd761ea5256306cd8442e85de4d27f95224baa"
     },
     {
-      "file": "01_lista_redes.jpg",
-      "title": "Vista REDES: lista paginada con dBm, seguridad y canal",
-      "timestamp_seconds": 53.2,
-      "crop": [115, 300, 715, 1278],
-      "masks_source_coordinates": [[176, 604, 550, 647], [176, 672, 550, 713], [176, 744, 550, 787], [176, 810, 550, 851], [174, 878, 550, 919]],
-      "sha256": "695df24b2461b179587a6b42d9362460b6153226cd0abac640a76dc8a3409a05"
+      "file": "1_radar_touch.png",
+      "title": "Radar con lápiz táctil",
+      "frame_index": 202,
+      "timestamp_seconds_estimate": 7.449916,
+      "crop": [
+        32,
+        400,
+        456,
+        1008
+      ],
+      "opaque_masks": [],
+      "dimensions": [
+        424,
+        654
+      ],
+      "sha256": "edc1b795acd16684a179938f0b42236e890ed66fc35e70d04f7bef8763d8ed5d"
     },
     {
-      "file": "02_detalle_red.jpg",
-      "title": "DETALLE RED: dBm, intensidad relativa, seguridad y canal",
-      "timestamp_seconds": 25.4,
-      "crop": [132, 395, 632, 1210],
-      "masks_source_coordinates": [[186, 626, 430, 674], [254, 874, 450, 910]],
-      "sha256": "44c4b88478fad680d61fbc0f36f7b8b8ed55ce8e3eaa02d83960458648ea203b"
+      "file": "2_lista_redes.png",
+      "title": "Lista de redes",
+      "frame_index": 538,
+      "timestamp_seconds_estimate": 19.841855,
+      "crop": [
+        142,
+        513,
+        548,
+        1080
+      ],
+      "opaque_masks": [
+        [
+          145,
+          630,
+          504,
+          660
+        ],
+        [
+          145,
+          682,
+          504,
+          712
+        ],
+        [
+          145,
+          734,
+          504,
+          764
+        ],
+        [
+          145,
+          786,
+          504,
+          816
+        ],
+        [
+          145,
+          838,
+          504,
+          868
+        ]
+      ],
+      "dimensions": [
+        406,
+        613
+      ],
+      "sha256": "261826e328f4b7f6098b1022fb4d0ac1ee7a432e124f4a2b3636780685f631a3"
+    },
+    {
+      "file": "3_lista_redes_interaccion.png",
+      "title": "Lista con lápiz táctil",
+      "frame_index": 605,
+      "timestamp_seconds_estimate": 22.312866,
+      "crop": [
+        164,
+        554,
+        570,
+        1120
+      ],
+      "opaque_masks": [
+        [
+          166,
+          663,
+          534,
+          695
+        ],
+        [
+          166,
+          716,
+          534,
+          748
+        ],
+        [
+          166,
+          770,
+          534,
+          802
+        ],
+        [
+          166,
+          823,
+          534,
+          855
+        ],
+        [
+          166,
+          876,
+          534,
+          908
+        ]
+      ],
+      "dimensions": [
+        406,
+        612
+      ],
+      "sha256": "0fdba627f4ab317d6b5809810771caf1ff222e5bf4920ce3e570ae1fba767596"
+    },
+    {
+      "file": "4_detalle_red.png",
+      "title": "Detalle de red",
+      "frame_index": 740,
+      "timestamp_seconds_estimate": 27.29177,
+      "crop": [
+        208,
+        584,
+        610,
+        1140
+      ],
+      "opaque_masks": [
+        [
+          209,
+          710,
+          608,
+          760
+        ],
+        [
+          255,
+          940,
+          607,
+          977
+        ]
+      ],
+      "dimensions": [
+        402,
+        602
+      ],
+      "sha256": "feb93c99f78f04200f4d665943000165c6c25badb5a0251f0860f63d396e2a7b"
+    },
+    {
+      "file": "5_radar_barrido.png",
+      "title": "Radar con barrido",
+      "frame_index": 1009,
+      "timestamp_seconds_estimate": 37.212698,
+      "crop": [
+        92,
+        330,
+        714,
+        1210
+      ],
+      "opaque_masks": [],
+      "dimensions": [
+        622,
+        936
+      ],
+      "sha256": "7214b5c750e217e86ca0c0e9733651761f48ea5356ef9ac18d4dd632cdc937fb"
+    },
+    {
+      "file": "6_redes_actualizadas.png",
+      "title": "Redes actualizadas",
+      "frame_index": 1143,
+      "timestamp_seconds_estimate": 42.154721,
+      "crop": [
+        176,
+        430,
+        714,
+        1210
+      ],
+      "opaque_masks": [
+        [
+          178,
+          594,
+          667,
+          633
+        ],
+        [
+          178,
+          666,
+          667,
+          705
+        ],
+        [
+          178,
+          738,
+          667,
+          777
+        ],
+        [
+          178,
+          810,
+          667,
+          849
+        ],
+        [
+          178,
+          882,
+          667,
+          921
+        ]
+      ],
+      "dimensions": [
+        538,
+        828
+      ],
+      "sha256": "4229583c4b8bbda1eb77c80e6af1286f71b270097942f665df6fb15aa598660c"
+    },
+    {
+      "file": "7_redes_actualizadas_2.png",
+      "title": "Última página de redes",
+      "frame_index": 1287,
+      "timestamp_seconds_estimate": 47.465552,
+      "crop": [
+        158,
+        452,
+        694,
+        1152
+      ],
+      "opaque_masks": [
+        [
+          160,
+          600,
+          660,
+          639
+        ],
+        [
+          160,
+          672,
+          660,
+          711
+        ],
+        [
+          160,
+          742,
+          660,
+          781
+        ],
+        [
+          160,
+          812,
+          660,
+          851
+        ]
+      ],
+      "dimensions": [
+        536,
+        748
+      ],
+      "sha256": "2a40fa9e310f3ee84861b56fc5dc3ec394b824eda88ff11da85087a7ad5f042a"
     }
   ]
 }

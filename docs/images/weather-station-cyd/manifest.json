@@ -1,25 +1,109 @@
 {
   "date": "2026-10-30",
-  "source": "video_2026-10-30_22-27-39.mp4",
-  "source_sha256": "b64d6f1ef86fa51365914967f052a014bd5c27adecc277ffba8f618a8f52f587",
-  "source_size": [720, 1280],
-  "processing": "Original decoded video frames, rectangular crop scaled to 540x880, JPEG quality 90. Setup access point name and session key covered with opaque boxes. No generated or reconstructed device UI.",
-  "images": [
+  "example_location": "Madrid, ES (chosen test location, not user location)",
+  "processing": "Original decoded pixels with rectangular crop only; no generated/reconstructed UI; no perspective correction in these GitHub captures. Metadata not copied.",
+  "sources": [
     {
-      "file": "00_meteo_madrid.jpg",
-      "title": "Madrid: 14.6 C, humedad, viento, presion y previsión de tres días con WiFi OK",
-      "timestamp_seconds": 8.4,
-      "crop": [0, 100, 705, 1249],
-      "masks_source_coordinates": [],
-      "sha256": "a4cd156e5ec346003aeec0997cc74a82a5cccb2673564789534c9059e349c69b"
+      "name": "video_2026-10-30_22-27-39.mp4",
+      "fps": 27.805122499849986,
+      "frames": 1143,
+      "width": 720,
+      "height": 1280,
+      "duration": 41.107533333333336,
+      "sha256": "b64d6f1ef86fa51365914967f052a014bd5c27adecc277ffba8f618a8f52f587"
     },
     {
-      "file": "01_meteo_configurar.jpg",
-      "title": "CONFIGURAR: portal local para elegir WiFi y ciudad",
-      "timestamp_seconds": 26.9,
-      "crop": [40, 120, 720, 1228],
-      "masks_source_coordinates": [[94, 446, 345, 492], [94, 570, 505, 640]],
-      "sha256": "5b996b09d221ef44a3aef9eb36cbfefded76b977a17198335f0cc95c493c06ed"
+      "name": "photo_2026-10-30_22-27-43.jpg",
+      "sha256": "b14f84ed568ee2836d40afa2d291f9142e7bde489b4729b5f10b27ea3b618d89"
+    }
+  ],
+  "images": [
+    {
+      "file": "00_madrid_foto.png",
+      "source": "photo_2026-10-30_22-27-43.jpg",
+      "crop": [
+        80,
+        70,
+        820,
+        1120
+      ],
+      "title": "Madrid: fotografÃ­a del LCD con datos",
+      "sha256": "81a54adc64aa4f91f4fc267b0ef365ba4b326b0dcf638b4e5daba7e300d48564"
+    },
+    {
+      "file": "01_madrid_inicio.png",
+      "source": "video_2026-10-30_22-27-39.mp4",
+      "frame_index": 0,
+      "frame_index_base": 0,
+      "timestamp_seconds_estimate": 0.0,
+      "crop": [
+        20,
+        40,
+        720,
+        1240
+      ],
+      "title": "Datos recibidos y WIFI OK",
+      "sha256": "b80bfff31abe3969f8055897fe436bb5df6d2e2aa09864f4f0592ac640a9e4c8"
+    },
+    {
+      "file": "02_actualizacion.png",
+      "source": "video_2026-10-30_22-27-39.mp4",
+      "frame_index": 104,
+      "frame_index_base": 0,
+      "timestamp_seconds_estimate": 3.740318,
+      "crop": [
+        20,
+        40,
+        720,
+        1240
+      ],
+      "title": "ActualizaciÃ³n desde el tÃ¡ctil",
+      "sha256": "a294bd7f0dc3af5f675682ac2576ced26477730d1696be0e7916acb92c893870"
+    },
+    {
+      "file": "03_prevision.png",
+      "source": "video_2026-10-30_22-27-39.mp4",
+      "frame_index": 311,
+      "frame_index_base": 0,
+      "timestamp_seconds_estimate": 11.184989,
+      "crop": [
+        20,
+        40,
+        720,
+        1240
+      ],
+      "title": "Vista general y previsiÃ³n de tres dÃ­as",
+      "sha256": "47c0767cdc3a0f34180f64821bd9377a01d90a6e74805558dbae72f1557ca99d"
+    },
+    {
+      "file": "04_control_tactil.png",
+      "source": "video_2026-10-30_22-27-39.mp4",
+      "frame_index": 415,
+      "frame_index_base": 0,
+      "timestamp_seconds_estimate": 14.925307,
+      "crop": [
+        20,
+        40,
+        720,
+        1240
+      ],
+      "title": "Control tÃ¡ctil de actualizaciÃ³n",
+      "sha256": "fa55bfbe5595d6a05f3ed5ae2697ee6b66227eae2c08f80ae9271b3066b69fff"
+    },
+    {
+      "file": "05_madrid_final.png",
+      "source": "video_2026-10-30_22-27-39.mp4",
+      "frame_index": 1038,
+      "frame_index_base": 0,
+      "timestamp_seconds_estimate": 37.331251,
+      "crop": [
+        20,
+        40,
+        720,
+        1240
+      ],
+      "title": "Regreso a meteorologÃ­a tras cerrar configuraciÃ³n",
+      "sha256": "915df83cf51b8a1f5727cd80d01178cd098a82d1bb6ae9ca7a59ce333c4e42df"
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-30",
+  "source": "video_2026-10-30_22-27-39.mp4",
+  "source_sha256": "b64d6f1ef86fa51365914967f052a014bd5c27adecc277ffba8f618a8f52f587",
+  "source_size": [720, 1280],
+  "processing": "Original decoded video frames, rectangular crop scaled to 540x880, JPEG quality 90. Setup access point name and session key covered with opaque boxes. No generated or reconstructed device UI.",
+  "images": [
+    {
+      "file": "00_meteo_madrid.jpg",
+      "title": "Madrid: 14.6 C, humedad, viento, presion y previsión de tres días con WiFi OK",
+      "timestamp_seconds": 8.4,
+      "crop": [0, 100, 705, 1249],
+      "masks_source_coordinates": [],
+      "sha256": "a4cd156e5ec346003aeec0997cc74a82a5cccb2673564789534c9059e349c69b"
+    },
+    {
+      "file": "01_meteo_configurar.jpg",
+      "title": "CONFIGURAR: portal local para elegir WiFi y ciudad",
+      "timestamp_seconds": 26.9,
+      "crop": [40, 120, 720, 1228],
+      "masks_source_coordinates": [[94, 446, 345, 492], [94, 570, 505, 640]],
+      "sha256": "5b996b09d221ef44a3aef9eb36cbfefded76b977a17198335f0cc95c493c06ed"
+    }
+  ]
+}

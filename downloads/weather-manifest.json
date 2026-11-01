@@ -1,0 +1,27 @@
+{
+  "project": "weather-station-cyd",
+  "archive": "Estacion-Meteo-CYD.zip",
+  "sha256": "4f4b3b40a7852a3a5c1e9e3a13b9f1280134cdca6a92fa6f5d557ac23e0be2c7",
+  "files": [
+    {
+      "path": "WeatherStationCYD/WeatherStationCYD.ino",
+      "sha256": "edcc9b385b43153b4504b7dd65299105bacdb468ef20f0f05753022224fa3d54"
+    },
+    {
+      "path": "WeatherStationCYD/weather_model.h",
+      "sha256": "4dc0c95e29994a8a988216e2cbfa32ab682e74e7acf5c3bfe08fece8d31db0fa"
+    },
+    {
+      "path": "WeatherStationCYD/weather_ca.h",
+      "sha256": "48c09bbc6cd4fda11c5d6c15971342432c0dbe769b77aad2bb30710e280b6aaa"
+    },
+    {
+      "path": "WeatherStationCYD/LICENSE",
+      "sha256": "cf42a3c2a48b750daf3a410c013a29477c738b8877b81be381707abae4f3d781"
+    },
+    {
+      "path": "WeatherStationCYD/README.md",
+      "sha256": "3a1261faa65b7e28a43b562557a41012d37d97a3ef708b920f219aa0005c10fb"
+    }
+  ]
+}

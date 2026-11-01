@@ -6,7 +6,7 @@ Radar WiFi CYD usa Arduino ESP32 ([Espressif](https://github.com/espressif/ardui
 
 Referencia de pines y variantes CYD: [ESP32 Cheap Yellow Display, witnessmenow](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display). Es una referencia comunitaria; este proyecto no es del fabricante ni es una certificación de compatibilidad con todas las variantes.
 
-El vídeo y proyecto originales fueron aportados por el autor. Las imágenes del laboratorio son fotogramas reales anonimizados; su procedencia se documenta en el [laboratorio](https://github.com/msrobotika/AB-Displays-Lab/blob/main/docs/PROCEDENCIA_Y_PRIVACIDAD.md).
+El vídeo y proyecto originales fueron aportados por el autor. Las imágenes del radar son fotogramas reales anonimizados; su procedencia se documenta en [Procedencia y privacidad](docs/PROCEDENCIA_Y_PRIVACIDAD.md).
 
 ## Estación meteorológica CYD
 

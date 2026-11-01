@@ -1,0 +1,60 @@
+{
+  "verified_date": "2026-10-30",
+  "content_publication": {
+    "anonymous_http": true,
+    "repositories": {
+      "AB-Displays-Lab": {
+        "public": true,
+        "head": "a890c484c5560f49f5603bb7bfa83a028495ff96",
+        "matching_files_and_blob_shas": 80,
+        "releases": 0,
+        "license": "MIT"
+      },
+      "AB-MakerIDE-Projects": {
+        "public": true,
+        "head": "3dd193fc9d4624de462091b87c47091f1cae6545",
+        "matching_files_and_blob_shas": 26,
+        "releases": 0,
+        "license": "MIT"
+      }
+    },
+    "download": {
+      "http_status": 200,
+      "bytes": 11708,
+      "sha256": "a08c462c2c7edfdba06971e55c44640a043cc70e3cc7e47b4cbccffea9922c86",
+      "matches_local_and_catalog": true,
+      "no_authentication_used": true
+    },
+    "weather_download": {
+      "http_status": 200,
+      "bytes": 12990,
+      "sha256": "4f4b3b40a7852a3a5c1e9e3a13b9f1280134cdca6a92fa6f5d557ac23e0be2c7",
+      "matches_local_and_catalog": true,
+      "no_authentication_used": true
+    },
+    "weather_captures": 6,
+    "edited_video_matches_local_git_blob": true
+  },
+  "local_acceptance": {
+    "original_files_exact": 5,
+    "zip_entries_exact": 5,
+    "weather_sha256": "4f4b3b40a7852a3a5c1e9e3a13b9f1280134cdca6a92fa6f5d557ac23e0be2c7",
+    "radar_unchanged": true,
+    "catalog_unique_projects": 2,
+    "original_pixel_captures": 6,
+    "png_private_metadata": false,
+    "mp4_full_decode": "passed",
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "duration_seconds": 36,
+    "audio_stream_present": true,
+    "encoded_video_qr": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+    "public_files_scanned": 106,
+    "private_path_or_key_patterns": 0,
+    "broken_local_links": 0,
+    "video_sha256": "75cc2dbf7b41d0f171a257986ff2f8d6facb4c73d4876b36045deafb2a84b75e"
+  }
+}

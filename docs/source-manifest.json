@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "original_name": "sketch.ino",
+      "repository_path": "examples/radar-wifi-cyd/sketch.ino",
+      "sha256": "04da80ec82161469fe1d60f63ed605b2102e32c5e0ce108245a1f3b9d29cef1b",
+      "unchanged": true
+    },
+    {
+      "original_name": "radar_logic.h",
+      "repository_path": "examples/radar-wifi-cyd/radar_logic.h",
+      "sha256": "954eee155170291da9562ecf9fe71ffa2d31c76f40d297039634d66b876ce630",
+      "unchanged": true
+    },
+    {
+      "original_name": "radar_selftest.h",
+      "repository_path": "examples/radar-wifi-cyd/radar_selftest.h",
+      "sha256": "d4b2736efc370c6b0b7044f8c0ca0dc6dee91e0404c06bf82b58127111c49f79",
+      "unchanged": true
+    },
+    {
+      "original_name": "MAKERIDE_EXPORT.json",
+      "repository_path": "examples/radar-wifi-cyd/MAKERIDE_EXPORT.json",
+      "sha256": "4b817ed778db58c27a8b0e2c3487e98e9aa2a59c3875a4322474546a7bac04ed",
+      "unchanged": true
+    },
+    {
+      "original_name": "MAKERIDE_HARDWARE_REFERENCE.txt",
+      "repository_path": "examples/radar-wifi-cyd/MAKERIDE_HARDWARE_REFERENCE.txt",
+      "sha256": "cb74c1c4be24802d552d2b8b64d35f54d6c2a3d0b4bbefc62222daccc910c8c4",
+      "unchanged": true
+    },
+    {
+      "original_name": "README.md",
+      "repository_path": "examples/radar-wifi-cyd/reference/README.original.md",
+      "sha256": "a53e1129383ca2211bbdaed4de6912e3bb642eb31a398bad739c3a3236ce72bc",
+      "unchanged": true
+    }
+  ]
+}

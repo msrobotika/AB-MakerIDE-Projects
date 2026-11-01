@@ -1,0 +1,42 @@
+{
+  "project": "radar-wifi-cyd",
+  "date": "2026-10-30",
+  "archive": "Radar-WiFi-CYD.zip",
+  "sha256": "a08c462c2c7edfdba06971e55c44640a043cc70e3cc7e47b4cbccffea9922c86",
+  "contains": "Arduino C++ sources and documentation only; no firmware binaries",
+  "source_rename": {
+    "sketch.ino": "RadarWiFiCYD/RadarWiFiCYD.ino"
+  },
+  "files": [
+    {
+      "path": "RadarWiFiCYD/RadarWiFiCYD.ino",
+      "bytes": 18848,
+      "sha256": "04da80ec82161469fe1d60f63ed605b2102e32c5e0ce108245a1f3b9d29cef1b"
+    },
+    {
+      "path": "RadarWiFiCYD/radar_logic.h",
+      "bytes": 3906,
+      "sha256": "954eee155170291da9562ecf9fe71ffa2d31c76f40d297039634d66b876ce630"
+    },
+    {
+      "path": "RadarWiFiCYD/radar_selftest.h",
+      "bytes": 2277,
+      "sha256": "d4b2736efc370c6b0b7044f8c0ca0dc6dee91e0404c06bf82b58127111c49f79"
+    },
+    {
+      "path": "RadarWiFiCYD/README.md",
+      "bytes": 1818,
+      "sha256": "7370bfd3edbd2707d1cedbc0b40631fb6f9c638e1ca072043dfd58380518c89d"
+    },
+    {
+      "path": "RadarWiFiCYD/HARDWARE.md",
+      "bytes": 387,
+      "sha256": "ccfc3f8460fbb14de198646413549ddde5ee6ce0eb62d312578f42b93b87d30f"
+    },
+    {
+      "path": "RadarWiFiCYD/LICENSE",
+      "bytes": 1068,
+      "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
+    }
+  ]
+}

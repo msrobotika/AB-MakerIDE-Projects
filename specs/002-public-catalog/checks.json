@@ -1,0 +1,18 @@
+{
+  "zip_sha256": "a08c462c2c7edfdba06971e55c44640a043cc70e3cc7e47b4cbccffea9922c86",
+  "zip_entries": 6,
+  "source_bytes_match": true,
+  "internal_links_valid": true,
+  "historical_text_blobs_scanned": 49,
+  "known_secret_or_personal_path_patterns_found": 0,
+  "package_has_no_firmware_binaries": true,
+  "limitations": "Pattern scanning is not an exhaustive security audit. No new physical-device tests.",
+  "package_compilation": {
+    "exit_code": 0,
+    "fqbn": "esp32:esp32:jczn_2432s028r",
+    "core": "3.3.12",
+    "program_bytes": 938224,
+    "global_ram_bytes": 50192,
+    "hardware_execution": false
+  }
+}

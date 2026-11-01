@@ -8,3 +8,4 @@ backups/
 
 # Only reviewed clips; keep other raw recordings ignored.
 !docs/media/Mini-NAS-CYD-TikTok.mp4
+!docs/media/Estacion-Meteo-CYD-TikTok.mp4

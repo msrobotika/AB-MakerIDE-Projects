@@ -1,0 +1,31 @@
+1
+00:00:00,100 --> 00:00:04,789
+He convertido esta pantalla ESP32 en una estación del tiempo.
+
+2
+00:00:04,739 --> 00:00:08,061
+Se conecta por wifi y consulta Open Meteo.
+
+3
+00:00:08,061 --> 00:00:12,371
+Temperatura, humedad, viento y previsión para tres días.
+
+4
+00:00:12,371 --> 00:00:15,644
+Aquí la ves funcionando con Madrid como ejemplo.
+
+5
+00:00:15,644 --> 00:00:20,335
+No necesita sensores externos: son datos meteorológicos por Internet.
+
+6
+00:00:20,335 --> 00:00:24,858
+Está creada con AB MakerIDE SUPER y el proyecto es de código abierto.
+
+7
+00:00:24,858 --> 00:00:28,586
+Descárgalo, modifícalo y crea tu propia versión.
+
+8
+00:00:28,586 --> 00:00:32,526
+Busca MS Robotika en GitHub o escanea el código.

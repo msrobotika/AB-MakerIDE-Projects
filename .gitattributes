@@ -9,3 +9,20 @@ LICENSE text eol=lf
 *.html text eol=lf
 *.py text eol=lf
 examples/mini-nas-cyd/src/ricmoo/* -text whitespace=-trailing-space,-blank-at-eof
+
+# Radar and weather sources moved from AB-Displays-Lab: keep exact original bytes.
+examples/radar-wifi-cyd/sketch.ino -text
+examples/radar-wifi-cyd/radar_logic.h -text
+examples/radar-wifi-cyd/radar_selftest.h -text
+examples/radar-wifi-cyd/MAKERIDE_EXPORT.json -text
+examples/radar-wifi-cyd/MAKERIDE_HARDWARE_REFERENCE.txt -text
+examples/radar-wifi-cyd/reference/README.original.md -text
+examples/weather-station-cyd/sketch.ino -text
+examples/weather-station-cyd/weather_model.h -text
+examples/weather-station-cyd/weather_ca.h -text
+examples/weather-station-cyd/MAKERIDE_EXPORT.json -text
+examples/weather-station-cyd/MAKERIDE_HARDWARE_REFERENCE.txt -text
+*.png binary
+*.jpg binary
+*.zip binary
+*.mp4 binary

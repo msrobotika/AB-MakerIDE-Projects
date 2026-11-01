@@ -1,0 +1,12 @@
+{
+  "job_id": "a7a8f50160984567b324f548014aba73",
+  "provider": "codex",
+  "mode": "total",
+  "fqbn": "esp32:esp32:jczn_2432s028r",
+  "port": "COM4",
+  "outcome": "compiled_only",
+  "hardware_profile": "esp32-cyd-28",
+  "upload_requested": false,
+  "file_name": "sketch.ino",
+  "target_note": "FQBN y puerto declarados; no prueban identidad ni presencia del hardware."
+}
