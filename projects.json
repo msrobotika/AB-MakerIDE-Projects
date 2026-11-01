@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "ide": "https://github.com/msrobotika/AB-MakerIDE-SUPER",
   "projects": [
     {
@@ -51,6 +51,21 @@
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/MINI_NAS.md",
       "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/Mini-NAS-CYD-TikTok.mp4",
       "status": "Full build/upload verified; SD write failure reproduced at 4 MHz and fixed at 1 MHz; six physical SD read-back probes passed; author confirmed QR access and mobile upload/listing. Historical PC HTTP and JS-double tests distinguished."
+    },
+    {
+      "id": "ghostguard-cyd",
+      "name": "GhostGuard CYD v1.4 Cyber Green",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 240x320",
+      "touch": "XPT2046",
+      "language": "Arduino C++ / Python 3",
+      "license": "See package LICENSE; third-party licenses apply",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/ghostguard-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/ghostguard-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/ghostguard-cyd/README.md",
+      "status": "Author-supplied physical CYD video reviewed; no exhaustive security audit; not an antivirus."
     }
   ]
 }
