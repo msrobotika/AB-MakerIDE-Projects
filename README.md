@@ -63,9 +63,9 @@ CYD ESP32-2432S028R y microSD FAT32. **Comprobado:** carga real, seis ensayos de
 
 **[⬇ Descargar GhostGuard v1.4 completo en ZIP](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip)**
 
-[Guía de instalación, hardware y límites](examples/ghostguard-cyd/README.md)
+[Código y guía](examples/ghostguard-cyd/) · [Vídeo en la CYD · 79 s](docs/media/GhostGuard-CYD-v1.4.mp4) · [Notas de versiones](examples/ghostguard-cyd/NOTAS_VERSIONES.md) · [SHA-256](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip.sha256)
 
-**Evidencia:** vídeo físico proporcionado por el autor. GhostGuard muestra información de Windows y Microsoft Defender, pero **no es un antivirus ni bloquea ataques**. Las capturas solo se publicarán cuando se hayan incorporado fotogramas originales verificados.
+**Evidencia:** vídeo físico del autor (1 nov 2026) con la CYD recibiendo datos reales del PC en las cuatro pantallas: HOME, RED con gráfico en vivo, EVENTOS y SYSTEM CORE. GhostGuard muestra información de Windows y Microsoft Defender, pero **no es un antivirus ni bloquea ataques**.
 
 ## De la descarga a tu placa
 
@@ -84,7 +84,7 @@ La descarga contiene código fuente; Arduino CLI, núcleos y bibliotecas se inst
 | Elegir un proyecto y descargarlo | **Este catálogo** |
 | Fuentes, pantallas, pines y evidencias CYD | [AB Displays Lab](https://github.com/msrobotika/AB-Displays-Lab) |
 
-Cada entrada enlaza a sus fuentes y descarga: radar/meteo en el laboratorio original y NAS dentro de este repositorio. Por ahora hay **cuatro proyectos disponibles**. [Índice de proyectos](projects.json).
+Cada entrada enlaza a sus fuentes y descarga: radar/meteo en el laboratorio original; NAS y GhostGuard dentro de este repositorio. Por ahora hay **cuatro proyectos disponibles**. [Índice de proyectos](projects.json).
 
 ## Construyámoslo entre makers
 

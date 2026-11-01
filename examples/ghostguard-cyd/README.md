@@ -6,7 +6,21 @@
 
 [Descargar paquete completo ZIP](../../downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip)
 
-El ZIP contiene el sketch `GhostGuard_CYD/GhostGuard_CYD.ino`, el agente Windows `windows_agent/ghostguard_agent.py`, scripts de instalación/arranque, dependencias, pruebas y documentación.
+El ZIP contiene el sketch `GhostGuard_CYD/GhostGuard_CYD.ino`, el agente Windows `windows_agent/ghostguard_agent.py`, scripts de instalación/arranque, dependencias, pruebas y documentación. [SHA-256 del ZIP](../../downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip.sha256).
+
+Los mismos archivos están en esta carpeta para leerlos sin descargar:
+
+| Archivo | Qué es |
+|---|---|
+| [`GhostGuard_CYD/GhostGuard_CYD.ino`](GhostGuard_CYD/GhostGuard_CYD.ino) | Firmware de la CYD |
+| [`windows_agent/ghostguard_agent.py`](windows_agent/ghostguard_agent.py) | Agente de telemetría para Windows |
+| [`windows_agent/instalar.bat`](windows_agent/instalar.bat) · [`iniciar_COM4.bat`](windows_agent/iniciar_COM4.bat) | Instalación de dependencias y arranque en COM4 |
+| [`tests/test_protocol.py`](tests/test_protocol.py) | Prueba del protocolo serie |
+| [`NOTAS_VERSIONES.md`](NOTAS_VERSIONES.md) | README original del paquete con los cambios v1.0 → v1.4 |
+
+## Vídeo
+
+[▶ Ver GhostGuard v1.4 funcionando en la CYD (79 s)](../../docs/media/GhostGuard-CYD-v1.4.mp4)
 
 ## Hardware
 
@@ -34,7 +48,7 @@ Interfaz Cyber Green con páginas HOME, RED, EVENTOS y ESP32; datos de carga y r
 
 ## Evidencia
 
-El autor aportó vídeo de ejecución física de la CYD (1 de noviembre de 2026), con navegación entre pantallas y datos visibles. Esta evidencia **no equivale a una auditoría de seguridad ni a una prueba automatizada exhaustiva**. No se incluyen capturas sintéticas.
+El autor aportó [vídeo de ejecución física de la CYD](../../docs/media/GhostGuard-CYD-v1.4.mp4) (1 de noviembre de 2026, 79 s). Muestra datos reales del PC en HOME (Defender activado, CPU y RAM), RED (subida/descarga y gráfico en vivo), EVENTOS y SYSTEM CORE, con navegación táctil entre pantallas. Las notas del paquete marcan la prueba física como pendiente porque se escribieron antes de grabar este vídeo. Esta evidencia **no equivale a una auditoría de seguridad ni a una prueba automatizada exhaustiva**. No se incluyen capturas sintéticas.
 
 ## Licencia
 
