@@ -43,7 +43,7 @@ Referencia de pines: [ESP32-Cheap-Yellow-Display](https://github.com/witnessmeno
 
 - 1 nov 2026: compilado con el núcleo esp32 3.3.12 (316 927 bytes de programa, 24 %; 24 492 bytes de RAM global, 7 %).
 - Grabado en una CYD con ESP32-D0WD-V3 por COM4; la escritura se verificó por hash y la placa arrancó con `MSR_REFLEJOS_BOOT`.
-- El autor confirmó en la placa que la pantalla y el táctil funcionan.
+- El autor confirmó en la placa que la pantalla y el táctil funcionan y grabó un vídeo de 12 s jugando. [Capturas de ese vídeo](../../docs/images/reflejos-ms-cyd/) ([origen y recortes](../../docs/images/reflejos-ms-cyd/capturas-manifest.json)).
 
 No es una validación exhaustiva de todas las revisiones de la CYD: confirma la serigrafía y la revisión de tu placa antes de grabar.
 

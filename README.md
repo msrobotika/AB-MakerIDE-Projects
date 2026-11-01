@@ -69,6 +69,8 @@ CYD ESP32-2432S028R y microSD FAT32. **Comprobado:** carga real, seis ensayos de
 
 **¿Qué tan rápido eres?** Se enciende un chip en la pantalla de la CYD y tienes que tocarlo antes de que se vacíe la barra. Cada acierto acelera el ritmo y el LED RGB de la placa te dice si has acertado.
 
+<div align="center"><img src="docs/images/reflejos-ms-cyd/00_chip_encendido.jpg" width="200" alt="Un chip encendido en cian: hay que tocarlo"><img src="docs/images/reflejos-ms-cyd/01_fallo_rojo.jpg" width="200" alt="Toque en un chip equivocado: se marca en rojo"><img src="docs/images/reflejos-ms-cyd/02_fin.jpg" width="200" alt="Pantalla de FIN tras perder las tres vidas"></div>
+
 **[⬇ Descargar Reflejos MS en ZIP](downloads/Reflejos-MS-CYD.zip)**
 
 [Código y guía](examples/reflejos-ms-cyd/) · [SHA-256](downloads/Reflejos-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/reflejos-manifest.json)

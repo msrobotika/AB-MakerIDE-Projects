@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "project": "reflejos-ms-cyd",
+  "source": "Author-supplied phone video of the real CYD, recorded 2026-11-01 19:58 (11.9 s, 720x1280)",
+  "processing": "Single frames, crop of the board area 540x640 from (110,560), brightness 1.35 and contrast 1.08; no content added or removed",
+  "privacy": "Dark room; no people, screens, network names or personal data visible",
+  "files": [
+    { "path": "00_chip_encendido.jpg", "time_s": 3.2, "shows": "Lit target chip in cyan, score 42, streak 3" },
+    { "path": "01_fallo_rojo.jpg", "time_s": 9.6, "shows": "Wrong chip tapped and marked as a miss, one life left" },
+    { "path": "02_fin.jpg", "time_s": 5.4, "shows": "FIN banner after losing the three lives" }
+  ]
+}

@@ -83,9 +83,10 @@
       "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/reflejos-ms-cyd",
       "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/reflejos-ms-cyd/README.md",
       "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Reflejos-MS-CYD.zip",
-      "download_sha256": "db1eb40a0b1bd91306ecb64fffebf382862cc1500dc31fcc9ee3ec6cd89107fb",
+      "download_sha256": "a49bc25cdcf6bc256cbb48ec4bbac2a79ec264daac04ca87b5e8ee323f4e32cc",
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/reflejos-ms-cyd/README.md#evidencia",
-      "status": "Original game. Compiled with esp32 core 3.3.12, uploaded to a CYD (ESP32-D0WD-V3) with hash-verified write and boot message; author confirmed display and touch work. Not exhaustive hardware validation."
+      "status": "Original game. Compiled with esp32 core 3.3.12, uploaded to a CYD (ESP32-D0WD-V3) with hash-verified write and boot message; author confirmed display and touch work. Not exhaustive hardware validation.",
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/reflejos-ms-cyd"
     }
   ]
 }

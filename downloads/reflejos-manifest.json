@@ -2,7 +2,7 @@
   "project": "reflejos-ms-cyd",
   "date": "2026-11-01",
   "archive": "Reflejos-MS-CYD.zip",
-  "sha256": "db1eb40a0b1bd91306ecb64fffebf382862cc1500dc31fcc9ee3ec6cd89107fb",
+  "sha256": "a49bc25cdcf6bc256cbb48ec4bbac2a79ec264daac04ca87b5e8ee323f4e32cc",
   "contains": "Arduino C++ source, guide and MIT license only; no firmware binaries",
   "files": [
     {
@@ -12,8 +12,8 @@
     },
     {
       "path": "ReflejosMS/README.md",
-      "bytes": 2800,
-      "sha256": "76984141f79dcc01ed15fcb52e5b4cde4cf12bd13238a57a35144c43dbea5d7c"
+      "bytes": 2977,
+      "sha256": "7b74d2687839e5224988a25b2ed7ecd756fa5e855d54d53e4da39ace34aa8630"
     },
     {
       "path": "ReflejosMS/LICENSE",
