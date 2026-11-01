@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-30",
+  "source": "video_2026-10-30_10-16-16.mp4",
+  "source_sha256": "33732e56a134fb995c9555c2883501facdb603ed453474ea2910dc39c846745a",
+  "source_size": [720, 1280],
+  "processing": "Original decoded video frames, rectangular crop scaled to 540x880, JPEG quality 90. Network names (SSID) and BSSID covered with opaque boxes. No generated or reconstructed device UI.",
+  "images": [
+    {
+      "file": "00_radar.jpg",
+      "title": "Vista RADAR: 25 redes por intensidad, barrido y anillos en dBm",
+      "timestamp_seconds": 3.7,
+      "crop": [55, 95, 685, 1122],
+      "masks_source_coordinates": [],
+      "sha256": "c28b3a70609421b4e14adbdee5ee210d0fde520e6d8280c2244a679c1cbbfe5d"
+    },
+    {
+      "file": "01_lista_redes.jpg",
+      "title": "Vista REDES: lista paginada con dBm, seguridad y canal",
+      "timestamp_seconds": 53.2,
+      "crop": [115, 300, 715, 1278],
+      "masks_source_coordinates": [[176, 604, 550, 647], [176, 672, 550, 713], [176, 744, 550, 787], [176, 810, 550, 851], [174, 878, 550, 919]],
+      "sha256": "695df24b2461b179587a6b42d9362460b6153226cd0abac640a76dc8a3409a05"
+    },
+    {
+      "file": "02_detalle_red.jpg",
+      "title": "DETALLE RED: dBm, intensidad relativa, seguridad y canal",
+      "timestamp_seconds": 25.4,
+      "crop": [132, 395, 632, 1210],
+      "masks_source_coordinates": [[186, 626, 430, 674], [254, 874, 450, 910]],
+      "sha256": "44c4b88478fad680d61fbc0f36f7b8b8ed55ce8e3eaa02d83960458648ea203b"
+    }
+  ]
+}

@@ -15,10 +15,7 @@ Proyectos open source de **MS Robotika**, creados con **AB MakerIDE SUPER** para
 
 Un radar naval verde en una pantalla CYD: contactos por intensidad, lista táctil de redes y detalle por punto de acceso. Se ejecuta en la placa, con WiFi de 2,4 GHz.
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/msrobotika/AB-Displays-Lab/main/docs/images/radar-wifi-cyd/0_radar_home.png" width="290" alt="Radar WiFi en LCD físico; fotograma real del vídeo">
-<img src="https://raw.githubusercontent.com/msrobotika/AB-Displays-Lab/main/docs/images/radar-wifi-cyd/2_lista_redes.png" width="290" alt="Lista real con nombres de red ocultos">
-</div>
+<div align="center"><img src="docs/images/radar-wifi-cyd/00_radar.jpg" width="230" alt="Vista radar en el LCD real: 25 redes por intensidad"><img src="docs/images/radar-wifi-cyd/01_lista_redes.jpg" width="230" alt="Lista de redes con nombres ocultos"><img src="docs/images/radar-wifi-cyd/02_detalle_red.jpg" width="230" alt="Detalle de una red con nombre y BSSID ocultos"></div>
 
 ### **[⬇ Descargar Radar WiFi CYD en ZIP](https://raw.githubusercontent.com/msrobotika/AB-Displays-Lab/main/downloads/Radar-WiFi-CYD.zip)**
 
@@ -31,19 +28,19 @@ Un radar naval verde en una pantalla CYD: contactos por intensidad, lista tácti
 | Preparación | Extraer ZIP, abrir `RadarWiFiCYD.ino` y preparar núcleo/bibliotecas |
 | Evidencia | Compilación completa y vídeo aportado del LCD físico; límites documentados |
 
-El radio representa señal relativa; el ángulo es decorativo. No mide distancia ni dirección. Las capturas proceden del vídeo original y ocultan los identificadores de redes. [Qué se ha probado](https://github.com/msrobotika/AB-Displays-Lab/blob/main/docs/EVIDENCIA.md).
+El radio representa señal relativa; el ángulo es decorativo. No mide distancia ni dirección. Las capturas proceden del vídeo original y ocultan los nombres de red y BSSID ([origen y recortes](docs/images/radar-wifi-cyd/manifest.json)). [Qué se ha probado](https://github.com/msrobotika/AB-Displays-Lab/blob/main/docs/EVIDENCIA.md).
 
 ## 02 · Estación meteorológica WiFi CYD
 
 Temperatura, humedad, viento, presión y previsión de tres días en una pantalla táctil. Configuración desde el navegador y datos Open-Meteo por Internet, **sin sensores externos**.
 
-<div align="center"><img src="https://raw.githubusercontent.com/msrobotika/AB-Displays-Lab/main/docs/images/weather-station-cyd/00_madrid_foto.png" width="310" alt="Madrid con WIFI OK y meteorología en el LCD real"></div>
+<div align="center"><img src="docs/images/weather-station-cyd/00_meteo_madrid.jpg" width="260" alt="Madrid con WiFi OK, temperatura y previsión en el LCD real"><img src="docs/images/weather-station-cyd/01_meteo_configurar.jpg" width="260" alt="Pantalla de configuración con nombre del punto de acceso y clave ocultos"></div>
 
 **[⬇ Descargar estación meteorológica en ZIP](https://raw.githubusercontent.com/msrobotika/AB-Displays-Lab/main/downloads/Estacion-Meteo-CYD.zip)**
 
 [Código y guía](https://github.com/msrobotika/AB-Displays-Lab/tree/main/examples/weather-station-cyd) · [Galería y prueba con Madrid](https://github.com/msrobotika/AB-Displays-Lab/blob/main/docs/WEATHER_STATION.md) · [SHA-256](https://github.com/msrobotika/AB-Displays-Lab/blob/main/downloads/Estacion-Meteo-CYD.zip.sha256)
 
-Placa declarada: CYD ESP32-2432S028R, ILI9341 y XPT2046. **Evidencia:** fotografía y vídeo con datos recibidos, compilación completa y dos pruebas de contrato desde PC. Madrid es un ejemplo; consulta límites y condiciones de la API en la guía.
+Placa declarada: CYD ESP32-2432S028R, ILI9341 y XPT2046. **Evidencia:** fotografía y vídeo con datos recibidos, compilación completa y dos pruebas de contrato desde PC. Madrid es un ejemplo; consulta límites y condiciones de la API en la guía. En la captura de configuración se ocultan el nombre del punto de acceso y la clave de sesión ([origen y recortes](docs/images/weather-station-cyd/manifest.json)).
 
 ## 03 · Mini NAS CYD
 
