@@ -57,10 +57,20 @@ Placa declarada: CYD ESP32-2432S028R, ILI9341 y XPT2046. **Evidencia:** fotograf
 
 CYD ESP32-2432S028R y microSD FAT32. **Comprobado:** carga real, seis ensayos de escritura/lectura en SD y subida/listado desde móvil confirmados por el autor. Se corrigió una escritura intermitente usando SD a 1 MHz. Es un servidor HTTP local, sin SMB/RAID ni acceso remoto por Internet. [Límites y evidencia](docs/MINI_NAS.md).
 
+## 04 · GhostGuard CYD v1.4 · Cyber Green
+
+**Tu PC, monitorizado desde una CYD física.** Panel táctil verde de telemetría de Windows por USB serie, con vistas HOME, RED, EVENTOS y ESP32.
+
+**[⬇ Descargar GhostGuard v1.4 completo en ZIP](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip)**
+
+[Guía de instalación, hardware y límites](examples/ghostguard-cyd/README.md)
+
+**Evidencia:** vídeo físico proporcionado por el autor. GhostGuard muestra información de Windows y Microsoft Defender, pero **no es un antivirus ni bloquea ataques**. Las capturas solo se publicarán cuando se hayan incorporado fotogramas originales verificados.
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
-2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino` o `MiniNasCYD.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
+2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino` o `GhostGuard_CYD.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
 3. **Prepara y compila** con el núcleo y bibliotecas de la guía incluida. Confirma el modelo y revisión de tu placa antes de cargar.
 4. **Explora y comparte** tus cambios. Oculta nombres de redes y BSSID al grabar tus propias capturas.
 
@@ -74,7 +84,7 @@ La descarga contiene código fuente; Arduino CLI, núcleos y bibliotecas se inst
 | Elegir un proyecto y descargarlo | **Este catálogo** |
 | Fuentes, pantallas, pines y evidencias CYD | [AB Displays Lab](https://github.com/msrobotika/AB-Displays-Lab) |
 
-Cada entrada enlaza a sus fuentes y descarga: radar/meteo en el laboratorio original y NAS dentro de este repositorio. Por ahora hay **tres proyectos disponibles**. [Índice de proyectos](projects.json).
+Cada entrada enlaza a sus fuentes y descarga: radar/meteo en el laboratorio original y NAS dentro de este repositorio. Por ahora hay **cuatro proyectos disponibles**. [Índice de proyectos](projects.json).
 
 ## Construyámoslo entre makers
 
