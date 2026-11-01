@@ -66,8 +66,8 @@
       "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip",
       "download_sha256": "59916ab5c575f9b6872fdfa29c0096c1a4dfe0c5d8ab06944d79bfbf7f546f84",
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/ghostguard-cyd/README.md",
-      "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/GhostGuard-CYD-v1.4.mp4",
-      "status": "Author-supplied 79 s physical CYD video reviewed: live PC data on HOME, NETWORK (live graph), SECURITY EVENTS and SYSTEM CORE pages. No exhaustive security audit; not an antivirus."
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/ghostguard-cyd",
+      "status": "Screenshots from an author-supplied 79 s physical CYD video show live PC data on HOME, NETWORK (live graph), SECURITY EVENTS and SYSTEM CORE pages. No exhaustive security audit; not an antivirus."
     }
   ]
 }

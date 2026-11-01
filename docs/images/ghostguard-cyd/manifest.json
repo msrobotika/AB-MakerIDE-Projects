@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-01",
+  "source": "video_2026-11-01_14-54-41.mp4",
+  "source_sha256": "434d89c7bc8de6869e7dc7328abeca04f2d0c4765c3553679a97401ec50cbe48",
+  "source_size": [720, 1280],
+  "processing": "Original decoded video frames, rectangular crop scaled to 540x880, JPEG quality 90. PC hostname on HOME pixelated. No generated or reconstructed device UI.",
+  "images": [
+    {
+      "file": "00_home.jpg",
+      "title": "HOME / Security Hub: PC LIVE, Defender activado, CPU y RAM",
+      "timestamp_seconds": 2.5,
+      "crop": [12, 197, 532, 1045],
+      "hostname_mask_source_coordinates": [[218, 464, 390, 498]],
+      "sha256": "81b4c11e22e3459048e1ce1f6b587e465b3c79cff91cbeba183f06b2311904e4"
+    },
+    {
+      "file": "01_red.jpg",
+      "title": "RED / Network Live: descarga, subida, gráfico y conexiones",
+      "timestamp_seconds": 52.5,
+      "crop": [65, 310, 605, 1190],
+      "hostname_mask_source_coordinates": [],
+      "sha256": "ecc2570b1958ee69bc319083f61cdc0d64391aa99c91c81ce7b6b3054f64af50"
+    },
+    {
+      "file": "02_eventos.jpg",
+      "title": "EVENT / Security Events: eventos Defender 24 h",
+      "timestamp_seconds": 26.5,
+      "crop": [0, 156, 570, 1085],
+      "hostname_mask_source_coordinates": [],
+      "sha256": "3c97773b2e60b7f703f000b5be4eec9c6b43a9f02a42a2a11b8333e63110a187"
+    },
+    {
+      "file": "03_system_core.jpg",
+      "title": "ESP32 / System Core: RAM ESP32, CPU y disco del PC, uptime",
+      "timestamp_seconds": 30.5,
+      "crop": [0, 166, 570, 1095],
+      "hostname_mask_source_coordinates": [],
+      "sha256": "17a54a8f258a3e9a64dca1540459791f0d67e88d6ec58fd463750d6911cbe98f"
+    }
+  ]
+}

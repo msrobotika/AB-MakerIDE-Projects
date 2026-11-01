@@ -61,11 +61,13 @@ CYD ESP32-2432S028R y microSD FAT32. **Comprobado:** carga real, seis ensayos de
 
 **Tu PC, monitorizado desde una CYD física.** Panel táctil verde de telemetría de Windows por USB serie, con vistas HOME, RED, EVENTOS y ESP32.
 
+<div align="center"><img src="docs/images/ghostguard-cyd/00_home.jpg" width="200" alt="HOME: PC LIVE, Defender activado, CPU y RAM de Windows en el LCD real"><img src="docs/images/ghostguard-cyd/01_red.jpg" width="200" alt="RED: descarga, subida y gráfico de red en vivo"><img src="docs/images/ghostguard-cyd/02_eventos.jpg" width="200" alt="EVENTOS: eventos de Defender en 24 h"><img src="docs/images/ghostguard-cyd/03_system_core.jpg" width="200" alt="SYSTEM CORE: RAM del ESP32, CPU y disco del PC"></div>
+
 **[⬇ Descargar GhostGuard v1.4 completo en ZIP](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip)**
 
-[Código y guía](examples/ghostguard-cyd/) · [Vídeo en la CYD · 79 s](docs/media/GhostGuard-CYD-v1.4.mp4) · [Notas de versiones](examples/ghostguard-cyd/NOTAS_VERSIONES.md) · [SHA-256](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip.sha256)
+[Código y guía](examples/ghostguard-cyd/) · [Notas de versiones](examples/ghostguard-cyd/NOTAS_VERSIONES.md) · [SHA-256](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip.sha256)
 
-**Evidencia:** vídeo físico del autor (1 nov 2026) con la CYD recibiendo datos reales del PC en las cuatro pantallas: HOME, RED con gráfico en vivo, EVENTOS y SYSTEM CORE. GhostGuard muestra información de Windows y Microsoft Defender, pero **no es un antivirus ni bloquea ataques**.
+**Evidencia:** capturas de un vídeo físico del autor (1 nov 2026) con la CYD recibiendo datos reales del PC en las cuatro pantallas. Nombre del PC oculto. GhostGuard muestra información de Windows y Microsoft Defender, pero **no es un antivirus ni bloquea ataques**.
 
 ## De la descarga a tu placa
 

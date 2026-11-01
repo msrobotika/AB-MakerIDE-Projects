@@ -18,9 +18,14 @@ Los mismos archivos están en esta carpeta para leerlos sin descargar:
 | [`tests/test_protocol.py`](tests/test_protocol.py) | Prueba del protocolo serie |
 | [`NOTAS_VERSIONES.md`](NOTAS_VERSIONES.md) | README original del paquete con los cambios v1.0 → v1.4 |
 
-## Vídeo
+## Capturas en la CYD real
 
-[▶ Ver GhostGuard v1.4 funcionando en la CYD (79 s)](../../docs/media/GhostGuard-CYD-v1.4.mp4)
+| HOME | RED | EVENTOS | SYSTEM CORE |
+|---|---|---|---|
+| <img src="../../docs/images/ghostguard-cyd/00_home.jpg" width="190" alt="HOME"> | <img src="../../docs/images/ghostguard-cyd/01_red.jpg" width="190" alt="RED"> | <img src="../../docs/images/ghostguard-cyd/02_eventos.jpg" width="190" alt="EVENTOS"> | <img src="../../docs/images/ghostguard-cyd/03_system_core.jpg" width="190" alt="SYSTEM CORE"> |
+| PC LIVE, Defender activado, CPU y RAM de Windows | Descarga, subida, gráfico en vivo y conexiones TCP | Eventos de Defender de las últimas 24 h | RAM libre y reloj del ESP32, CPU y disco del PC, uptime |
+
+Fotogramas originales del vídeo, solo recortados; el nombre del PC está pixelado. [Origen y recortes](../../docs/images/ghostguard-cyd/manifest.json).
 
 ## Hardware
 
@@ -48,7 +53,7 @@ Interfaz Cyber Green con páginas HOME, RED, EVENTOS y ESP32; datos de carga y r
 
 ## Evidencia
 
-El autor aportó [vídeo de ejecución física de la CYD](../../docs/media/GhostGuard-CYD-v1.4.mp4) (1 de noviembre de 2026, 79 s). Muestra datos reales del PC en HOME (Defender activado, CPU y RAM), RED (subida/descarga y gráfico en vivo), EVENTOS y SYSTEM CORE, con navegación táctil entre pantallas. Las notas del paquete marcan la prueba física como pendiente porque se escribieron antes de grabar este vídeo. Esta evidencia **no equivale a una auditoría de seguridad ni a una prueba automatizada exhaustiva**. No se incluyen capturas sintéticas.
+El autor aportó un vídeo de ejecución física de la CYD (1 de noviembre de 2026, 79 s); las capturas de arriba salen de él. Muestra datos reales del PC en HOME (Defender activado, CPU y RAM), RED (subida/descarga y gráfico en vivo), EVENTOS y SYSTEM CORE, con navegación táctil entre pantallas. Las notas del paquete marcan la prueba física como pendiente porque se escribieron antes de grabar este vídeo. Esta evidencia **no equivale a una auditoría de seguridad ni a una prueba automatizada exhaustiva**. No se incluyen capturas sintéticas.
 
 ## Licencia
 
