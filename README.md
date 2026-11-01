@@ -5,7 +5,9 @@
 
 Proyectos open source de **MS Robotika**, creados con **AB MakerIDE SUPER** para makers con Arduino y ESP32.
 
-**[Conseguir el IDE](https://github.com/msrobotika/AB-MakerIDE-SUPER)** · [Instalación y descargas](https://github.com/msrobotika/AB-MakerIDE-SUPER/blob/main/docs/DESCARGAS_Y_VERSIONES.md)
+**[Conseguir el IDE](https://github.com/msrobotika/AB-MakerIDE-SUPER)** · [Instalación y descargas](https://github.com/msrobotika/AB-MakerIDE-SUPER/blob/main/docs/DESCARGAS_Y_VERSIONES.md) · **[Vídeos en TikTok @ms_robotika](https://www.tiktok.com/@ms_robotika)**
+
+¿Has hecho algo con estos proyectos? Enséñalo con **#ABMakerIDE** o abre una incidencia con tu versión.
 </div>
 
 ## ¿Vienes de un vídeo? Empieza aquí
