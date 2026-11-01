@@ -26,3 +26,4 @@ examples/weather-station-cyd/MAKERIDE_HARDWARE_REFERENCE.txt -text
 *.jpg binary
 *.zip binary
 *.mp4 binary
+examples/reflejos-ms-cyd/ReflejosMS/ReflejosMS.ino -text

@@ -70,6 +70,22 @@
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/ghostguard-cyd/README.md",
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/ghostguard-cyd",
       "status": "Screenshots from an author-supplied 79 s physical CYD video show live PC data on HOME, NETWORK (live graph), SECURITY EVENTS and SYSTEM CORE pages. No exhaustive security audit; not an antivirus."
+    },
+    {
+      "id": "reflejos-ms-cyd",
+      "name": "Reflejos MS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 240x320",
+      "touch": "XPT2046",
+      "language": "Arduino C++",
+      "license": "MIT (own content)",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/reflejos-ms-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/reflejos-ms-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Reflejos-MS-CYD.zip",
+      "download_sha256": "db1eb40a0b1bd91306ecb64fffebf382862cc1500dc31fcc9ee3ec6cd89107fb",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/reflejos-ms-cyd/README.md#evidencia",
+      "status": "Original game. Compiled with esp32 core 3.3.12, uploaded to a CYD (ESP32-D0WD-V3) with hash-verified write and boot message; author confirmed display and touch work. Not exhaustive hardware validation."
     }
   ]
 }
