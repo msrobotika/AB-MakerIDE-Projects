@@ -5,6 +5,7 @@
 | Radar WiFi | [Descargar](Radar-WiFi-CYD.zip) | [Abrir guía](../examples/radar-wifi-cyd/) |
 | Estación meteorológica WiFi | [Descargar](Estacion-Meteo-CYD.zip) | [Abrir guía](../examples/weather-station-cyd/) |
 | Reflejos MS (juego original) | [Descargar](Reflejos-MS-CYD.zip) | [Abrir guía](../examples/reflejos-ms-cyd/) |
+| Kilovatio MS (precio de la luz) | [Descargar](Kilovatio-MS-CYD.zip) | [Abrir guía](../examples/kilovatio-ms-cyd/) |
 
 ## Radar WiFi CYD
 

@@ -79,10 +79,20 @@ CYD ESP32-2432S028R y microSD FAT32. **Comprobado:** carga real, seis ensayos de
 
 Juego original de MS Robotika, sin Wi-Fi ni microSD. **Comprobado:** compilación, carga verificada en una CYD real y pantalla y táctil confirmados por el autor (1 nov 2026).
 
+## 06 · Kilovatio MS · precio de la luz
+
+**¿Pongo ya la lavadora?** La CYD descarga el precio de la luz (PVPC) hora a hora desde Red Eléctrica y te lo dice con colores: ahora, gráfica del día, la mejor hora para cada electrodoméstico y los precios de mañana. Cinco pantallas que se cambian deslizando, y el LED de la placa en verde, amarillo o rojo.
+
+**[⬇ Descargar Kilovatio MS en ZIP](downloads/Kilovatio-MS-CYD.zip)**
+
+[Código y guía](examples/kilovatio-ms-cyd/) · [SHA-256](downloads/Kilovatio-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/kilovatio-manifest.json)
+
+Proyecto original de MS Robotika. Wi-Fi desde el móvil con un QR y datos de la API pública de REE, sin cuenta. Precio orientativo sin impuestos: compara horas, no sustituye a tu factura. **Comprobado:** compilación, carga verificada y Wi-Fi, descarga de precios y las cinco pantallas confirmadas en una CYD real (2 nov 2026).
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
-2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino` o `ReflejosMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
+2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino` o `KilovatioMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
 3. **Prepara y compila** con el núcleo y bibliotecas de la guía incluida. Confirma el modelo y revisión de tu placa antes de cargar.
 4. **Explora y comparte** tus cambios. Oculta nombres de redes y BSSID al grabar tus propias capturas.
 
@@ -95,7 +105,7 @@ La descarga contiene código fuente; Arduino CLI, núcleos y bibliotecas se inst
 | Crear, editar y compilar tus proyectos | [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER) |
 | Elegir un proyecto, descargarlo y ver fuentes, pines y evidencias | **Este catálogo** |
 
-Las fuentes, descargas y evidencias de los cuatro proyectos están dentro de este repositorio. Por ahora hay **cuatro proyectos disponibles**. [Índice de proyectos](projects.json).
+Las fuentes, descargas y evidencias de los proyectos están dentro de este repositorio. Por ahora hay **seis proyectos disponibles**. [Índice de proyectos](projects.json).
 
 ## Construyámoslo entre makers
 

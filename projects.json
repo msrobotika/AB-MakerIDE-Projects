@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "ide": "https://github.com/msrobotika/AB-MakerIDE-SUPER",
   "projects": [
     {
@@ -87,6 +87,22 @@
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/reflejos-ms-cyd/README.md#evidencia",
       "status": "Original game. Compiled with esp32 core 3.3.12, uploaded to a CYD (ESP32-D0WD-V3) with hash-verified write and boot message; author confirmed display and touch work. Not exhaustive hardware validation.",
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/reflejos-ms-cyd"
+    },
+    {
+      "id": "kilovatio-ms-cyd",
+      "name": "Kilovatio MS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 320x240",
+      "touch": "XPT2046",
+      "language": "Arduino C++",
+      "license": "MIT (own content)",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/kilovatio-ms-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/kilovatio-ms-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Kilovatio-MS-CYD.zip",
+      "download_sha256": "2e22d121ee8d28daae2fa1368557cdc785a0dae029cffcae3c4b6e349709c021",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/kilovatio-ms-cyd/README.md#evidencia",
+      "status": "Original utility: Spanish PVPC electricity price monitor using the public REE API. Compiled with esp32 core 3.3.12, uploaded to a CYD (ESP32-D0WD-V3) with hash-verified write; Wi-Fi setup, price download and all five screens confirmed on the board by the author. Not exhaustive hardware or API validation."
     }
   ]
 }
