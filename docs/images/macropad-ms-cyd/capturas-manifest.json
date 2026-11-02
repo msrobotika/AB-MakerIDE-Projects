@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project": "macropad-ms-cyd",
+  "source": "Author-supplied phone video of the real CYD controlling a Windows PC over USB, recorded 2026-11-02 18:11 (89.7 s, 720x1280)",
+  "processing": "Single frames, crop of the board area 465x290 from (60,780); no content added or removed",
+  "privacy": "The PC monitor behind the board played a third-party music video; the crops keep only the board",
+  "note": "Recorded with the first build. The later build renames Escritorio to Ocultar todo and Marcador to Marcar so the labels fit their buttons.",
+  "files": [
+    {
+      "path": "00_multimedia.jpg",
+      "time_s": 16.0,
+      "shows": "MULTIMEDIA page while holding Volumen +; header shows PC por USB"
+    },
+    {
+      "path": "01_trabajo.jpg",
+      "time_s": 41.5,
+      "shows": "TRABAJO page: copy, paste, undo, snip, desktop and lock shortcuts"
+    },
+    {
+      "path": "02_directo.jpg",
+      "time_s": 47.5,
+      "shows": "DIRECTO page: six buttons that send F13 to F18 for OBS"
+    }
+  ]
+}

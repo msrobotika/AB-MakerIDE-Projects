@@ -95,9 +95,11 @@ Proyecto original de MS Robotika. Wi-Fi desde el móvil con un QR y datos de la 
 
 **Tu PC, a toques.** Seis botones grandes por página para la música, Teams y Zoom, copiar y pegar, bloquear el PC o cambiar de escena en OBS. Se conecta como teclado Bluetooth o por USB con un pequeño programa para Windows. Sin Wi-Fi.
 
+<div align="center"><img src="docs/images/macropad-ms-cyd/00_multimedia.jpg" width="260" alt="Página MULTIMEDIA en la CYD real, conectada al PC por USB"><img src="docs/images/macropad-ms-cyd/01_trabajo.jpg" width="260" alt="Página TRABAJO: copiar, pegar, deshacer, recorte, escritorio y bloquear"><img src="docs/images/macropad-ms-cyd/02_directo.jpg" width="260" alt="Página DIRECTO: seis botones F13 a F18 para OBS"></div>
+
 **[⬇ Descargar MacroPad MS en ZIP](downloads/MacroPad-MS-CYD.zip)**
 
-[Código y guía](examples/macropad-ms-cyd/) · [SHA-256](downloads/MacroPad-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/macropad-manifest.json)
+[Código y guía](examples/macropad-ms-cyd/) · [Capturas reales](docs/images/macropad-ms-cyd/) · [SHA-256](downloads/MacroPad-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/macropad-manifest.json)
 
 Proyecto original de MS Robotika. **Comprobado:** compilación, carga verificada y modo USB en Windows con 205 atajos enviados desde una CYD real (2 nov 2026). El emparejamiento Bluetooth está pendiente de probar en hardware real.
 

@@ -85,7 +85,7 @@ const Page PAGES[] = {
     {"Pegar", "Ctrl+V", KEY, M_CTRL, 0x19, I_NONE, false},
     {"Deshacer", "Ctrl+Z", KEY, M_CTRL, 0x1D, I_NONE, true},
     {"Recorte", "Win+Mayús+S", KEY, M_GUI | M_SHIFT, 0x16, I_NONE, false},
-    {"Escritorio", "Win+D", KEY, M_GUI, 0x07, I_NONE, false},
+    {"Ocultar todo", "Win+D", KEY, M_GUI, 0x07, I_NONE, false},
     {"Bloquear PC", "Win+L", KEY, M_GUI, 0x0F, I_NONE, false}}},
   {"DIRECTO", MAGENTA, {
     {"Escena 1", "F13", KEY, 0, 0x68, I_NONE, false},
@@ -93,7 +93,7 @@ const Page PAGES[] = {
     {"Escena 3", "F15", KEY, 0, 0x6A, I_NONE, false},
     {"Grabar", "F16", KEY, 0, 0x6B, I_NONE, false},
     {"Directo", "F17", KEY, 0, 0x6C, I_NONE, false},
-    {"Marcador", "F18", KEY, 0, 0x6D, I_NONE, false}}},
+    {"Marcar", "F18", KEY, 0, 0x6D, I_NONE, false}}},
 };
 constexpr int ACTION_PAGES = sizeof(PAGES) / sizeof(PAGES[0]);
 constexpr int PAGE_COUNT = ACTION_PAGES + 1;  // + AJUSTES
@@ -433,6 +433,8 @@ void drawButton(int i, bool pressed) {
       first[n] = 0;
       putCenter(x + BW / 2, y + 20, first, fg, 2, face);
       putCenter(x + BW / 2, y + 40, sp + 1, fg, 2, face);
+    } else if (textWidth(a.label, 2) > BW - 8) {
+      putCenter(x + BW / 2, y + 34, a.label, fg, 1, face);  // palabra larga: letra pequena para que quepa
     } else {
       putCenter(x + BW / 2, y + 30, a.label, fg, 2, face);
     }

@@ -25,8 +25,8 @@ Desliza a izquierda o derecha para cambiar de página. Al tocar un botón se ilu
 |---|---|
 | MULTIMEDIA | Anterior, Play/Pausa, Siguiente, Volumen −, Silencio, Volumen + (el volumen se repite si mantienes pulsado) |
 | REUNIONES | Micro Teams (Ctrl+Mayús+M), Cámara Teams (Ctrl+Mayús+O), Mano Teams (Ctrl+Mayús+K), Micro Zoom (Alt+A), Cámara Zoom (Alt+V), Micro Meet (Ctrl+D) |
-| TRABAJO | Copiar, Pegar, Deshacer (se repite), Recorte (Win+Mayús+S), Escritorio (Win+D), Bloquear PC (Win+L) |
-| DIRECTO | Escena 1, Escena 2, Escena 3, Grabar, Directo y Marcador, que envían **F13 a F18**. Asígnalas en OBS (Ajustes → Atajos de teclado) o en tu programa; no chocan con ningún atajo habitual. |
+| TRABAJO | Copiar, Pegar, Deshacer (se repite), Recorte (Win+Mayús+S), Ocultar todo (Win+D), Bloquear PC (Win+L) |
+| DIRECTO | Escena 1, Escena 2, Escena 3, Grabar, Directo y Marcar, que envían **F13 a F18**. Asígnalas en OBS (Ajustes → Atajos de teclado) o en tu programa; no chocan con ningún atajo habitual. |
 | AJUSTES | Estado de Bluetooth y USB, sonido de clic, brillo automático, recalibrar el táctil y olvidar los PCs emparejados (mantén pulsado 2 s). |
 
 Los atajos de reuniones son los de Windows en Teams, Zoom y Google Meet; el programa tiene que estar en primer plano para recibirlos. Para cambiar un botón, edita la tabla `PAGES` del sketch: cada botón es una etiqueta, una pista, los modificadores y el código HID de la tecla.
@@ -70,6 +70,8 @@ Referencia de pines: [ESP32-Cheap-Yellow-Display](https://github.com/witnessmeno
 - La primera versión se reiniciaba al arrancar el Bluetooth (aserción en `npl_freertos_mutex_pend`, rastreada con addr2line hasta `NimBLEDevice::createServer`). La causa era la liberación de memoria del núcleo; se corrigió con `btInUse()`.
 - El PC de prueba no tiene Bluetooth, así que se probó el **modo USB**: el programa recibió y pulsó 205 atajos tocados por el autor (volumen ±, play/pausa, siguiente, silencio, Win+D, Win+Mayús+S y F16), y se reconectó solo tras dos cortes breves del puerto.
 - Las 5 pruebas del programa USB pasan.
+- El autor grabó un vídeo de 90 s controlando el PC por USB: pausa, play, volumen arriba y abajo, cambio de página y Win+D. [Capturas de ese vídeo](../../docs/images/macropad-ms-cyd/) ([origen y recortes](../../docs/images/macropad-ms-cyd/capturas-manifest.json)); solo se recorta la placa porque el monitor mostraba un videoclip de terceros.
+- El vídeo mostró que «Escritorio» y «Marcador» no cabían en su botón. Se renombraron a «Ocultar todo» y «Marcar», las palabras largas pasan a letra pequeña y se volvió a grabar con verificación por hash (660 339 bytes).
 
 **Pendiente de comprobar:** el emparejamiento Bluetooth con un PC o un móvil reales. No es una validación exhaustiva de todas las revisiones de la CYD: confirma la serigrafía y la revisión de tu placa antes de grabar.
 

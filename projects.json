@@ -117,9 +117,10 @@
       "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/macropad-ms-cyd",
       "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/macropad-ms-cyd/README.md",
       "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/MacroPad-MS-CYD.zip",
-      "download_sha256": "32b305901e9f17a6488f843f30872c0631f20ab90cab7cb2626ce92ab56e7e54",
+      "download_sha256": "c62911b528bb2aa1ce09c1135306941e4dd31734f552092755778e73857ef650",
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/macropad-ms-cyd/README.md#evidencia",
-      "status": "Original utility: touch shortcut pad over Bluetooth LE HID or USB with a Windows helper. Compiled with esp32 core 3.3.12 and NimBLE-Arduino 2.3.7, uploaded with hash-verified write; USB mode confirmed by the author with 205 shortcuts on Windows. Bluetooth pairing not yet verified on real hardware."
+      "status": "Original utility: touch shortcut pad over Bluetooth LE HID or USB with a Windows helper. Compiled with esp32 core 3.3.12 and NimBLE-Arduino 2.3.7, uploaded with hash-verified write; USB mode confirmed by the author with 205 shortcuts on Windows. Bluetooth pairing not yet verified on real hardware.",
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/macropad-ms-cyd"
     }
   ]
 }
