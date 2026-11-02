@@ -2,18 +2,18 @@
   "project": "kilovatio-ms-cyd",
   "date": "2026-11-02",
   "archive": "Kilovatio-MS-CYD.zip",
-  "sha256": "2e22d121ee8d28daae2fa1368557cdc785a0dae029cffcae3c4b6e349709c021",
+  "sha256": "06a1a6806ed42133768274f62cceb6cdf6e6c0b4f76f477ac24d213d0f29979c",
   "contains": "Arduino C++ source, guide and MIT license only; no firmware binaries",
   "files": [
     {
       "path": "KilovatioMS/KilovatioMS.ino",
-      "bytes": 37687,
-      "sha256": "d051e99863dde22e81114684ac95bf8435783e3c978f369dce729633e249ebe2"
+      "bytes": 37808,
+      "sha256": "d8be3381390efd1a22f7467ab9b66c3664f71765699a9759544853295e8ab872"
     },
     {
       "path": "KilovatioMS/README.md",
-      "bytes": 5460,
-      "sha256": "add9bc64d3971ff18c965c03541e4fe3d3720118c0951d6e939e2217f7eb08b2"
+      "bytes": 6042,
+      "sha256": "d99657ad9630049b425821153e969c6fcd56b9288242e91080d833ebecdc863d"
     },
     {
       "path": "KilovatioMS/LICENSE",

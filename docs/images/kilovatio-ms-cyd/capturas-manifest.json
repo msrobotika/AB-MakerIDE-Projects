@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project": "kilovatio-ms-cyd",
+  "source": "Author-supplied phone video of the real CYD, recorded 2026-11-02 16:39 (87.6 s, 720x1280)",
+  "processing": "Single frames, crop of the board area 720x520 from (0,320); no content added or removed",
+  "privacy": "The video also shows the AJUSTES screen with the Wi-Fi network name and local IP; those frames are not used here. No people or personal data visible",
+  "note": "Recorded with the first build. The later build only changes text colour on highlighted buttons (black) and shows the middle dot in AJUSTES.",
+  "files": [
+    {
+      "path": "00_ahora.jpg",
+      "time_s": 6.0,
+      "shows": "AHORA: 0,098 EUR/kWh from 16:00 to 17:00, BARATA, day range -0,017 to 0,329"
+    },
+    {
+      "path": "01_hoy.jpg",
+      "time_s": 18.0,
+      "shows": "HOY: 24 hourly bars for 2 Nov 2026, negative prices from 10:00 to 15:00, current hour outlined"
+    },
+    {
+      "path": "02_planifica.jpg",
+      "time_s": 37.0,
+      "shows": "PLANIFICA: Lavadora (2 h) selected, best slot 16:00-18:00 today"
+    }
+  ]
+}

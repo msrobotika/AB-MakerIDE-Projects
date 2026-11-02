@@ -83,9 +83,11 @@ Juego original de MS Robotika, sin Wi-Fi ni microSD. **Comprobado:** compilació
 
 **¿Pongo ya la lavadora?** La CYD descarga el precio de la luz (PVPC) hora a hora desde Red Eléctrica y te lo dice con colores: ahora, gráfica del día, la mejor hora para cada electrodoméstico y los precios de mañana. Cinco pantallas que se cambian deslizando, y el LED de la placa en verde, amarillo o rojo.
 
+<div align="center"><img src="docs/images/kilovatio-ms-cyd/00_ahora.jpg" width="260" alt="AHORA: 0,098 €/kWh, hora barata, en la CYD real"><img src="docs/images/kilovatio-ms-cyd/01_hoy.jpg" width="260" alt="HOY: gráfica de 24 horas con precios negativos a mediodía"><img src="docs/images/kilovatio-ms-cyd/02_planifica.jpg" width="260" alt="PLANIFICA: la lavadora, mejor de 16:00 a 18:00"></div>
+
 **[⬇ Descargar Kilovatio MS en ZIP](downloads/Kilovatio-MS-CYD.zip)**
 
-[Código y guía](examples/kilovatio-ms-cyd/) · [SHA-256](downloads/Kilovatio-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/kilovatio-manifest.json)
+[Código y guía](examples/kilovatio-ms-cyd/) · [Capturas reales](docs/images/kilovatio-ms-cyd/) · [SHA-256](downloads/Kilovatio-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/kilovatio-manifest.json)
 
 Proyecto original de MS Robotika. Wi-Fi desde el móvil con un QR y datos de la API pública de REE, sin cuenta. Precio orientativo sin impuestos: compara horas, no sustituye a tu factura. **Comprobado:** compilación, carga verificada y Wi-Fi, descarga de precios y las cinco pantallas confirmadas en una CYD real (2 nov 2026).
 

@@ -44,6 +44,7 @@ constexpr int W = 320, H = 240;
 // ---------- Colores ----------
 constexpr uint16_t BG = 0x0861, PANEL = 0x18E4, LINE = 0x31A6, TXT = 0xFFFF, DIM = 0x9CF3;
 constexpr uint16_t CHEAP = 0x2E8A, MID = 0xFE41, DEAR = 0xF8A6, ACC = 0x05FF, NEG = 0x6E7F;
+constexpr uint16_t INK = 0x0000;  // texto sobre fondos de color: negro puro para que se lea bien
 
 // ---------- Certificados raiz (GlobalSign Root R46 y Root R3) ----------
 const char ROOT_CA[] PROGMEM = R"PEM(-----BEGIN CERTIFICATE-----
@@ -156,7 +157,7 @@ uint8_t mapUtf8(const uint8_t*& p, bool& isEuro) {
   }
   if (c == 0xC2) {
     uint8_t d = *p++;
-    return d == 0xBF ? 0xA8 : d == 0xA1 ? 0xAD : d == 0xBA ? 0xF8 : '?';
+    return d == 0xBF ? 0xA8 : d == 0xA1 ? 0xAD : d == 0xBA ? 0xF8 : d == 0xB7 ? 0xFA : '?';
   }
   if (c == 0xE2 && p[0] == 0x82 && p[1] == 0xAC) { p += 2; isEuro = true; return ' '; }
   while ((*p & 0xC0) == 0x80) p++;
@@ -453,7 +454,7 @@ void drawNow() {
   put(bx0 + bw + 8, 78, "€/kWh", DIM, 2, PANEL);
 
   lcd.fillRoundRect(28, 112, textWidth(levelName(l), 2) + 16, 24, 6, c);
-  put(36, 117, levelName(l), BG, 2);
+  put(36, 117, levelName(l), INK, 2);
   if (p < 0) put(150, 120, "¡Precio negativo!", NEG, 1, PANEL);
 
   // Barra de posicion entre el minimo y el maximo del dia
@@ -593,10 +594,10 @@ void drawPlan() {
     int x = 8 + i * 77;
     bool sel = PRESETS[i].hours == planHours;
     lcd.fillRoundRect(x, 56, 73, 40, 6, sel ? ACC : PANEL);
-    putCenter(x + 36, 64, PRESETS[i].name, sel ? BG : TXT, 1, sel ? ACC : PANEL);
+    putCenter(x + 36, 64, PRESETS[i].name, sel ? INK : TXT, 1, sel ? ACC : PANEL);
     char hs[8];
     snprintf(hs, sizeof(hs), "%d h", PRESETS[i].hours);
-    putCenter(x + 36, 78, hs, sel ? BG : DIM, 1, sel ? ACC : PANEL);
+    putCenter(x + 36, 78, hs, sel ? INK : DIM, 1, sel ? ACC : PANEL);
   }
   int h = currentHour();
   if (h < 0 || !today.count) { noData(lastError); return; }
@@ -664,7 +665,7 @@ void toggle(const Btn& b, const char* label, bool on) {
   lcd.drawRoundRect(b.x, b.y, b.w, b.h, 6, on ? CHEAP : LINE);
   char s[32];
   snprintf(s, sizeof(s), "%s: %s", label, on ? "SÍ" : "NO");
-  putCenter(b.x + b.w / 2, b.y + b.h / 2 - 4, s, on ? BG : TXT, 1, on ? CHEAP : PANEL);
+  putCenter(b.x + b.w / 2, b.y + b.h / 2 - 4, s, on ? INK : TXT, 1, on ? CHEAP : PANEL);
 }
 
 void drawSettings() {

@@ -68,10 +68,12 @@ Referencia de pines: [ESP32-Cheap-Yellow-Display](https://github.com/witnessmeno
 
 ## Evidencia
 
-- 2 nov 2026: compilado con el núcleo esp32 3.3.12 sin avisos (1 179 639 bytes de programa, 89 %; 52 796 bytes de RAM global, 16 %).
+- 2 nov 2026: compilado con el núcleo esp32 3.3.12 sin avisos (1 179 639 bytes de programa, 89 %; 52 796 bytes de RAM global, 16 %; 1 179 647 bytes tras la corrección).
 - Grabado en una CYD con ESP32-D0WD-V3 por COM4; la escritura se verificó por hash y la placa arrancó con `MSR_KILOVATIO_BOOT`.
 - El autor calibró el táctil y configuró la Wi-Fi desde el móvil; la placa respondió `MSR_KILOVATIO_WIFI_OK` y descargó los 24 precios del 2 nov 2026 (mínimo −0,017 y máximo 0,329 €/kWh), los mismos que devuelve la API de REE ese día.
 - El autor recorrió las cinco pantallas deslizando (`MSR_KILOVATIO_SCREEN` en el puerto serie).
+- El autor grabó un vídeo de 88 s recorriendo las cinco pantallas en la placa. [Capturas de ese vídeo](../../docs/images/kilovatio-ms-cyd/) ([origen y recortes](../../docs/images/kilovatio-ms-cyd/capturas-manifest.json)); se descartan los fotogramas de AJUSTES porque muestran la red Wi-Fi.
+- Tras el vídeo se corrigieron dos detalles vistos en la pantalla real: el punto medio de AJUSTES salía como `?` y el texto de los botones activos tenía poco contraste. Se volvió a compilar (1 179 647 bytes) y a grabar con verificación por hash.
 
 No es una validación exhaustiva de todas las revisiones de la CYD ni de todos los casos de la API (por ejemplo, los días de cambio de hora): confirma la serigrafía y la revisión de tu placa antes de grabar.
 

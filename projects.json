@@ -100,8 +100,9 @@
       "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/kilovatio-ms-cyd",
       "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/kilovatio-ms-cyd/README.md",
       "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Kilovatio-MS-CYD.zip",
-      "download_sha256": "2e22d121ee8d28daae2fa1368557cdc785a0dae029cffcae3c4b6e349709c021",
+      "download_sha256": "06a1a6806ed42133768274f62cceb6cdf6e6c0b4f76f477ac24d213d0f29979c",
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/kilovatio-ms-cyd/README.md#evidencia",
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/kilovatio-ms-cyd",
       "status": "Original utility: Spanish PVPC electricity price monitor using the public REE API. Compiled with esp32 core 3.3.12, uploaded to a CYD (ESP32-D0WD-V3) with hash-verified write; Wi-Fi setup, price download and all five screens confirmed on the board by the author. Not exhaustive hardware or API validation."
     }
   ]
