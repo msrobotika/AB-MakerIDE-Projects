@@ -1,0 +1,24 @@
+{
+  "project": "vigia-ms-cyd",
+  "date": "2026-11-02",
+  "archive": "Vigia-MS-CYD.zip",
+  "sha256": "364baa8b179076c9a3e9197f214af96ffadd030406bcef637b06f03ff9e40174",
+  "contains": "Arduino C++ source, guide and MIT license only; no firmware binaries",
+  "files": [
+    {
+      "path": "VigiaMS/VigiaMS.ino",
+      "bytes": 29480,
+      "sha256": "b680ef7e950bd43c9e70ca4b1eada1a373885e81061b5a152d00bebe34165c62"
+    },
+    {
+      "path": "VigiaMS/README.md",
+      "bytes": 6638,
+      "sha256": "e45718fe57020443b348de00d3687c459c58703dd49f38a49ff55830fdb3fc6b"
+    },
+    {
+      "path": "VigiaMS/LICENSE",
+      "bytes": 1068,
+      "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
+    }
+  ]
+}

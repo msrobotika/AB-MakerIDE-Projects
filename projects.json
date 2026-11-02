@@ -125,6 +125,23 @@
       "status": "Original utility: touch shortcut pad over Bluetooth LE HID or USB with a Windows helper. Compiled with esp32 core 3.3.12 and NimBLE-Arduino 2.3.7, uploaded with hash-verified write; USB mode confirmed by the author with 205 shortcuts on Windows. Bluetooth pairing not yet verified on real hardware.",
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/macropad-ms-cyd",
       "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/MacroPad-MS-TikTok.mp4"
+    },
+    {
+      "id": "vigia-ms-cyd",
+      "name": "Vigia MS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 320x240",
+      "touch": "XPT2046",
+      "language": "Arduino C++",
+      "license": "MIT (own content)",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/vigia-ms-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/vigia-ms-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Vigia-MS-CYD.zip",
+      "download_sha256": "364baa8b179076c9a3e9197f214af96ffadd030406bcef637b06f03ff9e40174",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/vigia-ms-cyd/README.md#evidencia",
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/vigia-ms-cyd",
+      "status": "Original utility: passive Bluetooth tracker detector (Apple Find My, Samsung SmartTag, Tile, Google Find Hub) with alarm and hot/cold finder. Compiled with esp32 core 3.3.12 and NimBLE-Arduino 2.3.7, uploaded with hash-verified write; detected real Apple Find My devices near their owner and all five screens shown in the author's video. Separated-tracker alarm not yet verified in the board log. Not exhaustive."
     }
   ]
 }

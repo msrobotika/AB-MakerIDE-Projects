@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project": "vigia-ms-cyd",
+  "source": "Author-supplied phone video of the real CYD, recorded 2026-11-02 18:52 (32.2 s, 720x1280)",
+  "processing": "Single frames, crop of the board area 720x420 from (0,430); no content added or removed",
+  "privacy": "Detected devices are shown only as short numbers; no Bluetooth addresses appear. No people or personal data visible",
+  "note": "Recorded with the first build, whose VIGILANCIA screen warned in yellow about trackers near their owner; that screen is not used here.",
+  "files": [
+    {
+      "path": "00_radar.jpg",
+      "time_s": 7.0,
+      "shows": "RADAR: two Apple Find My devices near their owner, far away (weak signal)"
+    },
+    {
+      "path": "01_lista.jpg",
+      "time_s": 12.0,
+      "shows": "LISTA: #1 and #2 Apple Find My, with their owner nearby, 1-2 min, far"
+    },
+    {
+      "path": "02_buscar.jpg",
+      "time_s": 21.0,
+      "shows": "BUSCAR: FRIO, -99 dBm, with the Es mio button"
+    }
+  ]
+}

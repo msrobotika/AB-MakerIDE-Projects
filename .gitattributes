@@ -29,3 +29,4 @@ examples/weather-station-cyd/MAKERIDE_HARDWARE_REFERENCE.txt -text
 examples/reflejos-ms-cyd/ReflejosMS/ReflejosMS.ino -text
 examples/kilovatio-ms-cyd/KilovatioMS/KilovatioMS.ino -text
 examples/macropad-ms-cyd/MacroPadMS/MacroPadMS.ino -text
+examples/vigia-ms-cyd/VigiaMS/VigiaMS.ino -text
