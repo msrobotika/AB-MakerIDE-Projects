@@ -63,7 +63,7 @@ CYD ESP32-2432S028R y microSD FAT32. **Comprobado:** carga real, seis ensayos de
 
 **[⬇ Descargar GhostGuard v1.4 completo en ZIP](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip)**
 
-[Código y guía](examples/ghostguard-cyd/) · [Notas de versiones](examples/ghostguard-cyd/NOTAS_VERSIONES.md) · [SHA-256](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip.sha256)
+[Código y guía](examples/ghostguard-cyd/) · [Vídeo editado · 27 s](docs/media/GhostGuard-CYD-TikTok.mp4) · [Notas de versiones](examples/ghostguard-cyd/NOTAS_VERSIONES.md) · [SHA-256](downloads/GhostGuard_CYD_v1_4_LISTO_PARA_GITHUB.zip.sha256)
 
 **Evidencia:** capturas de un vídeo físico del autor (1 nov 2026) con la CYD recibiendo datos reales del PC en las cuatro pantallas. Nombre del PC oculto. GhostGuard muestra información de Windows y Microsoft Defender, pero **no es un antivirus ni bloquea ataques**.
 
@@ -75,7 +75,7 @@ CYD ESP32-2432S028R y microSD FAT32. **Comprobado:** carga real, seis ensayos de
 
 **[⬇ Descargar Reflejos MS en ZIP](downloads/Reflejos-MS-CYD.zip)**
 
-[Código y guía](examples/reflejos-ms-cyd/) · [SHA-256](downloads/Reflejos-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/reflejos-manifest.json)
+[Código y guía](examples/reflejos-ms-cyd/) · [Vídeo editado · 17 s](docs/media/Reflejos-MS-TikTok.mp4) · [SHA-256](downloads/Reflejos-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/reflejos-manifest.json)
 
 Juego original de MS Robotika, sin Wi-Fi ni microSD. **Comprobado:** compilación, carga verificada en una CYD real y pantalla y táctil confirmados por el autor (1 nov 2026).
 
@@ -87,7 +87,7 @@ Juego original de MS Robotika, sin Wi-Fi ni microSD. **Comprobado:** compilació
 
 **[⬇ Descargar Kilovatio MS en ZIP](downloads/Kilovatio-MS-CYD.zip)**
 
-[Código y guía](examples/kilovatio-ms-cyd/) · [Capturas reales](docs/images/kilovatio-ms-cyd/) · [SHA-256](downloads/Kilovatio-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/kilovatio-manifest.json)
+[Código y guía](examples/kilovatio-ms-cyd/) · [Vídeo editado · 26 s](docs/media/Kilovatio-MS-TikTok.mp4) · [Capturas reales](docs/images/kilovatio-ms-cyd/) · [SHA-256](downloads/Kilovatio-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/kilovatio-manifest.json)
 
 Proyecto original de MS Robotika. Wi-Fi desde el móvil con un QR y datos de la API pública de REE, sin cuenta. Precio orientativo sin impuestos: compara horas, no sustituye a tu factura. **Comprobado:** compilación, carga verificada y Wi-Fi, descarga de precios y las cinco pantallas confirmadas en una CYD real (2 nov 2026).
 
@@ -99,7 +99,7 @@ Proyecto original de MS Robotika. Wi-Fi desde el móvil con un QR y datos de la 
 
 **[⬇ Descargar MacroPad MS en ZIP](downloads/MacroPad-MS-CYD.zip)**
 
-[Código y guía](examples/macropad-ms-cyd/) · [Capturas reales](docs/images/macropad-ms-cyd/) · [SHA-256](downloads/MacroPad-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/macropad-manifest.json)
+[Código y guía](examples/macropad-ms-cyd/) · [Vídeo editado · 35 s](docs/media/MacroPad-MS-TikTok.mp4) · [Capturas reales](docs/images/macropad-ms-cyd/) · [SHA-256](downloads/MacroPad-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/macropad-manifest.json)
 
 Proyecto original de MS Robotika. **Comprobado:** compilación, carga verificada y modo USB en Windows con 205 atajos enviados desde una CYD real (2 nov 2026). El emparejamiento Bluetooth está pendiente de probar en hardware real.
 

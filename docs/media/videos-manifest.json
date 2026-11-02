@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "encoding": "H.264 720x1280 30 fps, CRF 27, no audio track; compressed copies of the TikTok edits",
+  "audio": "None. No third-party music is included; TikTok sounds are added in the app from its licensed library.",
+  "videos": [
+    {
+      "project": "ghostguard-cyd",
+      "path": "GhostGuard-CYD-TikTok.mp4",
+      "seconds": 27,
+      "bytes": 2689858,
+      "sha256": "309bb43e321c55d2d29ed43e8bb542e0a5604619c6731a7cdc145f00b311ba2b",
+      "source": "Captures of the author's video of the real CYD with real PC data; PC name pixelated; HOME shown as a still"
+    },
+    {
+      "project": "reflejos-ms-cyd",
+      "path": "Reflejos-MS-TikTok.mp4",
+      "seconds": 17,
+      "bytes": 1517539,
+      "sha256": "27366a946896a4017a722500d70b5b2679b7e28f31bb5f04b15c3686d6b55ed4",
+      "source": "Clips of the author's 12 s video playing the original game on the real CYD"
+    },
+    {
+      "project": "kilovatio-ms-cyd",
+      "path": "Kilovatio-MS-TikTok.mp4",
+      "seconds": 26,
+      "bytes": 3193526,
+      "sha256": "4e3ca244200d4dc20bdcf32fb84e138f8403088a3a83fa3adcf7ae2057f66628",
+      "source": "Clips of the author's 88 s video of the real CYD; AJUSTES frames (Wi-Fi name and IP) left out"
+    },
+    {
+      "project": "macropad-ms-cyd",
+      "path": "MacroPad-MS-TikTok.mp4",
+      "seconds": 35,
+      "bytes": 3598364,
+      "sha256": "f65110c646fbb2949a712f6c7bc215e8c0d665714caea37b0dad7d9888a2e6e9",
+      "source": "Clips of the author's 90 s video controlling a Windows PC over USB; the monitor (a third-party music video) is blurred except while the Windows desktop is shown; on-screen level meter drawn from the recorded sound"
+    }
+  ]
+}
