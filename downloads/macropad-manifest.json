@@ -1,0 +1,34 @@
+{
+  "project": "macropad-ms-cyd",
+  "date": "2026-11-02",
+  "archive": "MacroPad-MS-CYD.zip",
+  "sha256": "32b305901e9f17a6488f843f30872c0631f20ab90cab7cb2626ce92ab56e7e54",
+  "contains": "Arduino C++ source, Windows USB helper in Python with tests, guide and MIT license only; no firmware binaries",
+  "files": [
+    {
+      "path": "MacroPadMS/MacroPadMS.ino",
+      "bytes": 24444,
+      "sha256": "b5b12220a087ff116b399a7032bbba8377cd72c0def42270b8641ed4a7f2f89b"
+    },
+    {
+      "path": "MacroPadMS/README.md",
+      "bytes": 5974,
+      "sha256": "e2ed74431092fbd64934aaf5b404981fff5f2ccd5e8970ffb67967833783d9c7"
+    },
+    {
+      "path": "MacroPadMS/LICENSE",
+      "bytes": 1068,
+      "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
+    },
+    {
+      "path": "MacroPadMS/agent/macropad_agent.py",
+      "bytes": 6119,
+      "sha256": "844c4fd991f89257929a03c51354d9a4a8e1c39e43ce70d7e397fe79ee5360b1"
+    },
+    {
+      "path": "MacroPadMS/agent/test_macropad_agent.py",
+      "bytes": 1635,
+      "sha256": "4b3e1261c3ad383bdcd7ee9a75ddef2cf1c6e16443f8cd5d7a1ece8f3e0f2901"
+    }
+  ]
+}

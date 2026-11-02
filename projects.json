@@ -104,6 +104,22 @@
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/kilovatio-ms-cyd/README.md#evidencia",
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/kilovatio-ms-cyd",
       "status": "Original utility: Spanish PVPC electricity price monitor using the public REE API. Compiled with esp32 core 3.3.12, uploaded to a CYD (ESP32-D0WD-V3) with hash-verified write; Wi-Fi setup, price download and all five screens confirmed on the board by the author. Not exhaustive hardware or API validation."
+    },
+    {
+      "id": "macropad-ms-cyd",
+      "name": "MacroPad MS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 320x240",
+      "touch": "XPT2046",
+      "language": "Arduino C++ (+ Python USB helper for Windows)",
+      "license": "MIT (own content)",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/macropad-ms-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/macropad-ms-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/MacroPad-MS-CYD.zip",
+      "download_sha256": "32b305901e9f17a6488f843f30872c0631f20ab90cab7cb2626ce92ab56e7e54",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/macropad-ms-cyd/README.md#evidencia",
+      "status": "Original utility: touch shortcut pad over Bluetooth LE HID or USB with a Windows helper. Compiled with esp32 core 3.3.12 and NimBLE-Arduino 2.3.7, uploaded with hash-verified write; USB mode confirmed by the author with 205 shortcuts on Windows. Bluetooth pairing not yet verified on real hardware."
     }
   ]
 }
