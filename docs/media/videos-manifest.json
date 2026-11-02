@@ -35,6 +35,14 @@
       "bytes": 3598364,
       "sha256": "f65110c646fbb2949a712f6c7bc215e8c0d665714caea37b0dad7d9888a2e6e9",
       "source": "Clips of the author's 90 s video controlling a Windows PC over USB; the monitor (a third-party music video) is blurred except while the Windows desktop is shown; on-screen level meter drawn from the recorded sound"
+    },
+    {
+      "project": "vigia-ms-cyd",
+      "path": "Vigia-MS-TikTok.mp4",
+      "seconds": 22,
+      "bytes": 1959336,
+      "sha256": "f8562956439aa087875a8e69f7702275e532e38c109a58e7501be65e7649a84a",
+      "source": "Clips of the author's 32 s video of the real CYD (radar, list and finder with two real Apple Find My devices near their owner); the first build's VIGILANCIA screen is left out; no addresses shown"
     }
   ]
 }

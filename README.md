@@ -111,7 +111,7 @@ Proyecto original de MS Robotika. **Comprobado:** compilación, carga verificada
 
 **[⬇ Descargar Vigía MS en ZIP](downloads/Vigia-MS-CYD.zip)**
 
-[Código y guía](examples/vigia-ms-cyd/) · [Capturas reales](docs/images/vigia-ms-cyd/) · [SHA-256](downloads/Vigia-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/vigia-manifest.json)
+[Código y guía](examples/vigia-ms-cyd/) · [Vídeo editado · 22 s](docs/media/Vigia-MS-TikTok.mp4) · [Capturas reales](docs/images/vigia-ms-cyd/) · [SHA-256](downloads/Vigia-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/vigia-manifest.json)
 
 Proyecto original de MS Robotika. Escucha pasiva: no se conecta a nada y no muestra direcciones. No detecta todos los rastreadores ni sustituye a las alertas del móvil; si te sientes en peligro, llama al 112. **Comprobado:** compilación, carga verificada y detección de dispositivos Apple Find My reales en una CYD (2 nov 2026). La alarma por un rastreador lejos de su dueño está pendiente de comprobar.
 
