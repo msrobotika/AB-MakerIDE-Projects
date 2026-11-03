@@ -8,6 +8,7 @@
 | Kilovatio MS (precio de la luz) | [Descargar](Kilovatio-MS-CYD.zip) | [Abrir guía](../examples/kilovatio-ms-cyd/) |
 | MacroPad MS (panel de atajos) | [Descargar](MacroPad-MS-CYD.zip) | [Abrir guía](../examples/macropad-ms-cyd/) |
 | Vigía MS (detector de rastreadores) | [Descargar](Vigia-MS-CYD.zip) | [Abrir guía](../examples/vigia-ms-cyd/) |
+| Radar Aviones MS (aviones en directo) | [Descargar](Radar-Aviones-MS-CYD.zip) | [Abrir guía](../examples/radar-aviones-ms-cyd/) |
 
 ## Radar WiFi CYD
 

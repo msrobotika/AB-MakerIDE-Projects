@@ -1,0 +1,24 @@
+{
+  "project": "radar-aviones-ms-cyd",
+  "date": "2026-11-03",
+  "archive": "Radar-Aviones-MS-CYD.zip",
+  "sha256": "384407cd27bc555ad2493fa1a091a45dead1323049d1da25bfe9ce42499b20df",
+  "contains": "Arduino C++ source, guide and MIT license only; no firmware binaries",
+  "files": [
+    {
+      "path": "RadarAvionesMS/RadarAvionesMS.ino",
+      "bytes": 26653,
+      "sha256": "88ac9a48ab873151bea980cfe8658806f0bc43c88e27c74d1f6dd929684c3a7b"
+    },
+    {
+      "path": "RadarAvionesMS/README.md",
+      "bytes": 5028,
+      "sha256": "45b6752b017a79d87b078bc0dfd8588788056c58e2d35aeccfb42492b13bfa52"
+    },
+    {
+      "path": "RadarAvionesMS/LICENSE",
+      "bytes": 1068,
+      "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
+    }
+  ]
+}

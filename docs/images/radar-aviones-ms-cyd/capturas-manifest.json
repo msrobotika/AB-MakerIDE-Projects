@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project": "radar-aviones-ms-cyd",
+  "source": "Author-supplied phone video of the real CYD, recorded 2026-11-03 15:41 (33.5 s, 1280x720)",
+  "processing": "Single frames, crop of the board area 860x620 from (380,90); no content added or removed",
+  "privacy": "The screen never shows the home coordinates; only public flight callsigns and relative positions around the default location (Madrid centre). No people or personal data visible",
+  "files": [
+    {
+      "path": "00_radar.jpg",
+      "time_s": 6.0,
+      "shows": "Radar with sweep and AEA84CA (B738) selected: 1860 m, 429 km/h, 29.2 km"
+    },
+    {
+      "path": "01_ficha.jpg",
+      "time_s": 20.0,
+      "shows": "FYS4800 (C172) selected by tapping the radar: 890 m, 174 km/h, 10.2 km"
+    },
+    {
+      "path": "02_siguiente.jpg",
+      "time_s": 28.0,
+      "shows": "SAS4303 (A20N) selected: 930 m, heading circle and label on the radar"
+    }
+  ]
+}

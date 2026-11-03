@@ -119,10 +119,22 @@ Proyecto original de MS Robotika. **Comprobado:** compilación, carga verificada
 
 Proyecto original de MS Robotika. Escucha pasiva: no se conecta a nada y no muestra direcciones. No detecta todos los rastreadores ni sustituye a las alertas del móvil; si te sientes en peligro, llama al 112. **Comprobado:** compilación, carga verificada y detección de dispositivos Apple Find My reales en una CYD (2 nov 2026). La alarma por un rastreador lejos de su dueño está pendiente de comprobar.
 
+## 09 · Radar Aviones MS · aviones en directo
+
+**¿Qué avión pasa por encima de tu casa?** Un radar con barrido muestra en directo los aviones que vuelan a menos de 46 km, y al tocar uno ves su vuelo, modelo, altura, velocidad, distancia y rumbo. Datos ADS-B gratuitos de adsb.lol, sin cuenta ni claves. La pantalla nunca muestra tu ubicación.
+
+<div align="center"><img src="docs/images/radar-aviones-ms-cyd/00_radar.jpg" width="260" alt="Radar con barrido y el vuelo AEA84CA seleccionado, en la CYD real"><img src="docs/images/radar-aviones-ms-cyd/01_ficha.jpg" width="260" alt="Ficha de FYS4800, una Cessna 172 a 890 m"><img src="docs/images/radar-aviones-ms-cyd/02_siguiente.jpg" width="260" alt="SAS4303 seleccionado con su rumbo en el radar"></div>
+
+**[⬇ Descargar Radar Aviones MS en ZIP](downloads/Radar-Aviones-MS-CYD.zip)**
+
+[Código y guía](examples/radar-aviones-ms-cyd/) · [Vídeo editado · 27 s](docs/media/Radar-Aviones-MS-TikTok.mp4) · [Capturas reales](docs/images/radar-aviones-ms-cyd/) · [SHA-256](downloads/Radar-Aviones-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/radar-aviones-manifest.json)
+
+Proyecto original de MS Robotika. Posiciones aproximadas con unos segundos de retraso: no sirve para navegación. **Comprobado:** compilación, carga verificada, autoprueba de la geometría y descarga de 32-35 aviones reales alrededor de Madrid en una CYD (3 nov 2026).
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
-2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino`, `KilovatioMS.ino`, `MacroPadMS.ino` o `VigiaMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
+2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino`, `KilovatioMS.ino`, `MacroPadMS.ino`, `VigiaMS.ino` o `RadarAvionesMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
 3. **Prepara y compila** con el núcleo y bibliotecas de la guía incluida. Confirma el modelo y revisión de tu placa antes de cargar.
 4. **Explora y comparte** tus cambios. Oculta nombres de redes y BSSID al grabar tus propias capturas.
 
@@ -135,7 +147,7 @@ La descarga contiene código fuente; Arduino CLI, núcleos y bibliotecas se inst
 | Crear, editar y compilar tus proyectos | [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER) |
 | Elegir un proyecto, descargarlo y ver fuentes, pines y evidencias | **Este catálogo** |
 
-Las fuentes, descargas y evidencias de los proyectos están dentro de este repositorio. Por ahora hay **ocho proyectos disponibles**. [Índice de proyectos](projects.json).
+Las fuentes, descargas y evidencias de los proyectos están dentro de este repositorio. Por ahora hay **nueve proyectos disponibles**. [Índice de proyectos](projects.json).
 
 ## Construyámoslo entre makers
 

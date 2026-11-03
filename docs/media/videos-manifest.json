@@ -43,6 +43,14 @@
       "bytes": 1959336,
       "sha256": "f8562956439aa087875a8e69f7702275e532e38c109a58e7501be65e7649a84a",
       "source": "Clips of the author's 32 s video of the real CYD (radar, list and finder with two real Apple Find My devices near their owner); the first build's VIGILANCIA screen is left out; no addresses shown"
+    },
+    {
+      "project": "radar-aviones-ms-cyd",
+      "path": "Radar-Aviones-MS-TikTok.mp4",
+      "seconds": 27,
+      "bytes": 2618333,
+      "sha256": "2a442183fb7dbf70afad1d5d0d928a7d2e93d968d373ca11dbe3f2e91f528ebb",
+      "source": "Author's video of the real CYD (horizontal) centred over a blurred copy of itself, with text; no coordinates on screen"
     }
   ]
 }

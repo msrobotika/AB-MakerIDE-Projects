@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "ide": "https://github.com/msrobotika/AB-MakerIDE-SUPER",
   "projects": [
     {
@@ -143,6 +143,24 @@
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/vigia-ms-cyd",
       "status": "Original utility: passive Bluetooth tracker detector (Apple Find My, Samsung SmartTag, Tile, Google Find Hub) with alarm and hot/cold finder. Compiled with esp32 core 3.3.12 and NimBLE-Arduino 2.3.7, uploaded with hash-verified write; detected real Apple Find My devices near their owner and all five screens shown in the author's video. Separated-tracker alarm not yet verified in the board log. Not exhaustive.",
       "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/Vigia-MS-TikTok.mp4"
+    },
+    {
+      "id": "radar-aviones-ms-cyd",
+      "name": "Radar Aviones MS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 320x240",
+      "touch": "XPT2046",
+      "language": "Arduino C++",
+      "license": "MIT (own content)",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/radar-aviones-ms-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/radar-aviones-ms-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Radar-Aviones-MS-CYD.zip",
+      "download_sha256": "384407cd27bc555ad2493fa1a091a45dead1323049d1da25bfe9ce42499b20df",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/radar-aviones-ms-cyd/README.md#evidencia",
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/radar-aviones-ms-cyd",
+      "status": "Original utility: live aircraft radar (adsb.lol ADS-B, no key) with sweep, dead reckoning between 10 s downloads and a detail card. Compiled with esp32 core 3.3.12, uploaded with hash-verified write; boot self-test OK, 32-35 aircraft downloaded around Madrid and tap selection shown in the author's video. Not for navigation.",
+      "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/Radar-Aviones-MS-TikTok.mp4"
     }
   ]
 }
