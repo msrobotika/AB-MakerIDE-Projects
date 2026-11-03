@@ -10,6 +10,10 @@ Proyectos open source de **MS Robotika**, creados con **AB MakerIDE SUPER** para
 ¿Has hecho algo con estos proyectos? Enséñalo con **#ABMakerIDE** o abre una incidencia con tu versión.
 </div>
 
+**¿Te falta la placa?** Todos los proyectos usan la **CYD ESP32-2432S028R** (pantalla táctil de 2,8"). [La que uso yo, en Amazon.es](https://www.amazon.es/dp/B0CG2WQGP9?tag=msrobotika-21). Sirve cualquier CYD con ese modelo y pantalla ILI9341; las versiones ESP32-S3 o con pantalla IPS son placas distintas y necesitan cambios.
+
+<sub>Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.</sub>
+
 ## ¿Vienes de un vídeo? Empieza aquí
 
 ### 01 · Radar WiFi CYD
