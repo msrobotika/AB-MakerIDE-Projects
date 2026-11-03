@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project": "reloj-despertador-ms-cyd",
+  "source": "Two author-supplied phone videos of the real CYD, recorded 2026-11-03 19:27 (13.0 s and 15.8 s, 1280x720)",
+  "processing": "Single frames, crops of the board area; no content added or removed",
+  "privacy": "Only the clock, date and alarm are on screen; no network names, people or personal data",
+  "files": [
+    {
+      "path": "00_reloj.jpg",
+      "time_s": 3.0,
+      "shows": "Clock 19:24, Tuesday 3 November, alarm 07:30 OFF"
+    },
+    {
+      "path": "01_alarma_on.jpg",
+      "time_s": 3.0,
+      "shows": "Alarm set to 19:25 and ON (amber), seconds bar"
+    },
+    {
+      "path": "02_arriba.jpg",
+      "time_s": 12.0,
+      "shows": "Alarm ringing: ¡ARRIBA! 19:25 with POSPONER 5 min and PARAR"
+    }
+  ]
+}

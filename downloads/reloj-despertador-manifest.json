@@ -1,0 +1,24 @@
+{
+  "project": "reloj-despertador-ms-cyd",
+  "date": "2026-11-03",
+  "archive": "Reloj-Despertador-MS-CYD.zip",
+  "sha256": "953d23267a233201904c17e25b52c58ea44de766a9ba9ef9d6fabfbc4ae4e232",
+  "contains": "Arduino C++ source, guide and MIT license only; no firmware binaries",
+  "files": [
+    {
+      "path": "RelojDespertadorMS/RelojDespertadorMS.ino",
+      "bytes": 22052,
+      "sha256": "ae33f382400c04ec10218d604ce79887e4eb207db3ba34d06ab6f173b9112d29"
+    },
+    {
+      "path": "RelojDespertadorMS/README.md",
+      "bytes": 5541,
+      "sha256": "866ea6c31f4fed74c4194801e03370e922a1c96e5ded295e0b1b108945952784"
+    },
+    {
+      "path": "RelojDespertadorMS/LICENSE",
+      "bytes": 1068,
+      "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
+    }
+  ]
+}

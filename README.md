@@ -131,10 +131,22 @@ Proyecto original de MS Robotika. Escucha pasiva: no se conecta a nada y no mues
 
 Proyecto original de MS Robotika. Posiciones aproximadas con unos segundos de retraso: no sirve para navegación. **Comprobado:** compilación, carga verificada, autoprueba de la geometría y descarga de 32-35 aviones reales alrededor de Madrid en una CYD (3 nov 2026).
 
+## 10 · Reloj Despertador MS · el proyecto del tutorial
+
+**Un reloj despertador con Wi-Fi que se pone en hora solo.** Hora en dígitos de 7 segmentos, fecha en español, cambio de hora automático y una alarma que ajustas tocando la pantalla o desde el monitor serie, con «posponer 5 min». Es el proyecto del tutorial en vídeo de AB MakerIDE: crear el proyecto, elegir la placa, librerías, compilar, grabar y monitor serie.
+
+<div align="center"><img src="docs/images/reloj-despertador-ms-cyd/00_reloj.jpg" width="260" alt="Reloj 19:24 del martes 3 de noviembre con la alarma de las 07:30 apagada, en la CYD real"><img src="docs/images/reloj-despertador-ms-cyd/01_alarma_on.jpg" width="260" alt="Alarma de las 19:25 activada en naranja"><img src="docs/images/reloj-despertador-ms-cyd/02_arriba.jpg" width="260" alt="Pantalla roja ¡ARRIBA! 19:25 con los botones POSPONER y PARAR"></div>
+
+**[⬇ Descargar Reloj Despertador MS en ZIP](downloads/Reloj-Despertador-MS-CYD.zip)**
+
+[Código y guía](examples/reloj-despertador-ms-cyd/) · [Vídeo editado · 33 s](docs/media/Reloj-Despertador-MS-TikTok.mp4) · [Capturas reales](docs/images/reloj-despertador-ms-cyd/) · [SHA-256](downloads/Reloj-Despertador-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/reloj-despertador-manifest.json)
+
+Proyecto original de MS Robotika. Sin batería: si se va la luz, la alarma no suena; no lo uses para avisos importantes. **Comprobado:** compilación, carga verificada desde AB MakerIDE, autoprueba, hora por internet y alarma que suena y se para por el monitor serie en una CYD (3 nov 2026). Los botones táctiles están pendientes de comprobar en la placa.
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
-2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino`, `KilovatioMS.ino`, `MacroPadMS.ino`, `VigiaMS.ino` o `RadarAvionesMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
+2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino`, `KilovatioMS.ino`, `MacroPadMS.ino`, `VigiaMS.ino`, `RadarAvionesMS.ino` o `RelojDespertadorMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
 3. **Prepara y compila** con el núcleo y bibliotecas de la guía incluida. Confirma el modelo y revisión de tu placa antes de cargar.
 4. **Explora y comparte** tus cambios. Oculta nombres de redes y BSSID al grabar tus propias capturas.
 
@@ -147,7 +159,7 @@ La descarga contiene código fuente; Arduino CLI, núcleos y bibliotecas se inst
 | Crear, editar y compilar tus proyectos | [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER) |
 | Elegir un proyecto, descargarlo y ver fuentes, pines y evidencias | **Este catálogo** |
 
-Las fuentes, descargas y evidencias de los proyectos están dentro de este repositorio. Por ahora hay **nueve proyectos disponibles**. [Índice de proyectos](projects.json).
+Las fuentes, descargas y evidencias de los proyectos están dentro de este repositorio. Por ahora hay **diez proyectos disponibles**. [Índice de proyectos](projects.json).
 
 ## Construyámoslo entre makers
 

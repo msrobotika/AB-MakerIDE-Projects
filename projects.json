@@ -161,6 +161,24 @@
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/radar-aviones-ms-cyd",
       "status": "Original utility: live aircraft radar (adsb.lol ADS-B, no key) with sweep, dead reckoning between 10 s downloads and a detail card. Compiled with esp32 core 3.3.12, uploaded with hash-verified write; boot self-test OK, 32-35 aircraft downloaded around Madrid and tap selection shown in the author's video. Not for navigation.",
       "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/Radar-Aviones-MS-TikTok.mp4"
+    },
+    {
+      "id": "reloj-despertador-ms-cyd",
+      "name": "Reloj Despertador MS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 320x240",
+      "touch": "XPT2046",
+      "language": "Arduino C++",
+      "license": "MIT (own content)",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/reloj-despertador-ms-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/reloj-despertador-ms-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Reloj-Despertador-MS-CYD.zip",
+      "download_sha256": "953d23267a233201904c17e25b52c58ea44de766a9ba9ef9d6fabfbc4ae4e232",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/reloj-despertador-ms-cyd/README.md#evidencia",
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/reloj-despertador-ms-cyd",
+      "status": "Original utility and the AB MakerIDE video tutorial project: Wi-Fi alarm clock with NTP time, automatic summer time, 7-segment digits and a touch-set alarm with snooze. Compiled with esp32 core 3.3.12 and uploaded with hash-verified write from Arduino CLI and AB MakerIDE; boot self-test OK, NTP time and the alarm ringing and stopping checked over serial; the author's video shows the clock and the ringing screen. Touch buttons on the board not checked yet.",
+      "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/Reloj-Despertador-MS-TikTok.mp4"
     }
   ]
 }

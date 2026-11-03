@@ -51,6 +51,14 @@
       "bytes": 2618333,
       "sha256": "2a442183fb7dbf70afad1d5d0d928a7d2e93d968d373ca11dbe3f2e91f528ebb",
       "source": "Author's video of the real CYD (horizontal) centred over a blurred copy of itself, with text; no coordinates on screen"
+    },
+    {
+      "project": "reloj-despertador-ms-cyd",
+      "path": "Reloj-Despertador-MS-TikTok.mp4",
+      "seconds": 33,
+      "bytes": 3693643,
+      "sha256": "b1deb03c4959878907146c4506c0febdcd151dae13c0e2a85f5cca39972caef9",
+      "source": "Author's videos of the real CYD plus Claude's screen recording of AB MakerIDE (compile, upload and serial monitor) from the tutorial; original code-generated techno; no network names shown"
     }
   ]
 }

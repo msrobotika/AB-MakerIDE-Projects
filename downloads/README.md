@@ -9,6 +9,7 @@
 | MacroPad MS (panel de atajos) | [Descargar](MacroPad-MS-CYD.zip) | [Abrir guía](../examples/macropad-ms-cyd/) |
 | Vigía MS (detector de rastreadores) | [Descargar](Vigia-MS-CYD.zip) | [Abrir guía](../examples/vigia-ms-cyd/) |
 | Radar Aviones MS (aviones en directo) | [Descargar](Radar-Aviones-MS-CYD.zip) | [Abrir guía](../examples/radar-aviones-ms-cyd/) |
+| Reloj Despertador MS (proyecto del tutorial) | [Descargar](Reloj-Despertador-MS-CYD.zip) | [Abrir guía](../examples/reloj-despertador-ms-cyd/) |
 
 ## Radar WiFi CYD
 
