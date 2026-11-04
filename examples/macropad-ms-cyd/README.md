@@ -4,7 +4,7 @@
 
 [← Catálogo](../../README.md) · [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER)
 
-Panel de atajos táctil para la **CYD ESP32-2432S028R** (ILI9341 horizontal 320 × 240 y táctil resistivo XPT2046). Cuatro páginas de seis botones grandes para controlar la música, las reuniones, el trabajo diario y tus directos desde una pantalla de 10 €. Sin Wi-Fi.
+Panel de atajos táctil para la **CYD ESP32-2432S028R** (ILI9341 horizontal 320 × 240 y táctil resistivo XPT2046). Cuatro páginas de seis botones grandes para controlar la música, las reuniones, el trabajo diario y tus directos desde una pantalla táctil. Sin Wi-Fi.
 
 Hecho con AB MakerIDE.
 
