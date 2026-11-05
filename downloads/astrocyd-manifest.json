@@ -1,0 +1,39 @@
+{
+  "project": "astrocyd-ms-cyd",
+  "date": "2026-11-05",
+  "archive": "AstroCYD-MS-CYD.zip",
+  "sha256": "fdca084240258577f0fff6ef63a585ee492a043448a808ecd41ee8db79130ba5",
+  "contains": "Arduino C++ source, single-file sketch with generated star data (d3-celestial, BSD-3) and public root certificates, guide, tools and MIT license; no firmware binaries",
+  "files": [
+    {
+      "path": "AstroCYDMS/AstroCYDMS.ino",
+      "bytes": 227895,
+      "sha256": "81942329b2b10b77603efd3fd85104852fa7a94cedb75474b50039c6816d9cfc"
+    },
+    {
+      "path": "AstroCYDMS/README.md",
+      "bytes": 9805,
+      "sha256": "c478149c52dbff90d563bf2ba55029a5847a58c9334f95084ca0e271405d93ef"
+    },
+    {
+      "path": "AstroCYDMS/LICENSE",
+      "bytes": 1068,
+      "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
+    },
+    {
+      "path": "AstroCYDMS/THIRD_PARTY_NOTICES.md",
+      "bytes": 2070,
+      "sha256": "ec8fae245c6807cea98446186afe3ba0ff5f83eef1651fc0a04566e6e28c19ab"
+    },
+    {
+      "path": "AstroCYDMS/tools/generar_datos.py",
+      "bytes": 5976,
+      "sha256": "81d6b64169740c50810dbff9e9b10ef8c5e7535252903c1afc72c9fd4070f804"
+    },
+    {
+      "path": "AstroCYDMS/tools/capturar.py",
+      "bytes": 2196,
+      "sha256": "051489458f45b359d8e8bb5703ef8437b877f6e9defd684169fd6679045cddb7"
+    }
+  ]
+}

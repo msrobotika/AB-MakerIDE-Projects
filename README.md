@@ -143,6 +143,18 @@ Proyecto original de MS Robotika. Posiciones aproximadas con unos segundos de re
 
 Proyecto original de MS Robotika. Sin batería: si se va la luz, la alarma no suena; no lo uses para avisos importantes. **Comprobado:** compilación, carga verificada desde AB MakerIDE, autoprueba, hora por internet y alarma que suena y se para por el monitor serie en una CYD (3 nov 2026). Los botones táctiles están pendientes de comprobar en la placa.
 
+## 11 · AstroCYD MS · tu asistente de astronomía
+
+**El cielo de esta noche en tu mano.** Mapa del cielo en directo con 5044 estrellas, constelaciones, planetas y la Luna; toca una estrella y te dice cuál es y hacia dónde mirar. Además: fase de la Luna, una nota de 0 a 10 para salir a hacer fotos (nubes, Luna, oscuridad y contaminación lumínica), aviso de auroras, cuántas estrellas te roba la luz de tu ciudad, un disparador Bluetooth para el móvil y modo rojo para la noche.
+
+<div align="center"><img src="docs/images/astrocyd-ms-cyd/00_cielo.png" width="260" alt="Mapa del cielo con Almach seleccionada en Andrómeda, a 85 grados hacia el este"><img src="docs/images/astrocyd-ms-cyd/02_noche.png" width="260" alt="Nota 8 sobre 10 para esta noche y la mejor ventana de 20:00 a 22:00"><img src="docs/images/astrocyd-ms-cyd/04_tu_cielo.png" width="260" alt="Cielo oscuro con 2375 estrellas frente a 271 en una ciudad, Bortle 8"></div>
+
+**[⬇ Descargar AstroCYD MS en ZIP](downloads/AstroCYD-MS-CYD.zip)**
+
+[Código y guía](examples/astrocyd-ms-cyd/) · [Capturas de la placa](docs/images/astrocyd-ms-cyd/) · [SHA-256](downloads/AstroCYD-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/astrocyd-manifest.json)
+
+Proyecto original de MS Robotika. Necesita el esquema de particiones **Huge APP**. La nota de la noche y el aviso de auroras son estimaciones; nubes de Open-Meteo (uso no comercial) y Kp de NOAA. **Comprobado:** compilación, carga verificada, autoprueba con los ejemplos de Meeus, descargas de nubes y Kp, Bluetooth anunciado y capturas de las 6 pantallas sacadas de la placa (5 nov 2026). El disparo con un móvil real y la página de ajustes desde el móvil están pendientes de comprobar.
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
