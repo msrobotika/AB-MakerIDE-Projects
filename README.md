@@ -161,7 +161,7 @@ Proyecto original de MS Robotika. Necesita el esquema de particiones **Huge APP*
 
 <div align="center"><img src="docs/images/cazacamaras-ms-cyd/00_probable.jpg" width="260" alt="ESCANEO: ¡Cámara probable! con el LED rojo, en la CYD real"><img src="docs/images/cazacamaras-ms-cyd/01_lista.jpg" width="260" alt="LISTA: red de cámara tipo EZVIZ con confianza ALTA"><img src="docs/images/cazacamaras-ms-cyd/02_caliente.jpg" width="260" alt="BUSCAR: ¡CALIENTE!, señal −51 dBm, muy cerca"></div>
 
-**[⬇ Descargar CazaCámaras MS en ZIP](downloads/CazaCamaras-MS-CYD.zip)**
+**[⬇ Descargar CazaCámaras MS en ZIP](downloads/CazaCamaras-MS-CYD.zip)** · **[⬇ ZIP para abrir en AB MakerIDE](downloads/CazaCamaras-MS-AB-MakerIDE.zip)**
 
 [Código y guía](examples/cazacamaras-ms-cyd/) · [Vídeo editado · 15 s](docs/media/CazaCamaras-MS-TikTok.mp4) · [Capturas reales](docs/images/cazacamaras-ms-cyd/) · [Tabla de fabricantes](examples/cazacamaras-ms-cyd/OUI.md) · [SHA-256](downloads/CazaCamaras-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/cazacamaras-manifest.json)
 

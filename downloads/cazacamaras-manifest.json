@@ -35,5 +35,10 @@
       "bytes": 1068,
       "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
     }
-  ]
+  ],
+  "ide_archive": {
+    "archive": "CazaCamaras-MS-AB-MakerIDE.zip",
+    "sha256": "6a82480a13a09179c894a3c23c77999f05a0f433cb0125ae2e9b872a4d27f925",
+    "format": "AB MakerIDE project ZIP (sketch/sketch.ino, Reglas.h, TablaOui.h, MAKERIDE_EXPORT.json)"
+  }
 }

@@ -93,10 +93,12 @@ Referencia: [ESP32-Cheap-Yellow-Display](https://github.com/witnessmenow/ESP32-C
 
 ## Compilar y cargar
 
-1. Abre `CazaCamarasMS/CazaCamarasMS.ino` en AB MakerIDE SUPER o Arduino IDE.
+El proyecto tiene **tres archivos** (`CazaCamarasMS.ino`, `Reglas.h` y `TablaOui.h`). Si abres solo el `.ino`, la compilación falla.
+
+1. **En AB MakerIDE SUPER:** descarga **[CazaCamaras-MS-AB-MakerIDE.zip](../../downloads/CazaCamaras-MS-AB-MakerIDE.zip)** y ábrelo en **Proyecto → Abrir proyecto (.zip)**. Se abren los tres archivos con la placa ya elegida. **En Arduino IDE:** extrae el ZIP del catálogo y abre la carpeta `CazaCamarasMS` completa.
 2. Elige **ESP32 Dev Module**, núcleo esp32 **3.x**, partición **Huge APP / huge_app** para una CYD de 4 MB.
-3. Instala **Adafruit GFX**, **Adafruit ILI9341**, **XPT2046_Touchscreen** (Paul Stoffregen) y **NimBLE-Arduino 2.x** (h2zero). SPI, Preferences, WiFi y esp_wifi pertenecen al núcleo. La API BLE se ha revisado con los encabezados locales de NimBLE 2.3.7; la compilación con el núcleo sigue pendiente.
-4. Compila. La carga en la placa es un paso manual posterior: **en este trabajo no se ha grabado la placa**. El primer arranque pide tocar tres cruces; la calibración queda guardada.
+3. Instala **Adafruit GFX**, **Adafruit ILI9341**, **XPT2046_Touchscreen** (Paul Stoffregen) y **NimBLE-Arduino 2.x** (h2zero). SPI, Preferences, WiFi y esp_wifi pertenecen al núcleo.
+4. Compila y graba. El primer arranque pide tocar tres cruces; la calibración queda guardada.
 
 Desde la raíz del repositorio, PowerShell:
 
@@ -117,7 +119,7 @@ Las pruebas C++ de las reglas reales están en `tests/reglas_test.cpp`; requiere
 ## Evidencia
 
 - 9 nov 2026: OUI contrastados con el registro IEEE MA-L; nombres Foscam/Anyka revisados también en MA-M y MA-S sin asignación verificable bajo esos nombres. Revisión estática de pines, prefijos, patrones, privacidad y límites de textos en [spec/evidence.md](spec/evidence.md).
-- 9 nov 2026: compilado con el núcleo esp32 3.3.12 y esquema **Huge APP** (1 224 411 bytes de programa, 38 %; 79 160 bytes de RAM, 24 %) y grabado en una CYD por COM4 con escritura verificada por hash.
+- 9 nov 2026: compilado con el núcleo esp32 3.3.12 y esquema **Huge APP** (1 224 411 bytes de programa, 38 %; 79 160 bytes de RAM, 24 %) y grabado en una CYD por COM4 con escritura verificada por hash. El ZIP para AB MakerIDE se importó en el IDE (3 archivos, perfil CYD) y compiló sin errores con el mismo tamaño.
 - Prueba real en casa del autor con una **cámara EZVIZ** propia: LISTA mostró «Red de cámara tipo EZVIZ · ALTA», ESCANEO «¡Cámara probable!» con el LED rojo, y BUSCAR pasó de TEMPLADO (−60 dBm) a «¡CALIENTE!» (−51 dBm, muy cerca) al acercarse. La placa veía a la vez 24 aparatos WiFi y 6-7 Bluetooth de alrededor. Calibración táctil, LED y altavoz funcionando.
 - Tras esa prueba se corrigieron tres cosas: la tabla de aparatos ya no se llena con los vecinos, «SMARTLIFE» dejó de contar como cámara y los nombres de red se comparan solo por el principio. También la confianza ALTA de la red ya no se pierde entre escaneos.
 
