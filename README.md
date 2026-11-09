@@ -155,10 +155,22 @@ Proyecto original de MS Robotika. Sin batería: si se va la luz, la alarma no su
 
 Proyecto original de MS Robotika. Necesita el esquema de particiones **Huge APP**. La nota de la noche y el aviso de auroras son estimaciones; nubes de Open-Meteo (uso no comercial) y Kp de NOAA. **Comprobado:** compilación, carga verificada, autoprueba con los ejemplos de Meeus, descargas de nubes y Kp, Bluetooth anunciado y capturas de las 6 pantallas sacadas de la placa (5 nov 2026). El disparo con un móvil real y la página de ajustes desde el móvil están pendientes de comprobar.
 
+## 12 · CazaCámaras MS · detector de cámaras ocultas
+
+**¿Hay una cámara escondida en tu hotel?** La CYD escucha el WiFi y el Bluetooth de la habitación y señala las cámaras que emiten: por su fabricante (128 prefijos IEEE de marcas de cámaras y chips), por las redes que crean al configurarse y por su tráfico de vídeo. Después te guía con pitidos «frío / caliente» hasta encontrarla.
+
+<div align="center"><img src="docs/images/cazacamaras-ms-cyd/00_probable.jpg" width="260" alt="ESCANEO: ¡Cámara probable! con el LED rojo, en la CYD real"><img src="docs/images/cazacamaras-ms-cyd/01_lista.jpg" width="260" alt="LISTA: red de cámara tipo EZVIZ con confianza ALTA"><img src="docs/images/cazacamaras-ms-cyd/02_caliente.jpg" width="260" alt="BUSCAR: ¡CALIENTE!, señal −51 dBm, muy cerca"></div>
+
+**[⬇ Descargar CazaCámaras MS en ZIP](downloads/CazaCamaras-MS-CYD.zip)**
+
+[Código y guía](examples/cazacamaras-ms-cyd/) · [Vídeo editado · 15 s](docs/media/CazaCamaras-MS-TikTok.mp4) · [Capturas reales](docs/images/cazacamaras-ms-cyd/) · [Tabla de fabricantes](examples/cazacamaras-ms-cyd/OUI.md) · [SHA-256](downloads/CazaCamaras-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/cazacamaras-manifest.json)
+
+Proyecto original de MS Robotika. Necesita el esquema de particiones **Huge APP**. Escucha pasiva: no se conecta a nada y no muestra direcciones ni nombres de redes. **Solo ve cámaras que emiten por WiFi o Bluetooth**: las que graban en tarjeta sin emitir o van por cable no aparecen, así que revisa también con la linterna del móvil. **Comprobado:** compilación, carga verificada y detección de una cámara EZVIZ real con «¡Cámara probable!» y búsqueda hasta «¡CALIENTE!» en una CYD (9 nov 2026). La detección solo por fabricante y tráfico de vídeo está pendiente de comprobar.
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
-2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino`, `KilovatioMS.ino`, `MacroPadMS.ino`, `VigiaMS.ino`, `RadarAvionesMS.ino` o `RelojDespertadorMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
+2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino`, `KilovatioMS.ino`, `MacroPadMS.ino`, `VigiaMS.ino`, `RadarAvionesMS.ino`, `RelojDespertadorMS.ino`, `AstroCYDMS.ino` o `CazaCamarasMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
 3. **Prepara y compila** con el núcleo y bibliotecas de la guía incluida. Confirma el modelo y revisión de tu placa antes de cargar.
 4. **Explora y comparte** tus cambios. Oculta nombres de redes y BSSID al grabar tus propias capturas.
 

@@ -1,0 +1,774 @@
+{
+  "fuente": "https://standards-oui.ieee.org/oui/oui.csv",
+  "fecha": "2026-11-09",
+  "entries": [
+    {
+      "oui": "0C75D2",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "548C81",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "244845",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "ECC89C",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "8CE748",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "2428FD",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "ACB92F",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "D4E853",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "74C929",
+      "titular": "Zhejiang Dahua Technology Co., Ltd.",
+      "vendor": "Dahua",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "6C1C71",
+      "titular": "Zhejiang Dahua Technology Co., Ltd.",
+      "vendor": "Dahua",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "08EDED",
+      "titular": "Zhejiang Dahua Technology Co., Ltd.",
+      "vendor": "Dahua",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "E02EFE",
+      "titular": "Zhejiang Dahua Technology Co., Ltd.",
+      "vendor": "Dahua",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "407AA4",
+      "titular": "ZHEJIANG DAHUA TECHNOLOGYCO.,LTD",
+      "vendor": "Dahua",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "5CF51A",
+      "titular": "Zhejiang Dahua Technology Co., Ltd.",
+      "vendor": "Dahua",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "64F2FB",
+      "titular": "Hangzhou Ezviz Software Co.,Ltd.",
+      "vendor": "EZVIZ",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "94EC13",
+      "titular": "Hangzhou Ezviz Software Co.,Ltd.",
+      "vendor": "EZVIZ",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "EC97E0",
+      "titular": "Hangzhou Ezviz Software Co.,Ltd.",
+      "vendor": "EZVIZ",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "F47018",
+      "titular": "Hangzhou Ezviz Software Co.,Ltd.",
+      "vendor": "EZVIZ",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "FC2422",
+      "titular": "Hangzhou Ezviz Software Co.,Ltd.",
+      "vendor": "EZVIZ",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "A83162",
+      "titular": "Hangzhou Huacheng Network Technology Co.,Ltd",
+      "vendor": "Imou",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "302450",
+      "titular": "Hangzhou Huacheng Network Technology Co.,Ltd",
+      "vendor": "Imou",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "906A94",
+      "titular": "hangzhou huacheng network technology co., ltd",
+      "vendor": "Imou",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "00D98B",
+      "titular": "Hangzhou Huacheng Network Technology Co.,Ltd",
+      "vendor": "Imou",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "AC3DFA",
+      "titular": "Hangzhou Huacheng Network Technology Co.,Ltd",
+      "vendor": "Imou",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "1C4D89",
+      "titular": "Hangzhou Huacheng Network Technology Co.,Ltd",
+      "vendor": "Imou",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "88263F",
+      "titular": "Zhejiang Uniview Technologies Co.,Ltd.",
+      "vendor": "Uniview",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "14BA88",
+      "titular": "Zhejiang Uniview Technologies Co.,Ltd.",
+      "vendor": "Uniview",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "6CF17E",
+      "titular": "Zhejiang Uniview Technologies Co.,Ltd.",
+      "vendor": "Uniview",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "48EA63",
+      "titular": "Zhejiang Uniview Technologies Co., Ltd.",
+      "vendor": "Uniview",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "C47905",
+      "titular": "Zhejiang Uniview Technologies Co.,Ltd.",
+      "vendor": "Uniview",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "EC71DB",
+      "titular": "Reolink Innovation Limited",
+      "vendor": "Reolink",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "00651E",
+      "titular": "Amcrest Technologies",
+      "vendor": "Amcrest",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "9C8ECD",
+      "titular": "Amcrest Technologies",
+      "vendor": "Amcrest",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "A06032",
+      "titular": "Amcrest Technologies",
+      "vendor": "Amcrest",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "FC9C98",
+      "titular": "Arlo Technology",
+      "vendor": "Arlo",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "486264",
+      "titular": "Arlo Technology",
+      "vendor": "Arlo",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "A41162",
+      "titular": "Arlo Technology",
+      "vendor": "Arlo",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "D03F27",
+      "titular": "Wyze Labs Inc",
+      "vendor": "Wyze",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "F0C88B",
+      "titular": "Wyze Labs Inc",
+      "vendor": "Wyze",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "80482C",
+      "titular": "Wyze Labs Inc",
+      "vendor": "Wyze",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "7C78B2",
+      "titular": "Wyze Labs Inc",
+      "vendor": "Wyze",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "2CAA8E",
+      "titular": "Wyze Labs Inc",
+      "vendor": "Wyze",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "44B423",
+      "titular": "HANWHA VISION VIETNAM COMPANY LIMITED",
+      "vendor": "Hanwha/Wisenet",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "E43022",
+      "titular": "Hanwha Vision VietNam",
+      "vendor": "Hanwha/Wisenet",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "B8A44F",
+      "titular": "Axis Communications AB",
+      "vendor": "Axis",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "00408C",
+      "titular": "Axis Communications AB",
+      "vendor": "Axis",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "E82725",
+      "titular": "Axis Communications AB",
+      "vendor": "Axis",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "ACCC8E",
+      "titular": "Axis Communications AB",
+      "vendor": "Axis",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "001F54",
+      "titular": "Lorex Technology Inc.",
+      "vendor": "Lorex",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "BC51FE",
+      "titular": "Swann communications Pty Ltd",
+      "vendor": "Swann",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "5870C6",
+      "titular": "Shanghai Xiaoyi Technology Co., Ltd.",
+      "vendor": "YI/Kami",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "607EA4",
+      "titular": "Shanghai Imilab Technology Co.Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "B4101C",
+      "titular": "Shanghai Imilab Technology Co.Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "78DF72",
+      "titular": "Shanghai Imilab Technology Co.Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "94F827",
+      "titular": "Shanghai Imilab Technology Co.Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "B88880",
+      "titular": "Shanghai Imilab Technology Co.Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "CCEB5E",
+      "titular": "Xiaomi Communications Co Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "B8EA98",
+      "titular": "Xiaomi Communications Co Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "8CD0B2",
+      "titular": "Beijing Xiaomi Mobile Software Co., Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "F41A9C",
+      "titular": "Xiaomi Communications Co Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "DC6AE7",
+      "titular": "Xiaomi Communications Co Ltd",
+      "vendor": "Xiaomi/Imilab",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "34F716",
+      "titular": "TP-LINK TECHNOLOGIES CO.,LTD.",
+      "vendor": "TP-Link/Tapo",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "54A703",
+      "titular": "TP-LINK TECHNOLOGIES CO.,LTD.",
+      "vendor": "TP-Link/Tapo",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "B0BE76",
+      "titular": "TP-LINK TECHNOLOGIES CO.,LTD.",
+      "vendor": "TP-Link/Tapo",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "34E894",
+      "titular": "TP-LINK TECHNOLOGIES CO.,LTD.",
+      "vendor": "TP-Link/Tapo",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "94D9B3",
+      "titular": "TP-LINK TECHNOLOGIES CO.,LTD.",
+      "vendor": "TP-Link/Tapo",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "B0958E",
+      "titular": "TP-LINK TECHNOLOGIES CO.,LTD.",
+      "vendor": "TP-Link/Tapo",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "54E019",
+      "titular": "Ring LLC",
+      "vendor": "Amazon/Ring",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "AC9FC3",
+      "titular": "Ring LLC",
+      "vendor": "Amazon/Ring",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "CC3BFB",
+      "titular": "Ring LLC",
+      "vendor": "Amazon/Ring",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "5C475E",
+      "titular": "Ring LLC",
+      "vendor": "Amazon/Ring",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "70AD43",
+      "titular": "Blink by Amazon ",
+      "vendor": "Amazon/Blink",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "741348",
+      "titular": "Blink by Amazon ",
+      "vendor": "Amazon/Blink",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "F074C1",
+      "titular": "Blink by Amazon ",
+      "vendor": "Amazon/Blink",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "C819D8",
+      "titular": "Blink by Amazon ",
+      "vendor": "Amazon/Blink",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "842859",
+      "titular": "Amazon Technologies Inc.",
+      "vendor": "Amazon",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "2873F6",
+      "titular": "Amazon Technologies Inc.",
+      "vendor": "Amazon",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "E0CB1D",
+      "titular": "Amazon Technologies Inc.",
+      "vendor": "Amazon",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "FCD749",
+      "titular": "Amazon Technologies Inc.",
+      "vendor": "Amazon",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "8C8580",
+      "titular": "Smart Innovation LLC",
+      "vendor": "Anker/Eufy",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "641666",
+      "titular": "Nest Labs Inc.",
+      "vendor": "Google/Nest",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "18B430",
+      "titular": "Nest Labs Inc.",
+      "vendor": "Google/Nest",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "60706C",
+      "titular": "Google, Inc.",
+      "vendor": "Google/Nest",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "C82ADD",
+      "titular": "Google, Inc.",
+      "vendor": "Google/Nest",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "242934",
+      "titular": "Google, Inc.",
+      "vendor": "Google/Nest",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "08B4B1",
+      "titular": "Google, Inc.",
+      "vendor": "Google/Nest",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "1C90FF",
+      "titular": "Tuya Smart Inc.",
+      "vendor": "Tuya",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "FC3CD7",
+      "titular": "Tuya Smart Inc.",
+      "vendor": "Tuya",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "E4AEE4",
+      "titular": "Tuya Smart Inc.",
+      "vendor": "Tuya",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "FC671F",
+      "titular": "Tuya Smart Inc.",
+      "vendor": "Tuya",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "CC8CBF",
+      "titular": "Tuya Smart Inc.",
+      "vendor": "Tuya",
+      "confianza": "MEDIA"
+    },
+    {
+      "oui": "D48AFC",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "E465B8",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "B48A0A",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "94E686",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "34B472",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "34AB95",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "3C6105",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "807D3A",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "600194",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "9097D5",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "C8478C",
+      "titular": "Beken Corporation",
+      "vendor": "Beken",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "70879E",
+      "titular": "Beken Corporation",
+      "vendor": "Beken",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "806DDE",
+      "titular": "Beken Corporation",
+      "vendor": "Beken",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "00E04C",
+      "titular": "REALTEK SEMICONDUCTOR CORP.",
+      "vendor": "Realtek",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "FC934E",
+      "titular": "REALTEK SEMICONDUCTOR CORP.",
+      "vendor": "Realtek",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "D03110",
+      "titular": "Ingenic Semiconductor Co.,Ltd",
+      "vendor": "Ingenic",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "848A59",
+      "titular": "Hisilicon Technologies Co., Ltd",
+      "vendor": "Hisilicon",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "000C43",
+      "titular": "MediaTek Inc",
+      "vendor": "MediaTek",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "000CE7",
+      "titular": "MediaTek Inc",
+      "vendor": "MediaTek",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "0017A5",
+      "titular": "MediaTek Inc",
+      "vendor": "MediaTek",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "000A00",
+      "titular": "MediaTek Inc",
+      "vendor": "MediaTek",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "4472AC",
+      "titular": "AltoBeam Inc.",
+      "vendor": "AltoBeam",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "3854F5",
+      "titular": "AltoBeam Inc.",
+      "vendor": "AltoBeam",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "48D890",
+      "titular": "FN-LINK TECHNOLOGY LIMITED",
+      "vendor": "FN-Link",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "AC64CF",
+      "titular": "FN-LINK TECHNOLOGY LIMITED",
+      "vendor": "FN-Link",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "24A160",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "246F28",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "30AEA4",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "A4CF12",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "AC67B2",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "7CDFA1",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "ECFABC",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "DC4F22",
+      "titular": "Espressif Inc.",
+      "vendor": "Espressif",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "847AB6",
+      "titular": "AltoBeam Inc.",
+      "vendor": "AltoBeam",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "2CD26B",
+      "titular": "FN-LINK TECHNOLOGY LIMITED",
+      "vendor": "FN-Link",
+      "confianza": "BAJA"
+    },
+    {
+      "oui": "C056E3",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    },
+    {
+      "oui": "BCAD28",
+      "titular": "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+      "vendor": "Hikvision",
+      "confianza": "ALTA"
+    }
+  ]
+}

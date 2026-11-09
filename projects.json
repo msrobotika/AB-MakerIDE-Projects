@@ -196,6 +196,24 @@
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/astrocyd-ms-cyd/README.md#evidencia",
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/astrocyd-ms-cyd",
       "status": "Original astronomy and astrophotography assistant: live sky map (5044 stars, constellations, planets, Moon, Sun), Moon phase and rise/set, a 0-10 night score from Open-Meteo clouds, Moon, astronomical night and Bortle light pollution, NOAA Kp aurora outlook, light-pollution star comparison, Bluetooth phone shutter and red night mode. Needs the Huge APP partition scheme. Compiled with esp32 core 3.3.12 and uploaded with hash-verified write; boot self-test against Meeus reference examples OK, cloud and Kp downloads and BLE advertising checked over serial, screenshots of the six screens taken from the board over USB. Phone shutter, finger taps and the phone settings page not checked yet."
+    },
+    {
+      "id": "cazacamaras-ms-cyd",
+      "name": "CazaCamaras MS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 320x240",
+      "touch": "XPT2046",
+      "language": "Arduino C++",
+      "license": "MIT (own content)",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/cazacamaras-ms-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/cazacamaras-ms-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/CazaCamaras-MS-CYD.zip",
+      "download_sha256": "cac5d91d5f62aaabdcfe447511afce90b9567cf6bcfd70f778f11bdb771f5045",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/cazacamaras-ms-cyd/README.md#evidencia",
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/cazacamaras-ms-cyd",
+      "status": "Original utility: passive hidden-camera detector (Wi-Fi vendor OUI from IEEE, camera setup networks, video-traffic heuristic, BLE names) with hot/cold finder. Needs Huge APP partition. Compiled with esp32 core 3.3.12, uploaded with hash-verified write; detected the author's real EZVIZ camera as 'probable' and reached 'CALIENTE' at -51 dBm. Detection by vendor and video traffic alone not yet verified. Only finds cameras that transmit.",
+      "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/CazaCamaras-MS-TikTok.mp4"
     }
   ]
 }

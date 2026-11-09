@@ -1,0 +1,39 @@
+{
+  "project": "cazacamaras-ms-cyd",
+  "date": "2026-11-09",
+  "archive": "CazaCamaras-MS-CYD.zip",
+  "sha256": "cac5d91d5f62aaabdcfe447511afce90b9567cf6bcfd70f778f11bdb771f5045",
+  "contains": "Arduino C++ source, guide, OUI table and MIT license only; no firmware binaries",
+  "files": [
+    {
+      "path": "CazaCamarasMS/CazaCamarasMS.ino",
+      "bytes": 36936,
+      "sha256": "6d67c60efcf2b519630e20116b8bb02f393578f8f5547a785bb0c262440645c5"
+    },
+    {
+      "path": "CazaCamarasMS/Reglas.h",
+      "bytes": 3845,
+      "sha256": "cb81e7b5634ebaf605549d230a3d4b5551dd2eb235fec050459e2bab286cc5b9"
+    },
+    {
+      "path": "CazaCamarasMS/TablaOui.h",
+      "bytes": 8673,
+      "sha256": "c02baaf217a1e266b164f1da518485d1dd1d0578896f404ce6b8bfe6c960932e"
+    },
+    {
+      "path": "CazaCamarasMS/README.md",
+      "bytes": 13131,
+      "sha256": "5fd43ec5a2c9b91503cee15cdcc6ecd488b633c00d326b47d1ed09d37fd70dfc"
+    },
+    {
+      "path": "CazaCamarasMS/OUI.md",
+      "bytes": 3214,
+      "sha256": "242b4f73abe1dfe0fb7527b1aa1314a5dc083592495b6758ce183c29f62e1ef9"
+    },
+    {
+      "path": "CazaCamarasMS/LICENSE",
+      "bytes": 1068,
+      "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
+    }
+  ]
+}

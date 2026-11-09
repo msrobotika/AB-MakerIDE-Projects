@@ -11,6 +11,7 @@
 | Radar Aviones MS (aviones en directo) | [Descargar](Radar-Aviones-MS-CYD.zip) | [Abrir guía](../examples/radar-aviones-ms-cyd/) |
 | Reloj Despertador MS (proyecto del tutorial) | [Descargar](Reloj-Despertador-MS-CYD.zip) | [Abrir guía](../examples/reloj-despertador-ms-cyd/) |
 | AstroCYD MS (astronomía y astrofotografía) | [Descargar](AstroCYD-MS-CYD.zip) | [Abrir guía](../examples/astrocyd-ms-cyd/) |
+| CazaCámaras MS (detector de cámaras ocultas) | [Descargar](CazaCamaras-MS-CYD.zip) | [Abrir guía](../examples/cazacamaras-ms-cyd/) |
 
 ## Radar WiFi CYD
 
