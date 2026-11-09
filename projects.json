@@ -209,7 +209,7 @@
       "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/cazacamaras-ms-cyd",
       "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/cazacamaras-ms-cyd/README.md",
       "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/CazaCamaras-MS-CYD.zip",
-      "download_sha256": "cac5d91d5f62aaabdcfe447511afce90b9567cf6bcfd70f778f11bdb771f5045",
+      "download_sha256": "68bd8283e53770af6f9df19c6df4c4f0a1a060e131adf3e4a9a16016569c87b0",
       "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/cazacamaras-ms-cyd/README.md#evidencia",
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/cazacamaras-ms-cyd",
       "status": "Original utility: passive hidden-camera detector (Wi-Fi vendor OUI from IEEE, camera setup networks, video-traffic heuristic, BLE names) with hot/cold finder. Needs Huge APP partition. Compiled with esp32 core 3.3.12, uploaded with hash-verified write; detected the author's real EZVIZ camera as 'probable' and reached 'CALIENTE' at -51 dBm. Detection by vendor and video traffic alone not yet verified. Only finds cameras that transmit.",
