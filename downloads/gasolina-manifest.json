@@ -1,0 +1,28 @@
+{
+  "project": "gasolina-ms-cyd",
+  "date": "2026-11-10",
+  "archive": "Gasolina-MS-CYD.zip",
+  "sha256": "62e91ac37c46d268919b6350d8a907bae8c2ea485a2d81f607318befd476aaa3",
+  "contains": "Arduino C++ source, guide and MIT license only; no firmware binaries",
+  "files": [
+    {
+      "path": "GasolinaMS/GasolinaMS.ino",
+      "bytes": 95878,
+      "sha256": "433bce09e9907a8635496e966f6f0e6a5140c8e3aa2fa26a2579c1539672e315"
+    },
+    {
+      "path": "GasolinaMS/README.md",
+      "bytes": 23285,
+      "sha256": "ee82fc015b96243b288e5d175c25cb5019947d8ad6f7cfde41a6b86a09909584"
+    },
+    {
+      "path": "GasolinaMS/LICENSE",
+      "bytes": 1068,
+      "sha256": "c53f7234475ac1c1293e7672a346cb4b3db4e8930cc862e8a1db0ada3f90f070"
+    }
+  ],
+  "ab_makeride_archive": {
+    "archive": "Gasolina-MS-AB-MakerIDE.zip",
+    "sha256": "f0f4288067fe1c4bbc79c18edbb36ce445314dec65920ffad60111fa20926d8e"
+  }
+}

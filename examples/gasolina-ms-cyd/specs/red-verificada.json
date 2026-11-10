@@ -1,0 +1,51 @@
+{
+  "obtenidoUTC": "2026-11-09T15:15:45.207Z",
+  "caSHA256": "CB:3C:CB:B7:60:31:E5:E0:13:8F:8D:D3:9A:23:F9:DE:47:FF:C3:5E:43:C1:14:4C:EA:27:D4:6A:5A:B1:CB:5F",
+  "productos": [
+    {
+      "IDProducto": "1",
+      "NombreProducto": "Gasolina 95 E5",
+      "NombreProductoAbreviatura": "G95E5"
+    },
+    {
+      "IDProducto": "3",
+      "NombreProducto": "Gasolina 98 E5",
+      "NombreProductoAbreviatura": "G98E5"
+    },
+    {
+      "IDProducto": "4",
+      "NombreProducto": "Gasóleo A habitual",
+      "NombreProductoAbreviatura": "GOA"
+    },
+    {
+      "IDProducto": "5",
+      "NombreProducto": "Gasóleo Premium",
+      "NombreProductoAbreviatura": "GOA+"
+    },
+    {
+      "IDProducto": "17",
+      "NombreProducto": "Gases licuados del petróleo",
+      "NombreProductoAbreviatura": "GLP"
+    }
+  ],
+  "provincias": 52,
+  "municipiosMadrid": 179,
+  "referenciaEscritorio": {
+    "municipio": "4354",
+    "producto": 1,
+    "fecha": "09/11/2026 16:15:43",
+    "bytes": 85101,
+    "publicasConPrecio": 233,
+    "minimo": 1.529,
+    "media": 1.7160772532188833,
+    "maximo": 1.844,
+    "cincoPrecios": [
+      1.529,
+      1.539,
+      1.539,
+      1.539,
+      1.539
+    ]
+  },
+  "alcance": "API real desde Node con la CA del sketch; HTTP/1.0 sin chunked. No ejecuta el parser C++ ni el ESP32."
+}

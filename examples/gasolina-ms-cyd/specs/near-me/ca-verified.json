@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://letsencrypt.org/certs/isrg-root-x2.pem",
+    "sha256": "69:72:9B:8E:15:A8:6E:FC:17:7A:57:AF:B7:17:1D:FC:64:AD:D2:8C:2F:CA:8C:F1:50:7E:34:45:3C:CB:14:70",
+    "subject": "C=US\nO=Internet Security Research Group\nCN=ISRG Root X2",
+    "issuer": "C=US\nO=Internet Security Research Group\nCN=ISRG Root X2"
+  },
+  {
+    "url": "https://letsencrypt.org/certs/gen-y/root-ye.pem",
+    "sha256": "E1:4F:FC:AD:5B:00:25:73:10:06:CA:A4:3A:12:1A:22:D8:E9:70:0F:4F:B9:CF:85:2F:02:A7:08:AA:5D:56:66",
+    "subject": "C=US\nO=ISRG\nCN=Root YE",
+    "issuer": "C=US\nO=ISRG\nCN=Root YE"
+  },
+  {
+    "url": "https://letsencrypt.org/certs/gen-y/root-ye-by-x2.pem",
+    "sha256": "0F:C0:90:1C:CA:2B:AE:9E:9F:DB:B0:2D:50:D0:2F:10:94:F7:B3:66:72:08:69:91:B9:E8:97:62:6D:C4:85:F0",
+    "subject": "C=US\nO=ISRG\nCN=Root YE",
+    "issuer": "C=US\nO=Internet Security Research Group\nCN=ISRG Root X2"
+  }
+]

@@ -12,6 +12,7 @@
 | Reloj Despertador MS (proyecto del tutorial) | [Descargar](Reloj-Despertador-MS-CYD.zip) | [Abrir guía](../examples/reloj-despertador-ms-cyd/) |
 | AstroCYD MS (astronomía y astrofotografía) | [Descargar](AstroCYD-MS-CYD.zip) | [Abrir guía](../examples/astrocyd-ms-cyd/) |
 | CazaCámaras MS (detector de cámaras ocultas) | [Descargar](CazaCamaras-MS-CYD.zip) · [para AB MakerIDE](CazaCamaras-MS-AB-MakerIDE.zip) | [Abrir guía](../examples/cazacamaras-ms-cyd/) |
+| Gasolina MS (gasolinera más barata · España, Francia y Austria) | [Descargar](Gasolina-MS-CYD.zip) · [para AB MakerIDE](Gasolina-MS-AB-MakerIDE.zip) | [Abrir guía](../examples/gasolina-ms-cyd/) |
 
 ## Radar WiFi CYD
 

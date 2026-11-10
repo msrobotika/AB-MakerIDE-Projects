@@ -167,10 +167,22 @@ Proyecto original de MS Robotika. Necesita el esquema de particiones **Huge APP*
 
 Proyecto original de MS Robotika. Necesita el esquema de particiones **Huge APP**. Escucha pasiva: no se conecta a nada y no muestra direcciones ni nombres de redes. **Solo ve cámaras que emiten por WiFi o Bluetooth**: las que graban en tarjeta sin emitir o van por cable no aparecen, así que revisa también con la linterna del móvil. **Comprobado:** compilación, carga verificada y detección de una cámara EZVIZ real con «¡Cámara probable!» y búsqueda hasta «¡CALIENTE!» en una CYD (9 nov 2026). La detección solo por fabricante y tráfico de vídeo está pendiente de comprobar.
 
+## 13 · Gasolina MS · la gasolinera más barata, en España, Francia y Austria
+
+**La gasolinera de al lado puede costarte 14 € más por depósito.** La CYD descarga los precios oficiales (datos abiertos, sin cuenta ni claves) y te enseña la gasolinera pública más barata de tu zona, cuánto ahorras en un depósito, el TOP 5, la tendencia diaria y, en **CERCA**, la más barata a 5 km y la más cercana. Funciona en **España** (Ministerio), **Francia** (prix-carburants.gouv.fr) y **Austria** (E-Control). País, zona, combustible y litros se eligen desde el móvil con un QR.
+
+<div align="center"><img src="docs/images/gasolina-ms-cyd/00_cerca.png" width="260" alt="CERCA en Madrid: Alcampo a 1,529 euros el litro a 2,7 km; la más cercana, Repsol, a 1,814; ahorras 14,25 euros en 50 litros"><img src="docs/images/gasolina-ms-cyd/04_francia.png" width="260" alt="AHORA en París 75015: 2,250 euros el litro de gazole"><img src="docs/images/gasolina-ms-cyd/05_austria.png" width="260" alt="TOP 5 en Viena 10: Turmöl Quick a 2,082 euros el litro de diésel"></div>
+
+**[⬇ Descargar Gasolina MS en ZIP](downloads/Gasolina-MS-CYD.zip)** · [ZIP para abrir en AB MakerIDE](downloads/Gasolina-MS-AB-MakerIDE.zip)
+
+[Código y guía](examples/gasolina-ms-cyd/) · [Vídeo editado](docs/media/Gasolina-MS-TikTok.mp4) · [Capturas de la placa](docs/images/gasolina-ms-cyd/) · [SHA-256](downloads/Gasolina-MS-CYD.zip.sha256) · [Contenido y hashes](downloads/gasolina-manifest.json)
+
+Proyecto original de MS Robotika. Partición por defecto. Precio orientativo: puede tardar en actualizarse, confirma en el surtidor; distancias en línea recta. Austria solo publica las ~10 más baratas de cada zona. La ubicación por Wi-Fi usa beaconDB (MAC y señal de redes cercanas, sin nombres); si no la consigue, CERCA cuenta desde el centro de tu zona. **Comprobado en una CYD (10 nov 2026):** Madrid, París (75015) y Viena (distrito 10) con precios reales, CERCA desde el centro del pueblo y portal de ajustes con los tres países. La tendencia de varios días y la ubicación por Wi-Fi en una zona que beaconDB conozca están pendientes de comprobar.
+
 ## De la descarga a tu placa
 
 1. **Descarga** el ZIP del proyecto y extráelo completo.
-2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino`, `KilovatioMS.ino`, `MacroPadMS.ino`, `VigiaMS.ino`, `RadarAvionesMS.ino`, `RelojDespertadorMS.ino`, `AstroCYDMS.ino` o `CazaCamarasMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
+2. **Abre** el `.ino` principal de la carpeta del proyecto (`RadarWiFiCYD.ino`, `WeatherStationCYD.ino`, `MiniNasCYD.ino`, `GhostGuard_CYD.ino`, `ReflejosMS.ino`, `KilovatioMS.ino`, `MacroPadMS.ino`, `VigiaMS.ino`, `RadarAvionesMS.ino`, `RelojDespertadorMS.ino`, `AstroCYDMS.ino`, `CazaCamarasMS.ino` o `GasolinaMS.ino`) en [AB MakerIDE SUPER](https://github.com/msrobotika/AB-MakerIDE-SUPER). Conserva todas las cabeceras y carpetas del paquete; el NAS necesita también `src/ricmoo`.
 3. **Prepara y compila** con el núcleo y bibliotecas de la guía incluida. Confirma el modelo y revisión de tu placa antes de cargar.
 4. **Explora y comparte** tus cambios. Oculta nombres de redes y BSSID al grabar tus propias capturas.
 

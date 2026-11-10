@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-09T18:23:06.435Z",
+  "beacon": {
+    "status": 404,
+    "tls": true
+  },
+  "province": {
+    "bytes": 321529,
+    "total": 859,
+    "publicas": 859,
+    "fecha": "09/11/2026 19:23:03"
+  },
+  "alcance": "Servicios y CA reales desde Node. Sin escaneo ni posición real; no ejecuta el parser C++ ni el ESP32."
+}

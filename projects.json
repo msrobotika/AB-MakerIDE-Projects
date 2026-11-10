@@ -214,6 +214,24 @@
       "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/cazacamaras-ms-cyd",
       "status": "Original utility: passive hidden-camera detector (Wi-Fi vendor OUI from IEEE, camera setup networks, video-traffic heuristic, BLE names) with hot/cold finder. Needs Huge APP partition. Compiled with esp32 core 3.3.12, uploaded with hash-verified write; detected the author's real EZVIZ camera as 'probable' and reached 'CALIENTE' at -51 dBm. Detection by vendor and video traffic alone not yet verified. Only finds cameras that transmit.",
       "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/CazaCamaras-MS-TikTok.mp4"
+    },
+    {
+      "id": "gasolina-ms-cyd",
+      "name": "Gasolina MS CYD",
+      "board": "ESP32-2432S028R",
+      "display": "ILI9341 320x240",
+      "touch": "XPT2046",
+      "language": "Arduino C++",
+      "license": "MIT (own content)",
+      "canonical_repository": "https://github.com/msrobotika/AB-MakerIDE-Projects",
+      "source_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/examples/gasolina-ms-cyd",
+      "documentation_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/gasolina-ms-cyd/README.md",
+      "download_url": "https://raw.githubusercontent.com/msrobotika/AB-MakerIDE-Projects/main/downloads/Gasolina-MS-CYD.zip",
+      "download_sha256": "62e91ac37c46d268919b6350d8a907bae8c2ea485a2d81f607318befd476aaa3",
+      "evidence_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/examples/gasolina-ms-cyd/README.md#evidencia",
+      "images_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/tree/main/docs/images/gasolina-ms-cyd",
+      "status": "Original utility: cheapest public fuel stations from official open data in Spain (Ministry), France (prix-carburants.gouv.fr) and Austria (E-Control), no keys; savings per tank, top 5, daily trend and a 'near me' screen (cheapest within 5 km and closest, Wi-Fi location via beaconDB, falls back to the centre of the chosen area). Compiled with esp32 core 3.3.12 (default partition, 96%), uploaded with hash-verified write; tested on the board with real prices for Madrid, Paris 75015 and Vienna district 10. Multi-day trend and Wi-Fi location in an area beaconDB knows not yet verified. Austria only publishes the ~10 cheapest per query.",
+      "video_url": "https://github.com/msrobotika/AB-MakerIDE-Projects/blob/main/docs/media/Gasolina-MS-TikTok.mp4"
     }
   ]
 }
