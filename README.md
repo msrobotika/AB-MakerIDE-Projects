@@ -5,6 +5,12 @@
 
 Proyectos open source de **MS Robotika**, creados con **AB MakerIDE SUPER** para makers con Arduino y ESP32.
 
+<img src="docs/media/proyectos-cyd.gif" width="400" alt="Radar Aviones, Kilovatio y Vigía funcionando en una pantalla CYD real">
+
+**13 proyectos para la pantalla ESP32 CYD, gratis y con código abierto.** *13 free, open-source projects for the ESP32 Cheap Yellow Display (guides in Spanish).*
+
+**⭐ Si te sirve, deja una estrella:** así más makers encuentran los proyectos.
+
 **[Conseguir el IDE](https://github.com/msrobotika/AB-MakerIDE-SUPER)** · [Instalación y descargas](https://github.com/msrobotika/AB-MakerIDE-SUPER/blob/main/docs/DESCARGAS_Y_VERSIONES.md) · **[Vídeos en TikTok @ms_robotika](https://www.tiktok.com/@ms_robotika)**
 
 ¿Has hecho algo con estos proyectos? Enséñalo con **#ABMakerIDE** o abre una incidencia con tu versión.
@@ -13,6 +19,24 @@ Proyectos open source de **MS Robotika**, creados con **AB MakerIDE SUPER** para
 **¿Te falta la placa?** Todos los proyectos usan la **CYD ESP32-2432S028R** (pantalla táctil de 2,8"). [La que uso yo, en Amazon.es](https://www.amazon.es/dp/B0CG2WQGP9?tag=msrobotika-21). Sirve cualquier CYD con ese modelo y pantalla ILI9341; las versiones ESP32-S3 o con pantalla IPS son placas distintas y necesitan cambios.
 
 <sub>Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.</sub>
+
+## Índice
+
+| # | Proyecto | Qué hace |
+|---|---|---|
+| 01 | [Radar WiFi](examples/radar-wifi-cyd/) | Radar de las redes WiFi por intensidad |
+| 02 | [Estación meteorológica](examples/weather-station-cyd/) | Tiempo y previsión de 3 días, sin sensores |
+| 03 | [Mini NAS](examples/mini-nas-cyd/) | Del móvil a la microSD por WiFi local |
+| 04 | [GhostGuard](examples/ghostguard-cyd/) | Panel de telemetría del PC por USB |
+| 05 | [Reflejos MS](examples/reflejos-ms-cyd/) | Juego de reflejos táctil |
+| 06 | [Kilovatio MS](examples/kilovatio-ms-cyd/) | Precio de la luz y la mejor hora para la lavadora |
+| 07 | [MacroPad MS](examples/macropad-ms-cyd/) | Panel de atajos por Bluetooth o USB |
+| 08 | [Vigía MS](examples/vigia-ms-cyd/) | Detector de AirTag y otros rastreadores |
+| 09 | [Radar Aviones MS](examples/radar-aviones-ms-cyd/) | Aviones cercanos en directo |
+| 10 | [Reloj Despertador MS](examples/reloj-despertador-ms-cyd/) | Reloj por WiFi con alarma táctil |
+| 11 | [AstroCYD MS](examples/astrocyd-ms-cyd/) | Mapa del cielo y asistente de astronomía |
+| 12 | [CazaCámaras MS](examples/cazacamaras-ms-cyd/) | Ayuda a encontrar cámaras que emiten por WiFi o Bluetooth |
+| 13 | [Gasolina MS](examples/gasolina-ms-cyd/) | La gasolinera más barata (España, Francia, Austria) |
 
 ## ¿Vienes de un vídeo? Empieza aquí
 
